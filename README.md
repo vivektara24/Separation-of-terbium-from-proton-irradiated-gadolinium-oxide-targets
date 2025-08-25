@@ -30,8 +30,11 @@ To use the `Serial` class, follow these steps:
 
 You have several options
 
-- **Clone the repository (recommended):**
+**Clone the repository (recommended):**
 
+```bash
+git clone https://github.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets.git
+cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 
 
 ## Tutorial: Quickstart Example w/ the Serial Class
