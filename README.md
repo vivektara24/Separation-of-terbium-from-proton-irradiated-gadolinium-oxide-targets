@@ -12,11 +12,39 @@
 -
 - Directory with example JOB files to create compatible files names and autmoaticlaly record spectra on HPGe using ORTEC
     - Additionally contains linux or python? code to automatically rename files accoridngly
- 
 
-## Tutorial: Running an Example Analysis
+## Tutorial: Quickstart Example
 
-<pre> ```python from serial import Serial # Create analysis object S = Serial( data_directory="example_data/", eob_time="2025-02-21 07:58", efficiency_fit_params=[0.0377, -13.3, 0.9218, -0.0928, 0.0030, 0.0], ) # Process spectra and save results S.process_spectrum_files(efficiency_func=EffFit, plot_dir="plots/") S.process_decay_data(plot_directory="plots/decay-fits") S.save_decay_data("outputs/decay_results.xlsx") ``` </pre>
+You must first download the serial.py file and the nuclear_physics_utils files and place them in the same direcory as your file that you plan to do the analysis in.
+
+Import the Serial class and other reqired dependencies.
+- Need to make a dependency list
+
+To run an analysis, first define your inputs - the data directory, end-of-bombardment (EOB) time, and detector efficiency fit parameters.
+
+```python
+from serial import Serial
+from datetime import datetime
+
+# Directory with .Spe files
+DATA_DIR = "example_data/"
+
+# End-of-bombardment timestamp
+EOB_TIME = datetime(2025, 2, 21, 7, 58)
+
+# Example HPGe efficiency curve parameters
+EFFICIENCY_FIT_PARAMS = [0.0377, -13.3, 0.9218, -0.0928, 0.0030, 0.0]
+
+# Create analysis object
+S = Serial(
+    data_directory=DATA_DIR,
+    eob_time=EOB_TIME,
+    efficiency_fit_params=EFFICIENCY_FIT_PARAMS,
+)
+
+# Process spectra and run decay analysis
+S.process_spectrum_files(plot_dir="plots/")
+S.process_decay_data(plot_directory="plots/decay-fits")
 
 ## `.Spe` File Naming Convention  
 
