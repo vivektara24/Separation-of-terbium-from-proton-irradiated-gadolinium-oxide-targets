@@ -17,16 +17,18 @@
 
 In this section a simple quickstart example with the Serial class is provided to highlight the worklow when using the Serial class. A more complete tutorial is provided in the example.py file.
 
-Inorder to use the Serial class you must first download the serial.py and accompanying nuclear_physics_utils files from this repository and place them in the same directory as the python file you plan to do the analysis in.
-
-To run an analysis, first define your inputs - the data directory, end-of-bombardment (EOB) time, detector efficiency fit parameters.
+Inorder to use the Serial class you must first download the serial.py and accompanying nuclear_physics_utils files from this repository and place them in the same directory as the python file you plan to do the analysis in. Download all the required python packages as listed in the requirments.txt file on this repository. Import the required python libraries as shown below.
 
 ```python
 from serial import Serial
 from datetime import datetime
 import numpy as np
 import pandas as pd
+```
 
+To run an analysis, first define your inputs - the data directory, end-of-bombardment (EOB) time, detector efficiency fit parameters and corresponding detectory effeicieny function, the dataframe with the gammas of interest for the analysis and a mapping of each gamma to the half-life of the isotope.
+
+```python
 # Directory with .Spe files
 DATA_DIR = "example_data/"
 
