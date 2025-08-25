@@ -12,6 +12,11 @@
 -
 - Directory with example JOB files to create compatible files names and autmoaticlaly record spectra on HPGe using ORTEC
     - Additionally contains linux or python? code to automatically rename files accoridngly
+ 
+
+## Tutorial: Running an Example Analysis
+
+<pre> ```python from serial import Serial # Create analysis object S = Serial( data_directory="example_data/", eob_time="2025-02-21 07:58", efficiency_fit_params=[0.0377, -13.3, 0.9218, -0.0928, 0.0030, 0.0], ) # Process spectra and save results S.process_spectrum_files(efficiency_func=EffFit, plot_dir="plots/") S.process_decay_data(plot_directory="plots/decay-fits") S.save_decay_data("outputs/decay_results.xlsx") ``` </pre>
 
 ## `.Spe` File Naming Convention  
 
