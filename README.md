@@ -94,10 +94,18 @@ S.save_peak_data(
         ],
         include_summary=True,
     )
+```
 
+Fit exponential decay to the start of measuremtn activities from the serial measurments to get EoB and half-life values.
+
+```python
 # Run decay analysis
 S.process_decay_data(plot_directory="plots/decay-fits")
+```
 
+Save the final decay data to a csv. Includes EoB activiteis by curve fit, decay correct, and half-live values by curve fit.
+
+```python
 # Save final results
 S.save_decay_data(outputs_dir / "decay_results_vkt.xlsx")
 ``` 
