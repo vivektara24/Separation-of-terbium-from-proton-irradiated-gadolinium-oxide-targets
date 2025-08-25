@@ -45,8 +45,8 @@ cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 **Download Specific Files (via scp/curl/wget)**
 If you only need certain files (e.g `serial.py`, `utils.py`), you can fetch them directly:
 ```bash
-wget https://raw.githubusercontent.com/<your-username>/<your-repo>/main/serial.py
-wget https://raw.githubusercontent.com/<your-username>/<your-repo>/main/nuclear_physics_utils.py
+wget https://raw.githubusercontent.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/main/serial.py
+wget https://raw.githubusercontent.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/main/nuclear_physics_utils.py
 ```
 
 
