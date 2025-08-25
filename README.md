@@ -30,14 +30,14 @@ To use the `Serial` class, follow these steps:
 
 You have several options
 
-**Clone the repository (recommended):**
+- **Clone the repository (recommended):**
 
 ```bash
 git clone https://github.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets.git
 cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 ```
 
-**Download as ZIP (no git required)**
+- **Download as ZIP (no git required)**
 1. Navigate to this repository's main page on Github
 2. Click the green **Code** button → **Download ZIP**.
 3. Unzip it on your computer.
