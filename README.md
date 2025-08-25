@@ -161,7 +161,10 @@ Save the final decay data to a csv. Includes EoB activiteis by curve fit, decay 
 ```python
 # Save final results
 S.save_decay_data(outputs_dir / "decay_results_vkt.xlsx")
-``` 
+```
+
+## Example Output of Serial Class
+
 ## `.Spe` File Naming Convention  
 
 Important experimental details are encoded directly in the `.Spe` filenames.  
