@@ -2,7 +2,9 @@
 
 This repository accompanies the project detailed in [Paper Title/Reference]. The included Python scripts were used to (i) calculate expected yields from proton irradiations of natGd₂O₃ targets, (ii) perform efficiency calibarion of a High Purity Germanium (HPGe) spectrometer, and (iii) automate the serial acquisition and analysis of HPGe spectra. The full source code is available in this repository, and tutorials are provied both within the repository and below on this README page.
 
-In addition to computational work, the first version of the "**Terbinator**", a remote-controlled valve and pump module, was built to semi-automate multi-column extraction chromatographic serpations for ¹⁵⁵Tb. A detailed description with links of the contents of the repository are listed below.
+In addition to computational work, the first version of the "**Terbinator**", a remote-controlled valve and pump module, was built to semi-automate multi-column extraction chromatographic serpations for ¹⁵⁵Tb. 
+
+A detailed description with links of the contents of the repository are listed below.
 
 ## Repository Contents
 
