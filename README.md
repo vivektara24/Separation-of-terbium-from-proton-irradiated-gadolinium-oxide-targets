@@ -6,6 +6,8 @@ In addition to computational work, the first version of the "**Terbinator**", a 
 
 A detailed description with links of the contents of the repository are listed below.
 
+## Table of Contents
+- [Setup Instructions](#setup-instructions)
 ## Repository Contents
 
 1. yield.py
