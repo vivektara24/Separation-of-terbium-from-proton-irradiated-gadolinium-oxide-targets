@@ -24,9 +24,12 @@ A detailed description with links of the contents of the repository are listed b
 
 ## Tutorial: Quickstart Example w/ the Serial Class
 
-In this section a simple quickstart example with the Serial class is provided to highlight the worklow when using the Serial class. A more complete tutorial is provided in the example.py file.
+This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py).
 
-Inorder to use the Serial class you must first download the serial.py and accompanying nuclear_physics_utils files from this repository and place them in the same directory as the python file you plan to do the analysis in. Download all the required python packages as listed in the requirments.txt file on this repository. Import the required python libraries as shown below.
+To use the `Serial` class:
+1. Download `serial.py` and `utils.py` from this repository and place them in the same directory as your analysis script. (give option to ssh or scp from github).
+2. Install the required Python libraries from `requirements.txt`
+3. Import the necessary libraries:
 
 ```python
 from serial import Serial
