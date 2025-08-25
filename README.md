@@ -25,6 +25,8 @@ To run an analysis, first define your inputs - the data directory, end-of-bombar
 ```python
 from serial import Serial
 from datetime import datetime
+import numpy as np
+import pandas as pd
 
 # Directory with .Spe files
 DATA_DIR = "example_data/"
@@ -35,16 +37,58 @@ EOB_TIME = datetime(2025, 2, 21, 7, 58)
 # Example HPGe efficiency curve parameters
 EFFICIENCY_FIT_PARAMS = [0.0377, -13.3, 0.9218, -0.0928, 0.0030, 0.0]
 
-# Create analysis object
-S = Serial(
-    data_directory=DATA_DIR,
-    eob_time=EOB_TIME,
-    efficiency_fit_params=EFFICIENCY_FIT_PARAMS,
-)
+# Example HPGe effeciency function
+def EffFit(energy_keV: np.ndarray | float,
+           b1: float, b2: float, b3: float, b4: float, b5: float, b6: float) -> np.ndarray:
+    x = np.asarray(energy_keV, dtype=float) / 1000.0  # keV → MeV
+    y = np.exp(b1 * x**1 + b2 * x**0 + b3 * x**-1 + b4 * x**-2 + b5 * x**-3 + b6 * x**-4)
+    return y
 
-# Process spectra and run decay analysis
+# Gamma-line table (example: 154m1Tb at 540.18 keV, 20% intensity, 3% uncertainty)
+GAMMAS = pd.DataFrame({
+    "energy":       [540.18],
+    "intensity":    [20.0],
+    "unc_intensity":[3.0],
+    "isotope":      ["154TB"],
+})
+
+# Half-lives: energy (keV) → half-life (s)
+HALF_LIVES = {
+    540.18:   9.4 * 60 * 60,
+}
+
+
+# Create analysis object
+    S = Serial(
+        data_directory=str(DATA_DIR),
+        eob_time=EOB_TIME,
+        efficiency_fit_params=list(EFFICIENCY_FIT_PARAMS),
+        detector_eff_uncertianty=0.0860345384967799,  # 8.6% example (fractional)
+        gammas=GAMMAS,
+        half_lives=HALF_LIVES,
+    )
+
+# Process spectra
 S.process_spectrum_files(plot_dir="plots/")
+
+# Save sorted peak fit data
+S.save_peak_data(
+        filepath=str(outputs_dir / "peak_data_by_gamma.xlsx"),
+        sort_key="decay time (s)",
+        columns=[
+            "file", "isotope", "energy", "decay time (s)",
+            "counts", "unc_counts", "intensity", "unc_intensity",
+            "detector efficiency", "activity", "uncertainty activity",
+            "eob activity", "uncertainty eob activity",
+        ],
+        include_summary=True,
+    )
+
+# Run decay analysis
 S.process_decay_data(plot_directory="plots/decay-fits")
+
+# Save final results
+S.save_decay_data(outputs_dir / "decay_results_vkt.xlsx")
 ``` 
 ## `.Spe` File Naming Convention  
 
