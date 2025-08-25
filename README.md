@@ -37,6 +37,11 @@ git clone https://github.com/vivektara24/Separation-of-terbium-from-proton-irrad
 cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 ```
 
+**Download as ZIP (no git required)**
+1. Navigate to this repository's main page on Github
+2. Click the green **Code** button → **Download ZIP**.
+3. Unzip it on your computer.
+
 ## Tutorial: Quickstart Example w/ the Serial Class
 
 This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
