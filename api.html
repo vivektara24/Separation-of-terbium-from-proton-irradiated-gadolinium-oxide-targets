@@ -1,0 +1,456 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Reference &mdash; Seperation-of-terbium-from-proton-irradiated-targets 08/25/2025 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=0e5bfa57"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Seperation-of-terbium-from-proton-irradiated-targets documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Seperation-of-terbium-from-proton-irradiated-targets
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#serial.Serial"><code class="docutils literal notranslate"><span class="pre">Serial</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.data_directory"><code class="docutils literal notranslate"><span class="pre">Serial.data_directory</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.efficiency_fit_params"><code class="docutils literal notranslate"><span class="pre">Serial.efficiency_fit_params</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.detector_eff_uncertainty"><code class="docutils literal notranslate"><span class="pre">Serial.detector_eff_uncertainty</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.eob_time"><code class="docutils literal notranslate"><span class="pre">Serial.eob_time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.gammas"><code class="docutils literal notranslate"><span class="pre">Serial.gammas</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.half_lives"><code class="docutils literal notranslate"><span class="pre">Serial.half_lives</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.peak_data"><code class="docutils literal notranslate"><span class="pre">Serial.peak_data</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.decay_results"><code class="docutils literal notranslate"><span class="pre">Serial.decay_results</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.grouped_peaks"><code class="docutils literal notranslate"><span class="pre">Serial.grouped_peaks()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.process_decay_data"><code class="docutils literal notranslate"><span class="pre">Serial.process_decay_data()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.process_spectrum_files"><code class="docutils literal notranslate"><span class="pre">Serial.process_spectrum_files()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.save_decay_data"><code class="docutils literal notranslate"><span class="pre">Serial.save_decay_data()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serial.Serial.save_peak_data"><code class="docutils literal notranslate"><span class="pre">Serial.save_peak_data()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Seperation-of-terbium-from-proton-irradiated-targets</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">API Reference</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/api.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-serial">
+<span id="api-reference"></span><h1>API Reference<a class="headerlink" href="#module-serial" title="Link to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="serial.Serial">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">serial.</span></span><span class="sig-name descname"><span class="pre">Serial</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_directory</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">efficiency_fit_params</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">detector_eff_uncertianty</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eob_time</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gammas</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">half_lives</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/serial.html#Serial"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#serial.Serial" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.13)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Pipeline for serial HPGe y-spectra analysis</p>
+<p>The class automates the analysis of serial HPGe measurements using
+user-defined y-lines. Per y-line end-of-bombardment (EoB) activites
+and half-lives are returned. Exponential decay-curves can be saved to
+a user-specified directory. For additional information on methods see
+supplementary information of “”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_directory</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a>)</p></li>
+<li><p><strong>efficiency_fit_params</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.13)"><em>list</em></a>)</p></li>
+<li><p><strong>detector_eff_uncertianty</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.13)"><em>float</em></a>)</p></li>
+<li><p><strong>eob_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.datetime" title="(in Python v3.13)"><em>datetime</em></a>)</p></li>
+<li><p><strong>gammas</strong> (<a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.2)"><em>DataFrame</em></a>)</p></li>
+<li><p><strong>half_lives</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.13)"><em>dict</em></a><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.13)"><em>float</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.13)"><em>float</em></a><em>]</em>)</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="serial.Serial.data_directory">
+<span class="sig-name descname"><span class="pre">data_directory</span></span><a class="headerlink" href="#serial.Serial.data_directory" title="Link to this definition"></a></dt>
+<dd><p>Path to the directory containing <cite>.Spe</cite> spectrum files. Files must follow
+the expected naming convention.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)">str</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="serial.Serial.efficiency_fit_params">
+<span class="sig-name descname"><span class="pre">efficiency_fit_params</span></span><a class="headerlink" href="#serial.Serial.efficiency_fit_params" title="Link to this definition"></a></dt>
+<dd><p>Parameters passed to the efficiency function used during spectrum analysis,
+e.g., coefficients of an empirical efficiency curve.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.13)">list</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="serial.Serial.detector_eff_uncertainty">
+<span class="sig-name descname"><span class="pre">detector_eff_uncertainty</span></span><a class="headerlink" href="#serial.Serial.detector_eff_uncertainty" title="Link to this definition"></a></dt>
+<dd><p>Fractional uncertainty (e.g., 0.05 for 5%) associated with the detector efficiency.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.13)">float</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="serial.Serial.eob_time">
+<span class="sig-name descname"><span class="pre">eob_time</span></span><a class="headerlink" href="#serial.Serial.eob_time" title="Link to this definition"></a></dt>
+<dd><p>End-of-bombardment timestamp used to compute decay times for each spectrum.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>datetime</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="serial.Serial.gammas">
+<span class="sig-name descname"><span class="pre">gammas</span></span><a class="headerlink" href="#serial.Serial.gammas" title="Link to this definition"></a></dt>
+<dd><p>Table of gamma lines used for peak fitting. Must include columns such as
+<code class="docutils literal notranslate"><span class="pre">[&quot;energy&quot;,</span> <span class="pre">&quot;intensity&quot;,</span> <span class="pre">&quot;unc_intensity&quot;,</span> <span class="pre">&quot;isotope&quot;]</span></code> with energies in keV.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.2)">pandas.DataFrame</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="serial.Serial.half_lives">
+<span class="sig-name descname"><span class="pre">half_lives</span></span><a class="headerlink" href="#serial.Serial.half_lives" title="Link to this definition"></a></dt>
+<dd><p>Mapping from gamma energy (keV) to half-life (s).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.13)">dict</a> of float to float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="serial.Serial.peak_data">
+<span class="sig-name descname"><span class="pre">peak_data</span></span><a class="headerlink" href="#serial.Serial.peak_data" title="Link to this definition"></a></dt>
+<dd><p>Accumulated and enriched fitted peak data from processed spectra.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.2)">pandas.DataFrame</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="serial.Serial.decay_results">
+<span class="sig-name descname"><span class="pre">decay_results</span></span><a class="headerlink" href="#serial.Serial.decay_results" title="Link to this definition"></a></dt>
+<dd><p>Per-(isotope, energy) summary of decay-corrected activities and results.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.2)">pandas.DataFrame</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="serial.Serial.grouped_peaks">
+<span class="sig-name descname"><span class="pre">grouped_peaks</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/serial.html#Serial.grouped_peaks"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#serial.Serial.grouped_peaks" title="Link to this definition"></a></dt>
+<dd><p>Generate per-group peak data grouped by isotope and energy.</p>
+<p>This method yields pairs of <code class="docutils literal notranslate"><span class="pre">(isotope,</span> <span class="pre">energy)</span></code> and their corresponding
+DataFrame of peaks, sorted by decay time. It is useful for in-memory access
+to grouped peak data without performing any file I/O.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p><p>A generator yielding tuples of the form <code class="docutils literal notranslate"><span class="pre">((isotope,</span> <span class="pre">energy),</span> <span class="pre">df)</span></code>, where:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">isotope</span></code><span class="classifier">object</span></dt><dd><p>Identifier of the isotope (e.g., string or numeric label) from <code class="docutils literal notranslate"><span class="pre">self.peak_data</span></code>.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">energy</span></code><span class="classifier">float</span></dt><dd><p>Gamma energy (keV) associated with the group.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">df</span></code><span class="classifier">pandas.DataFrame</span></dt><dd><p>A copy of the subset of <code class="docutils literal notranslate"><span class="pre">self.peak_data</span></code> for that isotope/energy,
+sorted by <code class="docutils literal notranslate"><span class="pre">decay</span> <span class="pre">time</span> <span class="pre">(s)</span></code>.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>generator of <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.13)">tuple</a></p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li><p>If <code class="docutils literal notranslate"><span class="pre">self.peak_data</span></code> is empty, an empty dictionary is returned immediately.</p></li>
+<li><p>Each returned DataFrame is independent (copy) and can be safely modified</p></li>
+</ul>
+<p>without affecting the underlying <code class="docutils literal notranslate"><span class="pre">self.peak_data</span></code>.
+* Groups are sorted lexicographically by isotope, energy, and then by decay time.</p>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">serial</span> <span class="o">=</span> <span class="n">Serial</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">serial</span><span class="o">.</span><span class="n">process_spectrum_files</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="p">(</span><span class="n">iso</span><span class="p">,</span> <span class="n">E</span><span class="p">),</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">serial</span><span class="o">.</span><span class="n">grouped_peaks</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">iso</span><span class="si">}</span><span class="s2"> @ </span><span class="si">{</span><span class="n">E</span><span class="si">}</span><span class="s2"> keV has </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="si">}</span><span class="s2"> peaks&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="serial.Serial.process_decay_data">
+<span class="sig-name descname"><span class="pre">process_decay_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">plot_directory</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/serial.html#Serial.process_decay_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#serial.Serial.process_decay_data" title="Link to this definition"></a></dt>
+<dd><p>Perform decay analysis on peak data grouped by (isotope, energy).</p>
+<p>This method groups the entries in <code class="docutils literal notranslate"><span class="pre">self.peak_data</span></code> by isotope and gamma
+energy, then fits the time-dependent activity data for each group to an
+exponential decay model. A nonlinear least-squares fit is performed on
+activity vs. time:</p>
+<blockquote>
+<div><p>A(t) = A0 * exp(-λ t)</p>
+</div></blockquote>
+<p>yielding estimates for the initial activity A0 and decay constant λ (and
+their standard uncertainties). The half-life is derived from λ.
+Optionally, diagnostic plots can be saved.</p>
+<p>The per-group fit results and summary statistics are stored in
+<code class="docutils literal notranslate"><span class="pre">self.decay_results</span></code> and returned as a DataFrame. No file I/O is
+performed except optional plot saving.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>plot_directory</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a><em> or </em><em>None</em><em>, </em><em>optional</em>) – Path to a directory where activity-time fit plots will be saved for each
+(isotope, energy) group. If None (default), no plots are saved. If
+provided, the directory is created if it does not exist.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>DataFrame with one row per (isotope, energy) group containing nonlinear
+fit results and summary statistics. Columns include:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Isotope</span></code>: Isotope identifier.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Energy</span> <span class="pre">(keV)</span></code>: Gamma energy of the line.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">A0</span> <span class="pre">(fit)</span></code>: Fitted initial activity A0 (Bq).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Std</span> <span class="pre">A0</span> <span class="pre">(fit)</span></code>: Standard uncertainty of A0.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Half-life</span> <span class="pre">(fit)</span> <span class="pre">[s]</span></code>: Derived half-life in seconds.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Std</span> <span class="pre">Half-life</span> <span class="pre">(fit)</span> <span class="pre">[s]</span></code>: Standard uncertainty of the half-life.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Mean</span> <span class="pre">A0</span> <span class="pre">(decay-corrected)</span></code>: Mean decay-corrected activity from individual points (if available).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Std</span> <span class="pre">A0</span> <span class="pre">(decay-corrected)</span></code>: Standard deviation of decay-corrected A0 values.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Unc</span> <span class="pre">Mean</span> <span class="pre">A0</span> <span class="pre">(decay-corrected)</span></code>: Propagated uncertainty of the mean decay-corrected A0.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">N</span> <span class="pre">points</span></code>: Number of valid data points used in the fit.</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.2)">pandas.DataFrame</a></p>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.13)"><strong>ValueError</strong></a> – If <code class="docutils literal notranslate"><span class="pre">self.peak_data</span></code> is empty.</p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#KeyError" title="(in Python v3.13)"><strong>KeyError</strong></a> – If required columns are missing from <code class="docutils literal notranslate"><span class="pre">self.peak_data</span></code>. Required columns:
+    <code class="docutils literal notranslate"><span class="pre">[&quot;isotope&quot;,</span> <span class="pre">&quot;energy&quot;,</span> <span class="pre">&quot;decay</span> <span class="pre">time</span> <span class="pre">(s)&quot;,</span> <span class="pre">&quot;activity&quot;,</span> <span class="pre">&quot;uncertainty</span> <span class="pre">activity&quot;]</span></code>.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li><p>Only groups with at least two finite activity points are fit.</p></li>
+<li><p>Nonlinear fits use either a helper <code class="docutils literal notranslate"><span class="pre">fit_decay</span></code> function (if available)</p></li>
+</ul>
+<p>or fall back to SciPy’s <code class="docutils literal notranslate"><span class="pre">curve_fit</span></code>.
+* Half-life is computed from λ using: <code class="docutils literal notranslate"><span class="pre">t½</span> <span class="pre">=</span> <span class="pre">ln(2)/λ</span></code>.
+* Natural log columns (<code class="docutils literal notranslate"><span class="pre">ln(activity)</span></code>, <code class="docutils literal notranslate"><span class="pre">uncertainty</span> <span class="pre">ln(activity)</span></code>) are
+created if missing for possible linear diagnostics.
+* Internal diagnostic columns (ln-space slope/intercept) are prepared but
+currently commented out; they can be added if needed.</p>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">serial</span> <span class="o">=</span> <span class="n">Serial</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">serial</span><span class="o">.</span><span class="n">process_spectrum_files</span><span class="p">(</span><span class="n">efficiency_func</span><span class="o">=</span><span class="n">my_eff</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">decay_df</span> <span class="o">=</span> <span class="n">serial</span><span class="o">.</span><span class="n">process_decay_data</span><span class="p">(</span><span class="n">plot_directory</span><span class="o">=</span><span class="s2">&quot;decay-plots&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">decay_df</span><span class="p">[[</span><span class="s2">&quot;Isotope&quot;</span><span class="p">,</span> <span class="s2">&quot;Half-life (fit) [s]&quot;</span><span class="p">]]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="serial.Serial.process_spectrum_files">
+<span class="sig-name descname"><span class="pre">process_spectrum_files</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">efficiency_func</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">plot_dir</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/serial.html#Serial.process_spectrum_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#serial.Serial.process_spectrum_files" title="Link to this definition"></a></dt>
+<dd><p>Process all <cite>.Spe</cite> spectrum files in the data directory.</p>
+<p>This method iterates over all <cite>.Spe</cite> files located in <code class="docutils literal notranslate"><span class="pre">data_directory</span></code>,
+performs peak fitting using the CURIE <cite>Spectrum</cite> class, and calculates start of
+measurement activities and uncertainties. The processed peaks are mapped to metadata
+(e.g., detector slot, decay time, half-lives) concatenated across the measurments,
+and stored in <code class="docutils literal notranslate"><span class="pre">self.peak_data</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>efficiency_func</strong> (<em>callable</em>) – A function to compute detector efficiency given gamma energy and efficiency
+fit parameters. It should accept an array of energies and parameters
+(e.g., <cite>efficiency_func(energy, *params)</cite>) and return an array of efficiencies.
+If None, detector efficiency is left as NaN and activities are not calculated.</p></li>
+<li><p><strong>plot_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a><em>, </em><em>optional</em>) – Directory where peak-fit plots can be saved.
+Will be created if it does not exist. Default is None.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li><p>Files without fitted peaks are skipped with a printed message.</p></li>
+<li><p>If <cite>efficiency_func</cite> or <cite>self.efficiency_fit_params</cite> is missing,</p></li>
+</ul>
+<p>detector efficiency and activity calculations are skipped.
+- Internal CURIE columns (e.g., <code class="docutils literal notranslate"><span class="pre">decays</span></code>, <code class="docutils literal notranslate"><span class="pre">chi2</span></code>) are dropped before returning.
+- The method does not perform any CSV/XLSX I/O; results are stored in memory.</p>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">serial</span> <span class="o">=</span> <span class="n">Serial</span><span class="p">(</span><span class="n">data_directory</span><span class="o">=</span><span class="s2">&quot;spectra/&quot;</span><span class="p">,</span> <span class="n">efficiency_fit_params</span><span class="o">=</span><span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">],</span>
+<span class="gp">... </span>                <span class="n">eob_time</span><span class="o">=</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="p">(</span><span class="mi">2025</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">gammas</span><span class="o">=</span><span class="n">my_gamma_df</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result_df</span> <span class="o">=</span> <span class="n">serial</span><span class="o">.</span><span class="n">process_spectrum_files</span><span class="p">(</span><span class="n">efficiency_func</span><span class="o">=</span><span class="n">my_eff_func</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="serial.Serial.save_decay_data">
+<span class="sig-name descname"><span class="pre">save_decay_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filepath</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'decay_results.xlsx'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/serial.html#Serial.save_decay_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#serial.Serial.save_decay_data" title="Link to this definition"></a></dt>
+<dd><p>Save the decay analysis results to a single-sheet Excel file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>filepath</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a><em>, </em><em>optional</em>) – Path to the output <cite>.xlsx</cite> file (default: “decay_results.xlsx”).
+Parent directories are created if needed.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Absolute path to the written Excel file.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)">str</a></p>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.13)"><strong>ValueError</strong></a> – If <cite>self.decay_results</cite> is empty or missing.</p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li><p>Writes all columns of <cite>self.decay_results</cite> to a single sheet called “DecayResults”.</p></li>
+<li><p>Intended for the summary DataFrame produced by <cite>process_decay_data()</cite>.</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="serial.Serial.save_peak_data">
+<span class="sig-name descname"><span class="pre">save_peak_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filepath</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sort_key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'decay</span> <span class="pre">time</span> <span class="pre">(s)'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">include_summary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/serial.html#Serial.save_peak_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#serial.Serial.save_peak_data" title="Link to this definition"></a></dt>
+<dd><p>Save per-γ-line peak data to an Excel workbook, one sheet per (isotope, energy),
+each sheet sorted by time since EoB.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>filepath</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a>) – Output .xlsx path (directories will be created if needed).</p></li>
+<li><p><strong>sort_key</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a><em>, </em><em>optional</em>) – Column to sort each sheet by (default: “decay time (s)”).</p></li>
+<li><p><strong>columns</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.13)"><em>list</em></a><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a><em>] or </em><em>None</em><em>, </em><em>optional</em>) – If provided, restrict output to these columns in this order.
+If None, write all columns.</p></li>
+<li><p><strong>include_summary</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.13)"><em>bool</em></a><em>, </em><em>optional</em>) – If True, add a “Summary” sheet with counts per group and sheet names.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The filepath written.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)">str</a></p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li><p>Groups are formed by (isotope, energy) using the columns “isotope” and “energy”.</p></li>
+</ul>
+<p>Make sure these exist in <cite>self.peak_data</cite>.
+- Sheet names are sanitized and truncated to Excel’s 31-character limit; collisions
+are deduplicated with numeric suffixes.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Seperation-of-terbium-from-proton-irradiated-targets documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Vivek Tara.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
