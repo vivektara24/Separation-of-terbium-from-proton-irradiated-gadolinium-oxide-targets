@@ -5,8 +5,9 @@ This repository accompanies the project detailed in [Paper Title/Reference]. The
 In addition to computational work, the first version of the "**Terbinator**", a remote-controlled valve and pump module, was built to semi-automate multi-column extraction chromatographic serpations for ¹⁵⁵Tb. A detailed description with links of the contents of the repository are listed below.
 
 ## Repository Contents
-- 'serial.py' - Implements the Serial class, desinged to automate serial gamma-spectrum data analysis.
-- 'calibration.py' - automatically determines calibration params and hpge efficiency fractional uncertainty.
+(i) 'yield.py' - Implements the Serial class, desinged to automate serial gamma-spectrum data analysis.
+(ii) 'calibration.py' - automatically determines calibration params and hpge efficiency fractional uncertainty.
+(iii) 'serial.py' - Implements the Serial class, desinged to automate serial gamma-spectrum data analysis.
 - 'nuclear_physics_utils.py' - Utility functions designed to help the serial.py script
 - 'example.py' - tutorial script on how to use the serial class.
   - Data for example in _ direcotry (can I use our actual spectra?)
