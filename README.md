@@ -57,8 +57,11 @@ GAMMAS = pd.DataFrame({
 HALF_LIVES = {
     540.18:   9.4 * 60 * 60,
 }
+```
 
+Instantiate the Serial class and provide it the defined inputs.
 
+```python
 # Create analysis object
     S = Serial(
         data_directory=str(DATA_DIR),
@@ -68,10 +71,17 @@ HALF_LIVES = {
         gammas=GAMMAS,
         half_lives=HALF_LIVES,
     )
+```
+Peform peak fitting accross the measuremetns store the data in a dataframe located in the Serial object.
 
+```python
 # Process spectra
 S.process_spectrum_files(plot_dir="plots/")
+```
 
+Save the peak fitting data to an xlsx by gamma and sorted by decay time.
+
+```python
 # Save sorted peak fit data
 S.save_peak_data(
         filepath=str(outputs_dir / "peak_data_by_gamma.xlsx"),
