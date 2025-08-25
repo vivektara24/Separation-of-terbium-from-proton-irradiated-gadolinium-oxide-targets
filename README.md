@@ -15,12 +15,11 @@
 
 ## Tutorial: Quickstart Example
 
-You must first download the serial.py file and the nuclear_physics_utils files and place them in the same direcory as your file that you plan to do the analysis in.
+In this section a simple quickstart example with the Serial class is provided to highlight the worklow when using the Serial class. A more complete tutorial is provided in the example.py file.
 
-Import the Serial class and other reqired dependencies.
-- Need to make a dependency list
+Inorder to use the Serial class you must first download the serial.py and accompanying nuclear_physics_utils files from this repository and place them in the same directory as the python file you plan to do the analysis in.
 
-To run an analysis, first define your inputs - the data directory, end-of-bombardment (EOB) time, and detector efficiency fit parameters.
+To run an analysis, first define your inputs - the data directory, end-of-bombardment (EOB) time, detector efficiency fit parameters.
 
 ```python
 from serial import Serial
