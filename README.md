@@ -35,7 +35,7 @@ You have several options
 ```bash
 git clone https://github.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets.git
 cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
-
+```
 
 ## Tutorial: Quickstart Example w/ the Serial Class
 
