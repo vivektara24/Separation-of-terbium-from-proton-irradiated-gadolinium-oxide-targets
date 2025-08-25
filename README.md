@@ -31,4 +31,6 @@ This distance token is required to perform inverse-square law corrections when t
 
 1. `120-Min-Decay-Report-d1sABC-001.Spe` *(non-numeric value after `d1s`)*  
 2. `120-Min-Decay-Report-DS1-001.Spe` *(incorrect token spelling/case)*  
-3. `120-Min-Decay-Report-001.SPE` *(missing `d1s` token; case-sensitive extension may also cause issues)*  
+3. `120-Min-Decay-Report-001.SPE` *(missing `d1s` token; case-sensitive extension may also cause issues)*
+
+Example `.JOB` files for automated HPGe spectrum collection using **ORTEC® MAESTRO for Windows (v7.01)** are provided in the [`data_acquisition/`](data_acquisition/) directory of this repository. These job files define acquisition parameters (preset time, loop count, sample description) and save spectra with filenames following the convention above.  
