@@ -45,6 +45,7 @@ S = Serial(
 # Process spectra and run decay analysis
 S.process_spectrum_files(plot_dir="plots/")
 S.process_decay_data(plot_directory="plots/decay-fits")
+'''
 
 ## `.Spe` File Naming Convention  
 
