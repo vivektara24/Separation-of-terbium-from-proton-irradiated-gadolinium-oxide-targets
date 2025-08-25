@@ -43,15 +43,24 @@ cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 3. Unzip it on your computer.
 
 **Download Specific Files (via scp/curl/wget)**
-If you only need certain files (`serial.py`, `utils.py`), you can fetch them directly, e.g:
+If you only need certain files (e.g `serial.py`, `utils.py`), you can fetch them directly:
 ```bash
 wget https://raw.githubusercontent.com/<your-username>/<your-repo>/main/serial.py
 wget https://raw.githubusercontent.com/<your-username>/<your-repo>/main/nuclear_physics_utils.py
 ```
 
 
-#### Step 2. Download the Required Dependencies
+#### Step 2. Install Dependencies
+Install the required Python libraries using the provided `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
 
+#### Step 3. Run the Example
+Try the tutorial in `example.py` to verify your installation.
+```python
+python example.py
+```
 ## Tutorial: Quickstart Example w/ the Serial Class
 
 This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
