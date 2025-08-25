@@ -22,14 +22,23 @@ A detailed description with links of the contents of the repository are listed b
 - Directory with example JOB files to create compatible files names and autmoaticlaly record spectra on HPGe using ORTEC
     - Additionally contains linux or python? code to automatically rename files accoridngly
 
+## Setup Instructions
+
+To use the `Serial` class, follow these steps:
+
+#### Step 1. Get the Source Code
+
+You have several options
+
+- **Clone the repository (recommended):**
+
+
+
 ## Tutorial: Quickstart Example w/ the Serial Class
 
-This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py).
+This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
 
-To use the `Serial` class:
-1. Download `serial.py` and `utils.py` from this repository and place them in the same directory as your analysis script. (give option to ssh or scp from github).
-2. Install the required Python libraries from `requirements.txt`
-3. Import the necessary libraries:
+#### Step 1. Import the Necessary Libraries
 
 ```python
 from serial import Serial
@@ -38,7 +47,8 @@ import numpy as np
 import pandas as pd
 ```
 
-To run an analysis, first define your inputs - the data directory, end-of-bombardment (EOB) time, detector efficiency fit parameters and corresponding detectory effeicieny function, the dataframe with the gammas of interest for the analysis and a mapping of each gamma to the half-life of the isotope.
+#### Step 2. Define Inputs
+Inputs include the directory containing .Spe files, the end-of-bombardment (EoB) time, efficiency curve parameters
 
 ```python
 # Directory with .Spe files
