@@ -8,6 +8,7 @@ A detailed description with links of the contents of the repository are listed b
 
 ## Table of Contents
 - [Setup Instructions](#setup-instructions)
+- [Quickstart w/ the Serial Class](#tutorial:-quickstart-example-w/-the-serial-class)
 ## Repository Contents
 
 1. yield.py
