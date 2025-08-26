@@ -87,7 +87,7 @@ import pandas as pd
 ```
 
 #### Step 2. Define Inputs
-Inputs include the directory containing .Spe files, the end-of-bombardment (EoB) time, efficiency curve parameters
+Begin by specifying all required inputs for the analysis: the direcotry containing .Spe files, the end-of-bombardment (EoB) timestamp, the HPGe effeciecy cure function and parameters, a gamma-line table, and half-lives.
 
 ```python
 # Directory with .Spe files
@@ -96,7 +96,8 @@ DATA_DIR = "example_data/"
 # End-of-bombardment timestamp
 EOB_TIME = datetime(2025, 2, 21, 7, 58)
 ```
-To see methods for determining efficiency_fit_paremetes see supplemenetary information of linked paper[] the section titled "High Purity Germanium Gamma Detector Calibration Methods"
+To expeirmentally determine EFFICENCY_FIT_PARAMS on an HPGe detector, refre to supplementary inforation of the linked paper (**"High Purity Germanium Detector Calibration Methods"**)
+
 ```python
 # Example HPGe efficiency curve parameters
 EFFICIENCY_FIT_PARAMS = [0.0377, -13.3, 0.9218, -0.0928, 0.0030, 0.0]
