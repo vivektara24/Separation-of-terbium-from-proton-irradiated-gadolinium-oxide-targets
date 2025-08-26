@@ -119,7 +119,72 @@ y.load_reactions_from_csvs(
 results = y.compute_activities_for_multiple_isotopes()
 path = y.save_results_to_excel("outputs/isotope_results.xlsx", include_summary=True)
 ```
+### Quickstart Example w/ the Calibration Class
 
+This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
+
+#### Step 1. Import the Necessary Libraries
+
+from calibration import Calibration
+import numpy as np
+import pandas as pd
+import math
+
+#### Step 2. Define the Inputs
+
+```python
+data_path = ''
+
+eob_time = datetime(1984, 8, 1, 00)
+
+gammas = pd.DataFrame({
+    "energy": [121.7817, 244.6975, 344.2785, 778.904, 964.079, 1112.074, 1408.006], #152Eu
+    "intensity": [28.53,    7.55,     26.59,    12.93,   14.51,   13.67,    20.87],
+    "unc_intensity": [0.16,    0.04,     0.20,     0.08,    0.07,    0.08,     0.09],
+    "isotope": ["152EU"] * 7,
+})
+
+# Dictionary mapping energy values (keV) to half-lives (seconds)
+half_lives = {
+    # 152Eu
+    121.7817: 13.517 * 365 * 24 * 60 * 60,
+    244.6975: 13.517 * 365 * 24 * 60 * 60,
+    344.2785: 13.517 * 365 * 24 * 60 * 60,
+    778.904: 13.517 * 365 * 24 * 60 * 60,
+    964.079: 13.517 * 365 * 24 * 60 * 60,
+    1112.074: 13.517 * 365 * 24 * 60 * 60,
+    1408.006: 13.517 * 365 * 24 * 60 * 60,
+
+}
+
+inital_activity = {
+    # 152Eu
+    121.7817: 10,
+    244.6975: 10,
+    344.2785: 10,
+    778.904: 10,
+    964.079: 10,
+    1112.074: 10,
+    1408.006: 10,
+}
+
+initial_guesses = [-0.306655,-7.80031,0.739484,-0.0959825,0.00513815,-0.00121]
+
+def EffFit(x,b1,b2,b3,b4,b5,b6):
+
+    x = x/1000
+    y = math.e**(b1*x**1+b2*x**0+b3*x**(-1)+b4*x**(-2)+b5*x**(-3)+b6*x**(-4))
+    return y
+
+cb = Calibration(data_path=data_path, eob_time=eob_time, gammas=gammas, half_lives=half_lives, initial_activites=inital_activity, eff_func=EffFit)
+
+cb.process_spectrum_file()
+
+cb.save_peak_data("outputs/eff_peak_data.csv")
+
+cb.process_calibration_data(initial_guesses=p0, plot_directory='outputs', xlim=(59, 1450), ylim=(0, 3.5e-5))
+
+print(cb.get_eff_fit_uncetainty())
 
 ### Quickstart Example w/ the Serial Class
 
