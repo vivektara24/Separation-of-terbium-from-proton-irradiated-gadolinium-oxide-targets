@@ -10,6 +10,8 @@ A detailed description with links of the contents of the repository are listed b
 - [Respository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
 - [Quickstart w/ the Serial Class](#tutorial-quickstart-example-w-the-serial-class)
+- [Quickstart w/ the Calibration Class](##tutorial-quickstart-example-w-the-calibration-class)
+- [Quickstart w/ the Yield Class](##tutorial-quickstart-example-w-the-yield-class)
 - [`.Spe` File Naming Convention (Serial)](#spe-file-naming-convention)
 ## Repository Contents
 
