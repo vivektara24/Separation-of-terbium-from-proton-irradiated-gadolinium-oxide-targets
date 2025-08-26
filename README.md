@@ -185,7 +185,7 @@ cb.save_peak_data("outputs/eff_peak_data.csv")
 cb.process_calibration_data(initial_guesses=p0, plot_directory='outputs', xlim=(59, 1450), ylim=(0, 3.5e-5))
 
 print(cb.get_eff_fit_uncetainty())
-
+```
 ### Quickstart Example w/ the Serial Class
 
 This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
