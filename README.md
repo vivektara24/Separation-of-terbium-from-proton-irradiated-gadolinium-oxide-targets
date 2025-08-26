@@ -7,11 +7,12 @@ In addition to computational work, the first version of the "**Terbinator**", a 
 A detailed description with links of the contents of the repository are listed below.
 
 ## Table of Contents
-- [Respository Contents](#repository-contents)
+- [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
-- [Quickstart w/ the Serial Class](#tutorial-quickstart-example-w-the-serial-class)
-- [Quickstart w/ the Calibration Class](##tutorial-quickstart-example-w-the-calibration-class)
-- [Quickstart w/ the Yield Class](##tutorial-quickstart-example-w-the-yield-class)
+- [Quickstart](#quickstart)
+  - [Serial Class](#serial-class)
+  - [Calibration Class](#calibration-class)
+  - [Yield Class](#yield-class)
 - [`.Spe` File Naming Convention (Serial)](#spe-file-naming-convention)
 ## Repository Contents
 
