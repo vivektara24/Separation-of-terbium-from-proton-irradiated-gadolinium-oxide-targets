@@ -78,7 +78,7 @@ python example.py
 
 ### Quickstart Example w/ the Yield Class
 
-This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
+This section provides an example using the `Yield` class to demostrate the workflow.
 
 #### Step 1. Import the Necessary Libraries
 ```python
@@ -89,6 +89,7 @@ import pandas as pd
 ```
 
 #### Step 2. Define Inputs
+
 ```python
 df = pd.read_csv('Gd2O3-SRIM-Data.csv')
 srim_energies = df.iloc[:, 0]
