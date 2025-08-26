@@ -95,7 +95,9 @@ DATA_DIR = "example_data/"
 
 # End-of-bombardment timestamp
 EOB_TIME = datetime(2025, 2, 21, 7, 58)
-
+```
+To see methods for determining efficiency_fit_paremetes see supplemenetary information of linked paper[] the section titled "High Purity Germanium Gamma Detector Calibration Methods"
+```python
 # Example HPGe efficiency curve parameters
 EFFICIENCY_FIT_PARAMS = [0.0377, -13.3, 0.9218, -0.0928, 0.0030, 0.0]
 
