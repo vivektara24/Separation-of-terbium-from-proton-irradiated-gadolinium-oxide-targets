@@ -78,6 +78,14 @@ python example.py
 
 ### Quickstart Example w/ the Yield Class
 
+#### Step 1. Import the Necessary Libraries
+```python
+from serial import Serial
+from datetime import datetime
+import numpy as np
+import pandas as pd
+```
+
 ### Quickstart Example w/ the Serial Class
 
 This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
@@ -85,7 +93,7 @@ This section provides a minimal example using the `Serial` class to demostrate t
 #### Step 1. Import the Necessary Libraries
 
 ```python
-from serial import Serial
+from yield_calc import Yield
 from datetime import datetime
 import numpy as np
 import pandas as pd
