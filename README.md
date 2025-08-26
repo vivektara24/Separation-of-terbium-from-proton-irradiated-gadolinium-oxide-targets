@@ -24,7 +24,7 @@ A detailed description with links of the contents of the repository are listed b
 4. **`nuclear_physics_utils.py`** – A collection of utility functions used internally by `yield_calc.py`, `calibration.py`, and `serial.py`.
 
 ### Tutorials
-- **`tutorials/`** – Directory containing example tutorials for each class:
+- **`tutorials/`** – Contains interactive **Google Colab** Juypter notebooks demonstrating how to use each core class:
   - `serial_tutorial.ipynb`
   - `calibration_tutorial.ipynb`
   - `yield_tutorial.ipynb`
