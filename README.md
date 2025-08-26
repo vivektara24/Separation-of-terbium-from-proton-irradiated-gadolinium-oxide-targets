@@ -9,6 +9,7 @@ A detailed description with links of the contents of the repository are listed b
 ## Table of Contents
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
+- [Description of Methods](#de)
 - [Quickstart](#quickstart)
   - [Serial Class](#serial-class)
   - [Calibration Class](#calibration-class)
@@ -16,9 +17,9 @@ A detailed description with links of the contents of the repository are listed b
 - [`.Spe` File Naming Convention (Serial)](#spe-file-naming-convention)
 ## Repository Contents
 
-1. yield.py
-2. calibration.py
-3. serial.py
+1. yield_calc.py - Contains the **`Yield`** class. Calculates theoretical end-of-bombardment (EoB) activity yields.
+2. calibration.py - Contains the **`Calibration`** class. Streamlines workflows for HPGe detector efficiency calibration.
+3. serial.py - Contains the **`Serial`** class. Pipeline for automated analyis of serial y-spectra measurments.
 
 - 'nuclear_physics_utils.py' - Utility functions designed to help the serial.py script
 - 'example.py' - tutorial script on how to use the serial class.
