@@ -78,13 +78,48 @@ python example.py
 
 ### Quickstart Example w/ the Yield Class
 
+This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
+
 #### Step 1. Import the Necessary Libraries
 ```python
-from serial import Serial
+from yield_calc import Yield
 from datetime import datetime
 import numpy as np
 import pandas as pd
 ```
+
+#### Step 2. Define Inputs
+```python
+df = pd.read_csv('Gd2O3-SRIM-Data.csv')
+srim_energies = df.iloc[:, 0]
+srim_ranges = df.iloc[:, 1]
+```
+
+#### Step 3. Create the Yield Object
+
+```python
+y = Yield(E0=12.6, srim_energies=srim_energies, srim_ranges=srim_ranges, 
+          target_thickness=0.037, dE=0.001, density=3.385, molecular_weight=362.50, projectile_intensity=2.37 * 10 ** 13, t_irrad=1800)
+```
+
+#### Step 4. Load reaction data from directory
+```python
+y.load_reactions_from_csvs(
+    directory=".",
+    isotope_half_lives=isotope_properties,
+    filename_glob="NatGd_P_X_*.csv",  # or "*.csv"
+    energy_col=0,
+    xs_col=1,
+    xs_units="mb",  # change if your CSVs are in barns/µb/nb/etc.
+)
+```
+
+#### Step 5. Compute Expected Activites and save resutls to an xslx.
+```python
+results = y.compute_activities_for_multiple_isotopes()
+path = y.save_results_to_excel("outputs/isotope_results.xlsx", include_summary=True)
+```
+
 
 ### Quickstart Example w/ the Serial Class
 
