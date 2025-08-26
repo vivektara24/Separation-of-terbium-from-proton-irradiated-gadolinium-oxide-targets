@@ -7,6 +7,7 @@ In addition to computational work, the first version of the "**Terbinator**", a 
 A detailed description with links of the contents of the repository are listed below.
 
 ## Table of Contents
+- [Respository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
 - [Quickstart w/ the Serial Class](#tutorial-quickstart-example-w-the-serial-class)
 - [`.Spe` File Naming Convention (Serial)](#spe-file-naming-convention)
