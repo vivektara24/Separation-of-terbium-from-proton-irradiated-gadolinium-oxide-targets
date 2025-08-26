@@ -87,7 +87,7 @@ import pandas as pd
 ```
 
 #### Step 2. Define Inputs
-Begin by specifying all required inputs for the analysis: the direcotry containing .Spe files, the end-of-bombardment (EoB) timestamp, the HPGe effeciecy cure function and parameters, a gamma-line table, and half-lives.
+Begin by specifying all required inputs for the analysis: the direcotry containing .Spe files, the end-of-bombardment (EoB) timestamp, the HPGe effeciecy cure function and parameters, a gamma-line table, and half-lives. To expeirmentally determine `EFFICENCY_FIT_PARAMS` on an HPGe detector, refer to the supplementary information of the linked paper (**"High Purity Germanium Detector Calibration Methods"**)
 
 ```python
 # Directory with .Spe files
@@ -95,10 +95,7 @@ DATA_DIR = "example_data/"
 
 # End-of-bombardment timestamp
 EOB_TIME = datetime(2025, 2, 21, 7, 58)
-```
-To expeirmentally determine EFFICENCY_FIT_PARAMS on an HPGe detector, refre to supplementary inforation of the linked paper (**"High Purity Germanium Detector Calibration Methods"**)
 
-```python
 # Example HPGe efficiency curve parameters
 EFFICIENCY_FIT_PARAMS = [0.0377, -13.3, 0.9218, -0.0928, 0.0030, 0.0]
 
@@ -123,7 +120,7 @@ HALF_LIVES = {
 }
 ```
 
-Instantiate the Serial class and provide it the defined inputs.
+Instantiate the Serial class with the defined inputs to set up the analysis.
 
 ```python
 # Create analysis object
@@ -136,14 +133,14 @@ Instantiate the Serial class and provide it the defined inputs.
         half_lives=HALF_LIVES,
     )
 ```
-Peform peak fitting accross the measuremetns store the data in a dataframe located in the Serial object.
+Peform peak fitting across all spectra and store the results internally in the `Serial` object.
 
 ```python
 # Process spectra
 S.process_spectrum_files(plot_dir="plots/")
 ```
 
-Save the peak fitting data to an xlsx by gamma and sorted by decay time.
+Save the peak-fit results to an xlsx file, grouped by gamma-line and sorted by decay time.
 
 ```python
 # Save sorted peak fit data
@@ -160,14 +157,14 @@ S.save_peak_data(
     )
 ```
 
-Fit exponential decay to the start of measuremtn activities from the serial measurments to get EoB and half-life values.
+Fit exponential decays to the start of measurment activities to extract EoB activiteis and half-life values.
 
 ```python
 # Run decay analysis
 S.process_decay_data(plot_directory="plots/decay-fits")
 ```
 
-Save the final decay data to a csv. Includes EoB activiteis by curve fit, decay correct, and half-live values by curve fit.
+Save the final decay data (including fitted EoB activities and half-lives) to a xlsx.
 
 ```python
 # Save final results
