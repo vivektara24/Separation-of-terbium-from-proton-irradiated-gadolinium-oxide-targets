@@ -10,10 +10,10 @@ A detailed description with links of the contents of the repository are listed b
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
 - [Description of Methods](#de)
-- [Quickstart](#quickstart)
+- [Quickstart Tutorials](#quickstart)
+  - [Yield Class](#yield-class)
   - [Serial Class](#serial-class)
   - [Calibration Class](#calibration-class)
-  - [Yield Class](#yield-class)
 - [`.Spe` File Naming Convention (Serial)](#spe-file-naming-convention)
 ## Repository Contents
 
@@ -73,7 +73,12 @@ Try the tutorial in `example.py` to verify your installation.
 ```python
 python example.py
 ```
-## Tutorial: Quickstart Example w/ the Serial Class
+
+## Quickstart Tutorials
+
+### Quickstart Example w/ the Yield Class
+
+### Quickstart Example w/ the Serial Class
 
 This section provides a minimal example using the `Serial` class to demostrate the workflow. A more complete tutorial is available in [`example.py`](example.py). Additionally the Application Programming Interface is available in .
 
