@@ -17,19 +17,22 @@ A detailed description with links of the contents of the repository are listed b
 - [`.Spe` File Naming Convention (Serial)](#spe-file-naming-convention)
 ## Repository Contents
 
-1. yield_calc.py - Contains the **`Yield`** class. Calculates theoretical end-of-bombardment (EoB) activity yields.
-2. calibration.py - Contains the **`Calibration`** class. Streamlines workflows for HPGe detector efficiency calibration.
-3. serial.py - Contains the **`Serial`** class. Pipeline for automated analyis of serial y-spectra measurments.
+### Python Modules
+1. **`yield_calc.py`** – Contains the `Yield` class. Calculates theoretical end-of-bombardment (EoB) activity yields.
+2. **`calibration.py`** – Contains the `Calibration` class. Streamlines workflows for HPGe detector efficiency calibration.
+3. **`serial.py`** – Contains the `Serial` class. Provides a pipeline for automated analysis of serial γ-spectra measurements.
+4. **`nuclear_physics_utils.py`** – Utility functions required by `yield_calc.py`, `calibration.py`, and `serial.py`.
 
-- 'nuclear_physics_utils.py' - Utility functions designed to help the serial.py script
-- 'example.py' - tutorial script on how to use the serial class.
-  - Data for example in _ direcotry (can I use our actual spectra?)
-  - example outputs in directory _.
-- data_acquisition/ - Example JOB files for automated HPGe spectrum collection using MAESTRO for Windows, version 7.01, ORTEC®.
--
--
-- Directory with example JOB files to create compatible files names and autmoaticlaly record spectra on HPGe using ORTEC
-    - Additionally contains linux or python? code to automatically rename files accoridngly
+### Tutorials
+- **`tutorials/`** – Directory containing example tutorials for each class:
+  - `serial_tutorial.ipynb`
+  - `calibration_tutorial.ipynb`
+  - `yield_tutorial.ipynb`
+
+### Data Acquisition
+- **`data_acquisition/`** – Example JOB files for automated HPGe spectrum collection using MAESTRO (Windows v7.01, ORTEC®).
+  - Includes example JOB files with compatible file naming conventions for automated spectrum recording.
+  - May also include Linux/Python scripts for automatically renaming files as needed.
 
 ## Setup Instructions
 
