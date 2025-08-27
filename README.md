@@ -36,16 +36,21 @@ A detailed description with links of the contents of the repository are listed b
 
 ## Setup Instructions
 
-To use the libname package you have serveral options, follow these steps:
+You have three options for using the libname package:
 
+- **Option 1: Pip Install (recommended)**  
+  *(Coming soon, once available on PyPI)* 
 - **Clone the repository (recommended):**
+```bash
+  pip install <package-name>
+  ```
 
 ```bash
 git clone https://github.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets.git
 cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 ```
 
-- **Download as ZIP (no git required)**
+- **Download source files as ZIP (no git required)**
 1. Navigate to this repository's main page on Github
 2. Click the green **Code** button → **Download ZIP**.
 3. Unzip it on your computer.
