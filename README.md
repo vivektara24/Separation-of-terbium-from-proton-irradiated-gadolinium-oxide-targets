@@ -309,8 +309,12 @@ This distance token is required to perform inverse-square law corrections when t
 Example `.JOB` files for automated HPGe spectrum collection using **ORTEC® MAESTRO for Windows (v7.01)** are provided in the [`data_acquisition/`](data_acquisition/) directory of this repository. These job files define acquisition parameters and save spectra with filenames following the convention above.
 
 
-#### Improvments
+## Package Improvment Ideas
 
 1. peak summing in calibration class
 2. the two methods in Knoll for HPGe detectors
 3. optimzation techniques for yield class, using rx.Integrate maybe.
+
+## Acknowledgments
+
+This work is supported in part by the Horizon-broadening Isotope Production Pipeline Opportunities (HIPPO) program, under GrantDE-SC0022550 from the Department of Energy's Isotope R&D and Production Program.
