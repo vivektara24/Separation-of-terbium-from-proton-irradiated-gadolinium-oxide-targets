@@ -39,11 +39,11 @@ A detailed description with links of the contents of the repository are listed b
 You have three options for using the libname package:
 
 - **Option 1: Pip Install (recommended)**  
-  *(Coming soon, once available on PyPI)* 
-- **Clone the repository (recommended):**
-```bash
+  *(Coming soon, once available on PyPI)*
+  ```bash
   pip install <package-name>
   ```
+- **Clone the repository (recommended):**
 
 ```bash
 git clone https://github.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets.git
