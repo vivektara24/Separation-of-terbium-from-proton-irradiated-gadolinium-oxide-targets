@@ -36,11 +36,7 @@ A detailed description with links of the contents of the repository are listed b
 
 ## Setup Instructions
 
-To use the `Serial` class, follow these steps:
-
-#### Step 1. Get the Source Code
-
-You have several options
+To use the libname package you have serveral options, follow these steps:
 
 - **Clone the repository (recommended):**
 
