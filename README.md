@@ -43,12 +43,19 @@ You have three options for using the libname package:
   ```bash
   pip install <package-name>
   ```
-- **Clone the repository (recommended):**
+- **Option 2: Clone the Repository**  
 
 ```bash
 git clone https://github.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets.git
 cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 ```
+
+If you only need specfic files (e.g, `serial.py`, `utils.py`), you can fetch them directly with `wget` / `curl`:
+```bash
+wget https://raw.githubusercontent.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/main/serial.py
+wget https://raw.githubusercontent.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/main/utils.py
+```
+
 
 - **Download source files as ZIP (no git required)**
 1. Navigate to this repository's main page on Github
