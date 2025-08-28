@@ -25,7 +25,7 @@ A detailed description with links of the contents of the repository are listed b
 
 ### Workflow Tutorials
 - **`workflows/`** – Contains interactive **Google Colab** Juypter notebooks demonstrating how to use each core class:
-  - **`calibration_to_serial_workflow.ipynb` **Demonstrates how to combine the `Calibration` and `Serial` classes to perform detector energy calibration and analyze serial HPGe measurements. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/blob/main/workflows/calibration_to_serial_workflow.ipynb) 
+  - **`calibration_to_serial_workflow.ipynb`** Demonstrates how to combine the `Calibration` and `Serial` classes to perform detector energy calibration and analyze serial HPGe measurements. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/blob/main/workflows/calibration_to_serial_workflow.ipynb) 
   - **`yield_workflow.ipynb`**
 
 ### Data Acquisition
