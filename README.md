@@ -9,12 +9,9 @@ A detailed description with links of the contents of the repository are listed b
 ## Table of Contents
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
-- [Description of Methods](#de)
-- [Quickstart Tutorials](#quickstart)
-  - [Yield Class](#yield-class)
-  - [Serial Class](#serial-class)
-  - [Calibration Class](#calibration-class)
 - [`.Spe` File Naming Convention (Serial)](#spe-file-naming-convention)
+- [Description of Methods](#de)
+- [Acknoledgements](acknoldgments)
 ## Repository Contents
 
 ### Python Modules
