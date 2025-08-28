@@ -1,5 +1,8 @@
 # Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/blob/main/notebooks/calibration_to_serial_workflow.ipynb)
+
+
 ## Overview
 This repository accompanies the project detailed in [Paper Title/Reference]. The included Python scripts were used to (i) calculate expected yields from proton irradiations of natGd₂O₃ targets, (ii) perform efficiency calibarion of a High Purity Germanium (HPGe) spectrometer, and (iii) automate the analysis of serial HPGe spectra. In addition to computational work, the first version of the "**Terbinator**", a remote-controlled valve and pump module, was built to semi-automate multi-column extraction chromatographic serpations for ¹⁵⁵Tb. 
 
