@@ -6,11 +6,24 @@ This repository accompanies the project detailed in [Paper Title/Reference]. The
 
 All code developed for this project has been consolidated into a single Python library, **libname**, which will continue to be developed into a comprehensive package desinged for applications in nuclear physics, nulcear chemistry, radiochemicstry, and machine learning challenges in radiopharmaceutical development. Source code and tutorials for libname v0.0.x are provided in this repostiory. Representative example outputs are shown below.
 
-| **Detector Efficiency Calibration** | **Decay Curve Analysis** |
-|-------------------------------------|--------------------------|
-| ![Plot 1](example_outputs/calibration-plot.png) | ![Plot 2](example_outputs/decay_plots/154TB_540.180_activity-time.png) |
-| *Fitted efficiency curve for HPGe detector using the `Calibration` class*  | *Exponential decay of ¹⁵⁴ᵐ¹Tb derived from serial HPGe spectra using the `Serial` class* |
-| [Peak-Fit CSV](example_outputs/efficiency_peak_data.csv) · [Efficiency Fit Parameters](example_outputs/calibration-results.xlsx) | [Download CSV](example_outputs/154Tb_decay_results.csv) · [XLSX](example_outputs/154Tb_decay_results.xlsx) |
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center">Example outputs of the <code>nuclab</code> Python package</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Detector Efficiency Calibration</strong></td>
+    <td align="center"><strong>Decay Curve Analysis</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="example_outputs/calibration-plot.png" alt="Calibration Plot" width="400"/></td>
+    <td align="center"><img src="example_outputs/decay_plots/154TB_540.180_activity-time.png" alt="Decay Plot" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Fitted efficiency curve for HPGe detector using the <code>Calibration</code> class</em></td>
+    <td align="center"><em>Exponential decay of ¹⁵⁴ᵐ¹Tb derived from serial HPGe spectra using the <code>Serial</code> class</em></td>
+  </tr>
+</table>
+
 
 A detailed description with links of the contents of the repository are listed in the Table of Contents below.
 
