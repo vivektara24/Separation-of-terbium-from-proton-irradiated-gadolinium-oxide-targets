@@ -87,6 +87,7 @@ python example.py
 5. provide more informative statistics for qulatiy of curve fit
 7. warning messages if attributes arent filled before calling the functions
 9. Give default values based on work
+10. save eff_fit_params
 
 ## Acknowledgments
 
