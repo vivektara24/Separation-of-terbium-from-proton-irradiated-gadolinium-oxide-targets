@@ -15,7 +15,7 @@ A detailed description with links of the contents of the repository are listed b
 - [Acknoledgements](acknoldgments)
 ## Repository Contents
 
-### Python Modules
+### Source Files
 1. **`yield_calc.py`** – Implements the `Yield` class. Calculates theoretical end-of-bombardment (EoB) activity yields for irradiated targets.
 2. **`calibration.py`** – Implements the `Calibration` class. Streamlines workflows for HPGe detector efficiency calibration.
 3. **`serial.py`** – Implements the `Serial` class. Provides a pipeline for automated analysis of serial γ-spectra measurements.
