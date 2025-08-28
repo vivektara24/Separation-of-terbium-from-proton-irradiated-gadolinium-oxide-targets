@@ -1,9 +1,5 @@
 # Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/blob/main/workflows/calibration_to_serial_workflow.ipynb)
-
-
 
 ## Overview
 This repository accompanies the project detailed in [Paper Title/Reference]. The included Python scripts were used to (i) calculate expected yields from proton irradiations of natGd₂O₃ targets, (ii) perform efficiency calibarion of a High Purity Germanium (HPGe) spectrometer, and (iii) automate the analysis of serial HPGe spectra. In addition to computational work, the first version of the "**Terbinator**", a remote-controlled valve and pump module, was built to semi-automate multi-column extraction chromatographic serpations for ¹⁵⁵Tb. 
@@ -29,7 +25,7 @@ A detailed description with links of the contents of the repository are listed b
 
 ### Workflow Tutorials
 - **`workflows/`** – Contains interactive **Google Colab** Juypter notebooks demonstrating how to use each core class:
-  - **`calibration_to_serial_workflow.ipynb`**
+  - **`calibration_to_serial_workflow.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/blob/main/workflows/calibration_to_serial_workflow.ipynb)
   - **`yield_workflow.ipynb`**
 
 ### Data Acquisition
