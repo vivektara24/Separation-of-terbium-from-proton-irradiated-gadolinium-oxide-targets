@@ -24,8 +24,8 @@ A detailed description with links of the contents of the repository are listed b
 
 ### Workflow Tutorials
 - **`workflows/`** – Contains interactive **Google Colab** Juypter notebooks demonstrating how to use each core class:
-  - `calibration_to_serial_workflow.ipynb`
-  - `yield_workflow.ipynb`
+  - **`calibration_to_serial_workflow.ipynb`**
+  - **`yield_workflow.ipynb`**
 
 ### Data Acquisition
 - **`data_acquisition/`** – Example JOB files for automated HPGe spectrum collection using MAESTRO (Windows v7.01, ORTEC®).
