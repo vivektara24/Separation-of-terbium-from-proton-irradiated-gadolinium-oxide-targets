@@ -83,6 +83,7 @@ python example.py
 6. process_calibration_data need to make the output direcotyr if its not already made
 7. warning messages if attributes arent filled before calling the functions
 8. print names with expnential decay plots
+9. Give default values based on work
 
 ## Acknowledgments
 
