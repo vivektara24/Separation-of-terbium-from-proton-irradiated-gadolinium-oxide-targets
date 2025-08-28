@@ -11,10 +11,6 @@ All code developed for this project has been consolidated into a single Python l
     <th colspan="2" style="text-align:center">Example outputs of the <code>nuclab</code> Python package</th>
   </tr>
   <tr>
-    <td align="center"><strong>Detector Efficiency Calibration</strong></td>
-    <td align="center"><strong>Decay Curve Analysis</strong></td>
-  </tr>
-  <tr>
     <td align="center"><img src="example_outputs/calibration-plot.png" alt="Calibration Plot" width="400"/></td>
     <td align="center"><img src="example_outputs/decay_plots/154TB_540.180_activity-time.png" alt="Decay Plot" width="400"/></td>
   </tr>
