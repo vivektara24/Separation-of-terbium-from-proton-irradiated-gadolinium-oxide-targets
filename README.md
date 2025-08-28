@@ -18,7 +18,18 @@ All code developed for this project has been consolidated into a single Python l
     <td align="center"><em>Fitted efficiency curve for HPGe detector using the <code>Calibration</code> class</em></td>
     <td align="center"><em>Exponential decay of ¹⁵⁴ᵐ¹Tb derived from serial HPGe spectra using the <code>Serial</code> class</em></td>
   </tr>
+  <tr>
+    <td align="center">
+      <a href="example_outputs/calibration-results.csv">CSV</a> · 
+      <a href="example_outputs/calibration-results.xlsx">XLSX</a>
+    </td>
+    <td align="center">
+      <a href="example_outputs/154Tb_decay_results.csv">CSV</a> · 
+      <a href="example_outputs/154Tb_decay_results.xlsx">XLSX</a>
+    </td>
+  </tr>
 </table>
+
 
 
 A detailed description with links of the contents of the repository are listed in the Table of Contents below.
