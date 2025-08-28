@@ -18,10 +18,10 @@ A detailed description with links of the contents of the repository are listed b
 
 ### Source Files
 - **`src/`** – Contains the core Python implmentation of **libname**.
-  - **`yield_calc.py`** – Implements the `Yield` class. Calculates theoretical end-of-bombardment (EoB) activity yields for irradiated targets.
+  - **`production.py`** – Implements the `Yield` class. Calculates theoretical end-of-bombardment (EoB) activity yields for irradiated targets.
   - **`calibration.py`** – Implements the `Calibration` class. Streamlines workflows for HPGe detector efficiency calibration.
   - **`serial.py`** – Implements the `Serial` class. Provides a pipeline for automated analysis of serial γ-spectra measurements.
-  - **`nuclear_physics_utils.py`** – A collection of utility functions used internally by `yield_calc.py`, `calibration.py`, and `serial.py`.
+  - **`utils.py`** – A collection of utility functions used internally by `production.py`, `calibration.py`, and `serial.py`.
 
 ### Workflow Tutorials
 - **`workflows/`** – Contains interactive **Google Colab** Juypter notebooks demonstrating how to use each core class:
@@ -29,7 +29,7 @@ A detailed description with links of the contents of the repository are listed b
   - **`yield_workflow.ipynb`**
 
 ### Data Acquisition
-- **`data_acquisition/`** – Example JOB files for automated HPGe spectrum collection using MAESTRO (Windows v7.01, ORTEC®).
+- **`serial_data_acquisition/`** – Example JOB files for automated HPGe spectrum collection using MAESTRO (Windows v7.01, ORTEC®).
   - Includes example JOB files with compatible file naming conventions for automated spectrum recording.
   - May also include Linux/Python scripts for automatically renaming files as needed.
 
