@@ -101,6 +101,11 @@ Example `.JOB` files for automated HPGe spectrum collection using **ORTEC® MAES
 1. peak summing in calibration class
 2. the two methods in Knoll for HPGe detectors
 3. optimzation techniques for yield class, using rx.Integrate maybe.
+4. Need to specify where calibration data was taken in Serial to ensure proper r-2 law corrections
+5. provide more informative statistics for qulatiy of curve fit
+6. process_calibration_data need to make the output direcotyr if its not already made
+7. warning messages if attributes arent filled before calling the functions
+8. print names with expnential decay plots
 
 ## Acknowledgments
 
