@@ -6,10 +6,10 @@ This repository accompanies the project detailed in [Paper Title/Reference]. The
 
 All code developed for this project has been consolidated into a single Python library, **libname**, which will continue to be developed into a comprehensive package desinged for applications in nuclear physics, nulcear chemistry, radiochemicstry, and machine learning challenges in radiopharmaceutical development. Source code and tutorials for libname v0.0.x are provided in this repostiory. Representative example outputs are shown below.
 
-| Calibration Curve generated using the calibration module | Expirmentally observed exponential decay of 154m1Tb |
+| **HPGe Detector Efficiency Calibration Curve**| 154m1 Decay Curve |
 |----------|----------|
 | ![Plot 1](example_outputs/calibration-plot.png) | ![Plot 2](example_outputs/decay_plots/154TB_540.180_activity-time.png) |
-| *Calibration curve*  | *Calibration curve* |
+| *Fitted efficiency curve for HPGe detector using the `Calibration` module*  | *Exponential decay of ¹⁵⁴ᵐ¹Tb derived from serial HPGe spectra* |
 
 A detailed description with links of the contents of the repository are listed in the Table of Contents below.
 
