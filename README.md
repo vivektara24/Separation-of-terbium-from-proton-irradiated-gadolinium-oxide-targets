@@ -10,7 +10,7 @@ All code developed for this project has been consolidated into a single Python l
 |-------------------------------------|--------------------------|
 | ![Plot 1](example_outputs/calibration-plot.png) | ![Plot 2](example_outputs/decay_plots/154TB_540.180_activity-time.png) |
 | *Fitted efficiency curve for HPGe detector using the `Calibration` class*  | *Exponential decay of ¹⁵⁴ᵐ¹Tb derived from serial HPGe spectra using the `Serial` class* |
-| [Download Peak-Fit CSV](example_outputs/efficiency_peak_data.csv) · [XLSX](example_outputs/calibration-results.xlsx) | [Download CSV](example_outputs/154Tb_decay_results.csv) · [XLSX](example_outputs/154Tb_decay_results.xlsx) |
+| [Peak-Fit CSV](example_outputs/efficiency_peak_data.csv) · [Efficiency Fit Parameters](example_outputs/calibration-results.xlsx) | [Download CSV](example_outputs/154Tb_decay_results.csv) · [XLSX](example_outputs/154Tb_decay_results.xlsx) |
 
 A detailed description with links of the contents of the repository are listed in the Table of Contents below.
 
