@@ -21,11 +21,10 @@ A detailed description with links of the contents of the repository are listed b
 3. **`serial.py`** – Implements the `Serial` class. Provides a pipeline for automated analysis of serial γ-spectra measurements.
 4. **`nuclear_physics_utils.py`** – A collection of utility functions used internally by `yield_calc.py`, `calibration.py`, and `serial.py`.
 
-### Tutorials
-- **`tutorials/`** – Contains interactive **Google Colab** Juypter notebooks demonstrating how to use each core class:
-  - `serial_tutorial.ipynb`
-  - `calibration_tutorial.ipynb`
-  - `yield_tutorial.ipynb`
+### Workflow Tutorials
+- **`workflows/`** – Contains interactive **Google Colab** Juypter notebooks demonstrating how to use each core class:
+  - `calibration_to_serial_workflow.ipynb`
+  - `yield_workflow.ipynb`
 
 ### Data Acquisition
 - **`data_acquisition/`** – Example JOB files for automated HPGe spectrum collection using MAESTRO (Windows v7.01, ORTEC®).
