@@ -113,7 +113,7 @@ The product of λ and a time interval *t* (in consistent units) gives the probab
 The expectation value of the total number of atoms in the group that disintegrate per unit time, for intervals very short compared to **1/λ**, is called the **activity** of the group:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?A=\lambda N" />
+  <img src="https://latex.codecogs.com/svg.latex?A=\lambda%20N" />
 </p>
 
 This has units of inverse time, since **N** is a dimensionless number.  
@@ -121,7 +121,7 @@ This has units of inverse time, since **N** is a dimensionless number.
 So long as the original group is not replenished by additional nuclei, the rate of change in **N** at any time *t* is equal to the activity:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?-\frac{dN}{dt}=\lambda N" />
+  <img src="https://latex.codecogs.com/svg.latex?-\frac{dN}{dt}=\lambda%20N" />
 </p>
 
 
