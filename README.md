@@ -116,83 +116,126 @@ Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 deca
 
 Most nuclear reactions leave the final nucleus in an excited state. These excited states decay rapidly to the ground through through the emission of one or more γ-rays. The energy of the γ-rays is charecteristic of the energy difference between nuclear states. 
 
-Consider the decay of a nucleus of mass M at rest from an intial excited state Eᵢ to a final state E𝒻
+Consider the decay of a nucleus of mass M at rest from an intial excited state Eᵢ to a final state E𝒻.
 
-To conserve linear momentum, the final nucleus will not be at rest but must have a recoil momentum p_R and corresponding recoil kinetic energy T_R, which we assume to be nonrelativistic.
+To conserve linear momentum, the final nucleus will not be at rest but must have a recoil momentum p<sub>R</sub> and corresponding recoil kinetic energy T<sub>R</sub>, which we assume to be nonrelativistic.
 
-![equation](https://latex.codecogs.com/svg.latex?T_R=\frac{p_R^2}{2M})
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?T_R=\frac{p_R^2}{2M}" />
+</p>
 
 Conservation of total energy and momentum give,
 
-![equation](https://latex.codecogs.com/svg.latex?E_i=E_f+E_\gamma+T_R)  
-![equation](https://latex.codecogs.com/svg.latex?0=p_R+p_\gamma)
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?E_i=E_f+E_\gamma+T_R" /><br/>
+  <img src="https://latex.codecogs.com/svg.latex?0=p_R+p_\gamma" />
+</p>
 
 The nucleus recoils with momentum equal and opposite to that of the gamma ray.
 
 Defining,
 
-![eq](https://latex.codecogs.com/svg.latex?\Delta%20E%20\equiv%20E_i-E_f)
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\Delta%20E\equiv%20E_i-E_f" />
+</p>
 
 And using relative relationship,
-![eq](https://latex.codecogs.com/svg.latex?E_\gamma%20=%20c\,p_\gamma)
 
-![eq](https://latex.codecogs.com/svg.latex?\Delta%20E=E_\gamma+\frac{E_\gamma^2}{2Mc^2})
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?E_\gamma=c\,p_\gamma" />
+</p>
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\Delta%20E=E_\gamma+\frac{E_\gamma^2}{2Mc^2}" />
+</p>
 
 Which has the solution,
-![eq](https://latex.codecogs.com/svg.latex?E_\gamma=Mc^2\left[-1\pm\sqrt{1+\frac{2\Delta%20E}{Mc^2}}\right])
 
-The energy differences of the nucleus are typically of the order of MeV, which the rest energies are of order A*10^3 eV, where A is the mass number.
-![eq](https://latex.codecogs.com/svg.latex?\Delta%20E\ll%20Mc^2)
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?E_\gamma=Mc^2\left[-1\pm\sqrt{1+\frac{2\Delta%20E}{Mc^2}}\right]" />
+</p>
 
-To a precision of the order 10^-4 to 10^-5 we keep only the first three terms in the expansion of the square root.
-![eq](https://latex.codecogs.com/svg.latex?E_\gamma\approx\Delta%20E-\frac{(\Delta%20E)^2}{2Mc^2})
+The energy differences of the nucleus are typically of the order of MeV, which the rest energies are of order A×10³ eV, where A is the mass number.
 
-The actual γ-ray energy is thus diminished somewhat from the maximum available decay energy. Recoil correction to the energy is generally cosidered negligible amounting to a 10^-5 correction that is usually far smaller than expeiremental uncerainty. The Mossbauer effect is one circumstance in which recoil plays an important role.
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\Delta%20E\ll%20Mc^2" />
+</p>
+
+To a precision of the order 10⁻⁴ to 10⁻⁵ we keep only the first three terms in the expansion of the square root.
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?E_\gamma\approx\Delta%20E-\frac{(\Delta%20E)^2}{2Mc^2}" />
+</p>
+
+The actual γ-ray energy is thus diminished somewhat from the maximum available decay energy. Recoil correction to the energy is generally cosidered negligible amounting to a 10⁻⁵ correction that is usually far smaller than expeiremental uncerainty. The Mossbauer effect is one circumstance in which recoil plays an important role.
 
 In this work we assume,
-![eq](https://latex.codecogs.com/svg.latex?E_\gamma\approx\Delta%20E)
 
-For low energy γ-rays, recoil energy is less than 1 eV and has negligible effect. High-energy γ-rays (5 - 10 MeV radiation emitted following neutron capture) gives recoils in the range of 100 eV, which may be sufficient to drive the recoiling atom from its position in a solid lattice ("radiation damage")
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?E_\gamma\approx\Delta%20E" />
+</p>
 
+For low energy γ-rays, recoil energy is less than 1 eV and has negligible effect. High-energy γ-rays (5–10 MeV radiation emitted following neutron capture) gives recoils in the range of 100 eV, which may be sufficient to drive the recoiling atom from its position in a solid lattice ("radiation damage").
+
+---
 
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
 
-For a given γ-peak in the spectrum, the observed counts can be expressed as  
+For a given γ-peak in the spectrum, the observed counts can be expressed as:
 
-![eq](https://latex.codecogs.com/svg.latex?\text{counts}=\text{decays}\times\epsilon_{\text{abs}}\times%20I_\gamma)  
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\text{counts}=\text{decays}\times\epsilon_{\text{abs}}\times%20I_\gamma" />
+</p>
 
 where:  
 - **decays** – the total number of nuclear decays in the sample for the radionuclide emitting the γ-line  
 - **I<sub>γ</sub>** – the emission probability (branching ratio) that the radionuclide decay produces the specific γ-ray of interest  
 - **ϵ<sub>abs</sub>** – the absolute detector efficiency at the γ-ray energy of interest  
 
-The **nuclab** `Calibration` class is used to determine absolute detector efficiencies. These depend not only on intrinsic detector properties but also on the experimental counting geometry. Formally, the absolute efficiency is defined as  
+The **nuclab** `Calibration` class is used to determine absolute detector efficiencies. These depend not only on intrinsic detector properties but also on the experimental counting geometry. Formally, the absolute efficiency is defined as:
 
-![eq](https://latex.codecogs.com/svg.latex?\epsilon_{\text{abs}}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}})
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\epsilon_{\text{abs}}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}}" />
+</p>
 
-Over the course of a measurment, the activity of a radioctive source decreases exponentially:
+Over the course of a measurement, the activity of a radioactive source decreases exponentially:
 
-![eq](https://latex.codecogs.com/svg.latex?A(t)=A_0e^{-\lambda%20t})
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?A(t)=A_0e^{-\lambda%20t}" />
+</p>
 
-To obtain the total number of decays during a measurement, the activity curve is integrated over time  
-(*units check: Bq × s = decays/s × s = decays*):
+To obtain the total number of decays during a measurement, the activity curve is integrated over time (*units check: Bq × s = decays/s × s = decays*):
 
-![eq](https://latex.codecogs.com/svg.latex?\int_{t_1}^{t_2}A(t)\,dt=\int_{t_1}^{t_2}A_0e^{-\lambda%20t}\,dt=\frac{-A_0}{\lambda}e^{-\lambda%20t}\Big|_{t_1}^{t_2}=\frac{A_0}{\lambda}(e^{-\lambda%20t_1}-e^{-\lambda%20t_2}))
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\int_{t_1}^{t_2}A(t)\,dt=\int_{t_1}^{t_2}A_0e^{-\lambda%20t}\,dt=\frac{-A_0}{\lambda}e^{-\lambda%20t}\Big|_{t_1}^{t_2}=\frac{A_0}{\lambda}(e^{-\lambda%20t_1}-e^{-\lambda%20t_2})" />
+</p>
 
-For the special case where the measurement starts at *t₁ = 0*:  
-![eq](https://latex.codecogs.com/svg.latex?\int_{0}^{t_2}A(t)\,dt=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2}))
+For the special case where the measurement starts at *t₁ = 0*:
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\int_{0}^{t_2}A(t)\,dt=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2})" />
+</p>
 
 Relating the number of decays to the recorded counts gives:
-![eq](https://latex.codecogs.com/svg.latex?\frac{\text{counts}}{\epsilon%20I_\gamma}=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2}))
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\frac{\text{counts}}{\epsilon%20I_\gamma}=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2})" />
+</p>
 
 Solving for the initial activity *A₀* (i.e., the activity at the start of the measurement):
-![eq](https://latex.codecogs.com/svg.latex?A_0=\frac{\text{counts}\cdot\lambda}{\epsilon%20I_\gamma\,(1-e^{-\lambda%20t_2})})
 
-This formulation is important because it accounts for the decay of radioactive material during the measurement interval. In contrast, the general counts relation  
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?A_0=\frac{\text{counts}\cdot\lambda}{\epsilon%20I_\gamma\,(1-e^{-\lambda%20t_2})}" />
+</p>
 
-![eq](https://latex.codecogs.com/svg.latex?\text{counts}=\text{decays}\cdot\epsilon%20I_\gamma)
+This formulation is important because it accounts for the decay of radioactive material during the measurement interval. In contrast, the general counts relation:
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\text{counts}=\text{decays}\cdot\epsilon%20I_\gamma" />
+</p>
 
 does not incorporate the time-dependent decrease in activity.
+
 
 ## Package Improvment Ideas
 
