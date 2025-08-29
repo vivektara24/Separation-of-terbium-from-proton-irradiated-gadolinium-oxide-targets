@@ -44,7 +44,6 @@ A detailed description with links of the contents of the repository are listed i
 ## Table of Contents
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
-- [`.Spe` File Naming Convention (Serial)](#spe-file-naming-convention)
 - [Description of Methods](#de)
 - [Acknoledgements](acknoldgments)
 ## Repository Contents
