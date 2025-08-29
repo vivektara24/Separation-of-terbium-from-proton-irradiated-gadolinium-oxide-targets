@@ -108,9 +108,41 @@ python example.py
 
 Consider a large number **N** of identical radioactive atoms. We define **λ** as the total radioactive decay constant, which has dimensions of reciprocal time (typically s⁻¹).  
 
-The product of λ and a time interval *t* (in consistent units) gives the probability that an individual atom will decay during that interval, valid for time intervals **≪ 1/λ**.  
+The product of λ and a time interval *t* (in consistent units) gives the probability that an individual atom will decay during that interval, valid for time intervals **≪ 1/λ**. We make the well-established assumption that λ is independent of the age of the atom and of all physical and chemical conditions such as temperature, pressure, concentration, etc.
 
-We make the well-established assumption that λ is independent of the age of the atom and of all physical and chemical conditions such as temperature, pressure, concentration, etc.
+The expectation value of the total number of atoms in the group that disintegrate per unit time, for intervals very short compared to **1/λ**, is called the **activity** of the group:
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?A=\lambda N" />
+</p>
+
+This has units of inverse time, since **N** is a dimensionless number.  
+
+So long as the original group is not replenished by additional nuclei, the rate of change in **N** at any time *t* is equal to the activity:
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?-\frac{dN}{dt}=\lambda N" />
+</p>
+
+
+The old unit of activity was the **curie (Ci)**, originally defined as the number of disintegrations per second occurring in a mass of 1 g of ²²⁶₈₈Ra.  
+Later the definition was divorced from the radium standard and fixed to:
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?1\,\text{Ci}=3.7\times10^{10}\,\text{s}^{-1}" />
+</p>
+
+(1 g of ²²⁶Ra has an activity of 0.988 Ci).  
+
+More recently, the SI unit **becquerel (Bq)** was adopted, defined as:
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?1\,\text{Bq}=1\,\text{s}^{-1}" />
+</p>
+
+- **1 Ci** = 3.7 × 10¹⁰ Bq  
+- **1 mCi** = 3.7 × 10⁷ Bq  
+- **1 µCi** = 3.7 × 10⁴ Bq  
 
 
 Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 decay/second). Pulse-mode detectors are instruments designed to register each individual quantum of radiation interacting with the detector. A spectrometer is a specialized type of pulse-mode detector that also measures the energy of each quantum, producing a radiation energy spectrum as its output. To determine the activity of a multi-radionuclide sample, a spectrometer can be used to measure the net counts within energy peaks associated with specific radionuclides, from which the corresponding activities can be calculated.
