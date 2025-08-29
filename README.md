@@ -130,7 +130,11 @@ Conservation of total energy and momentum give,
 The nucleus recoils with momentum equal and opposite to that of the gamma ray.
 
 Defining,
-![eq](https://latex.codecogs.com/svg.latex?\Delta%20E\equiv%20E_i-E_f,\quad%20E_\gamma=cp_\gamma)
+
+![eq](https://latex.codecogs.com/svg.latex?\Delta%20E%20\equiv%20E_i-E_f)
+
+![eq](https://latex.codecogs.com/svg.latex?E_\gamma%20=%20c\,p_\gamma)
+
 
 And using relative relationship,
 ![eq](https://latex.codecogs.com/svg.latex?\Delta%20E=E_\gamma+\frac{E_\gamma^2}{2Mc^2})
