@@ -103,8 +103,6 @@ Try the tutorial in `example.py` to verify your installation.
 ```python
 python example.py
 ```
-## Example Output of Serial Class
-
 ## Package Improvment Ideas
 
 1. peak summing in calibration class
