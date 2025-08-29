@@ -31,6 +31,13 @@ All code developed for this project has been consolidated into a single Python l
   </tr>
 </table>
 
+<p align="center">
+  <a href="example_outputs/isotope_results.xlsx">
+    Yield calculations — per-slice isotope activities & totals (XLSX)
+  </a>
+</p>
+
+
 
 
 A detailed description with links of the contents of the repository are listed in the Table of Contents below.
