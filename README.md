@@ -157,24 +157,20 @@ For low energy γ-rays, recoil energy is less than 1 eV and has negligible effec
 
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
 
-For a given γ-peak in the spectrum, the observed counts can be expressed as:
+For a given γ-peak in the spectrum, the observed counts can be expressed as  
 
-counts = decays * ϵabs* Iγ
+![eq](https://latex.codecogs.com/svg.latex?\text{counts}=\text{decays}\times\epsilon_{\text{abs}}\times%20I_\gamma)  
 
-Where decays is the total number of nuclear decays in the sammple for the radionuclide emitting the γ-line, Iγ is the emission probability that the decay of the radionuclide produces the specific γ-ray of interest, and ϵabs
-	​
+where:  
+- **decays** – the total number of nuclear decays in the sample for the radionuclide emitting the γ-line  
+- **I<sub>γ</sub>** – the emission probability (branching ratio) that the radionuclide decay produces the specific γ-ray of interest  
+- **ϵ<sub>abs</sub>** – the absolute detector efficiency at the γ-ray energy of interest  
 
-	​
+The **nuclab** `Calibration` class is used to determine absolute detector efficiencies. These depend not only on intrinsic detector properties but also on the experimental counting geometry. Formally, the absolute efficiency is defined as  
+
+![eq](https://latex.codecogs.com/svg.latex?\epsilon_{\text{abs}}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}})
 
 
-Where decays is the total number of nuclear decays happening in the sample for the isotope emitting that gammas line, I_gamma is the fraction of times that when the radionuclide decays it populates an excited state of the duagher nucleus that decays and gives off teh gamma-line being alayized, and the absolute detector efficiency is the absolute detector efficiency as the specific gamma energy of interest.
-
-
-The `Calibration` class is used to determine the absolute detector effiicienies, which are dependent not only on detector properties but also on details of the counting geomtery defined as,
-
-![equation](https://latex.codecogs.com/svg.latex?\epsilon_{abs}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}})
-
-The absolute detector efficiency is a function of the incident energy range for a given detector setup.
 
 Over the course of an HPGe meaurment the source decays away exponentially. Such that the counts that the detector observes if the meauremnt time is long compared with the half-life of the activity 
 
