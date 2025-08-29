@@ -157,13 +157,13 @@ The Lorentz force in the circular orbit, **qvB**, provides the necessary centrip
 The time necessary for a semicircular orbit is:  
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?t=\frac{\pi r}{v}=\frac{\pi m}{qB}" />
+  <img src="https://latex.codecogs.com/svg.latex?t=%5Cfrac%7B%5Cpi%20r%7D%7Bv%7D=%5Cfrac%7B%5Cpi%20m%7D%7BqB%7D" />
 </p>
 
 The frequency of the AC voltage is:  
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\nu=\frac{1}{2t}=\frac{qB}{2\pi m}" />
+  <img src="https://latex.codecogs.com/svg.latex?%5Cnu=%5Cfrac%7B1%7D%7B2t%7D=%5Cfrac%7BqB%7D%7B2%5Cpi%20m%7D" />
 </p>
 
 This is often called the **cyclotron frequency** or **cyclotron resonance frequency** for a particle of charge *q* and mass *m* moving in a uniform field *B*. Here, ν and B are intimately linked—for a given field strength, the frequency can only take one value for resonance.  
