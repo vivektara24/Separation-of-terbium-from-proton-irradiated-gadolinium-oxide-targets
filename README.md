@@ -133,15 +133,26 @@ Defining,
 
 ![eq](https://latex.codecogs.com/svg.latex?\Delta%20E%20\equiv%20E_i-E_f)
 
+And using relative relationship,
 ![eq](https://latex.codecogs.com/svg.latex?E_\gamma%20=%20c\,p_\gamma)
 
-
-And using relative relationship,
 ![eq](https://latex.codecogs.com/svg.latex?\Delta%20E=E_\gamma+\frac{E_\gamma^2}{2Mc^2})
 
+Which has the solution,
 ![eq](https://latex.codecogs.com/svg.latex?E_\gamma=Mc^2\left[-1\pm\sqrt{1+\frac{2\Delta%20E}{Mc^2}}\right])
 
-Which has the solution
+The energy differences of the nucleus are typically of the order of MeV, which the rest energies are of order A*10^3 eV, where A is the mass number.
+![eq](https://latex.codecogs.com/svg.latex?\Delta%20E\ll%20Mc^2)
+
+To a precision of the order 10^-4 to 10^-5 we keep only the first three terms in the expansion of the square root.
+![eq](https://latex.codecogs.com/svg.latex?E_\gamma\approx\Delta%20E-\frac{(\Delta%20E)^2}{2Mc^2})
+
+The actual γ-ray energy is thus diminished somewhat from the maximum available decay energy. Recoil correction to the energy is generally cosidered negligible amounting to a 10^-5 correction that is usually far smaller than expeiremental uncerainty. The Mossbauer effect is one circumstance in which recoil plays an important role.
+
+In this work we assume,
+![eq](https://latex.codecogs.com/svg.latex?E_\gamma\approx\Delta%20E)
+
+For low energy γ-rays, recoil energy is less than 1 eV and has negligible effect. High-energy γ-rays (5 - 10 MeV radiation emitted following neutron capture) gives recoils in the range of 100 eV, which may be sufficient to drive the recoiling atom from its position in a solid lattice ("radiation damage")
 
 
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
