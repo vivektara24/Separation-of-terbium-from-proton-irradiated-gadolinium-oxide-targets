@@ -21,7 +21,7 @@ All code developed for this project has been consolidated into a single Python l
   </tr>
   <tr>
     <td align="center">
-      <a href="example_outputs/efficiency_peak_data">Calibration Peak Fit Data</a> · 
+      <a href="example_outputs/efficiency_peak_data.csv">Peak fit data + per-line efficiency values (CSV)</a> · 
       <a href="example_outputs/calibration-results.xlsx">XLSX</a>
     </td>
     <td align="center">
