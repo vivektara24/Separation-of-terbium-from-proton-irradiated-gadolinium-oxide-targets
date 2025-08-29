@@ -358,6 +358,13 @@ In diagnosis (imaging) emitted radiation from injected radionuclides is detected
 
 Radiopharmaceuticals are radioactive compounds used for diagnosis and therapy. Most (95%) radiopharmaceuticals are presently used for diagnosis. A radiopharmaceutical generally has two parts, the radionuclide and the pharmaceutical. The pharmaceutical component allows the compound to preferentially locate in organs or to particpate in some function of the organ. The radiation from the nuclide must be easily detected and lead to a controlled dose to the patient. The effective half-life of the radionuclide in the target organ or the body should be short to minimize unnecessary radiation exposure. Radiopharmecuticals should involve γ-emitting radionuclides, while those intended for therapy will involve α or β⁻ emitters. Therapy with α emitters is used for small tumors due to the short range of the α-particles in matter, while the β⁻ emitters are used with larger tumors.
 
+<p align="center">
+  <img src="images/radiopharmaceuticals-diagram" alt="Example HPGe Gamma Spectrum" width="500"/>
+  <br/>
+  <em>Dramatic tumor regression following ²²⁵Ac-PSMA therapy.</em>
+</p>
+
+
 Additionally the Auger effect has been explored as a potential source for targeted radiotherapy. The Auger effects is based on the emission of a low energy inner-shell electron (typically <25 keV) from an atom post electron caputre (EC), internal conversion (IC), or incident X-ray excitation. The phenomenon can induce an Auger cascade, where the intial emission of a primary electron is followed by sequential relaxation process that release multiple low-energy electrons in close proximity to the emission site (2-500nm). The short range of the emitted Auger cascade results in medium-high levels of linear energy transfer (4-26 keV/μm) exerted on the surrounding tissue. This property makes Auger emitters the ideal candidates for delivering high levels of targeted radiation to a specific target with dimensions comparable to, for example, the DNA.
 
 <p align="center">
