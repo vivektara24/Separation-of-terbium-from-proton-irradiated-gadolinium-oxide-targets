@@ -337,6 +337,7 @@ This formulation is important because it accounts for the decay of radioactive m
 </p>
 
 does not incorporate the time-dependent decrease in activity.
+
 ---
 
 The most rapidly expanding area of radionuclide use is in **nuclear medicine**. Nuclear medicine deals withteh use of radiation and radioactivity to diagnose and treat disease.
@@ -345,7 +346,7 @@ The two principal areas of endeavor, **diagnosis** and **therapy**, involve diff
 
 In diagnosis (imaging) emitted radiation from injected radionuclides is detected by special detectors (cameras) to give images of the body. In therapy, radionuclides are injected into the body and concentrated in the organ of choice and damage the tissue. Nuclear medicine combines nuclear and radiochemistry, pharmacy medicine, and radiation biology.
 
-Radiopharmaceuticals are radioactive compounds
+Radiopharmaceuticals are radioactive compounds used for diagnosis and therapy. Most (95%) radiopharmaceuticals are presently used for diagnosis. A radiopharmaceutical generally has two parts, the radionuclide and the pharmaceutical. The pharmaceutical component allows the compound to preferentially locate in organs or to particpate in some function of the organ. The radiation from the nuclide must be easily detected and lead to a controlled dose to the patient. The effective half-life of the radionuclide in the target organ or the body should be short to minimize unnecessary radiation 
 
 ## Package Improvment Ideas
 
