@@ -349,7 +349,7 @@ The most rapidly expanding area of radionuclide use is in **nuclear medicine**. 
 <p align="center">
   <img src="images/blog-isotopes-hr.jpg" alt="Example HPGe Gamma Spectrum" width="500"/>
   <br/>
-  <em>Diagram Explaining the Auger Effect.</em>
+  <em>Dramatic tumor regression following ²²⁵Ac-PSMA therapy.</em>
 </p>
 
 The two principal areas of endeavor, **diagnosis** and **therapy**, involve different methods and considerations for radioactivity use. Recent work in this area has focused on developing combinations of two isotopes in one delivery system: one isotope provides a therapy function and another isotope provides a diagnostic function, called **theranostics**.
