@@ -124,6 +124,20 @@ To conserve linear momentum, the final nucleus will not be at rest but must have
 
 Conservation of total energy and momentum give,
 
+![equation](https://latex.codecogs.com/svg.latex?E_i=E_f+E_\gamma+T_R)  
+![equation](https://latex.codecogs.com/svg.latex?0=p_R+p_\gamma)
+
+The nucleus recoils with momentum equal and opposite to that of the gamma ray.
+
+Defining,
+![eq](https://latex.codecogs.com/svg.latex?\Delta%20E\equiv%20E_i-E_f,\quad%20E_\gamma=cp_\gamma)
+
+And using relative relationship,
+![eq](https://latex.codecogs.com/svg.latex?\Delta%20E=E_\gamma+\frac{E_\gamma^2}{2Mc^2})
+
+![eq](https://latex.codecogs.com/svg.latex?E_\gamma=Mc^2\left[-1\pm\sqrt{1+\frac{2\Delta%20E}{Mc^2}}\right])
+
+Which has the solution
 
 
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
