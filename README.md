@@ -108,6 +108,8 @@ python example.py
 
 Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 decay/second). Pulse-mode detectors are instruments designed to register each individual quantum of radiation interacting with the detector. A spectrometer is a specialized type of pulse-mode detector that also measures the energy of each quantum, producing a radiation energy spectrum as its output. To determine the activity of a multi-radionuclide sample, a spectrometer can be used to measure the net counts within energy peaks associated with specific radionuclides, from which the corresponding activities can be calculated.
 
+![Example HPGe Gamma Spectrum](example_outputs/peak_fit_plots/120-Min-Decay-Report-d1s200-000.Spe-peak-fit.svg)
+
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. It is neccesary to have a precise figure for the detector efficiency in order to relate the number of pulses counted to the number of neutrons or photons incident on the detector. The `Calibration` class is used to determine absolute detector effiicienies, which are dependent not only on detector properties but also on details of the counting geomtery defined as
 
 ![equation](https://latex.codecogs.com/svg.latex?\epsilon_{abs}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}})
