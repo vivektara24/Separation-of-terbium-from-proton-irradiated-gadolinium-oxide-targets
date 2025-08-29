@@ -22,11 +22,11 @@ All code developed for this project has been consolidated into a single Python l
   <tr>
     <td align="center">
       <a href="example_outputs/efficiency_peak_data.csv">Peak fit data + per-line efficiency values (CSV)</a> · 
-      <a href="example_outputs/calibration-results.xlsx">XLSX</a>
+      <a href="example_outputs/calibration-results.xlsx">Efficiency fit parameters + fractional uncertainty (XLSX)</a>
     </td>
     <td align="center">
       <a href="example_outputs/per-line-peak-data.xlsx">Serial peak fit results (XLSX)</a> · 
-      <a href="example_outputs/decay-analysis-results.xlsx">Decay analysis results</a>
+      <a href="example_outputs/decay-analysis-results.xlsx">Decay analysis results (XLSX)</a>
     </td>
   </tr>
 </table>
