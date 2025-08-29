@@ -106,10 +106,9 @@ python example.py
 
 ## Theory
 
-Consider a large number **N** of identical radioactive atoms.  
-We define **λ** as the total radioactive decay constant, which has dimensions of reciprocal time (typically s⁻¹).  
+Consider a large number **N** of identical radioactive atoms. We define **λ** as the total radioactive decay constant, which has dimensions of reciprocal time (typically s⁻¹).  
 
-The product of λ and a time interval *t* (in consistent units) gives the probability that an individual atom will decay during that interval. This is valid for time intervals **≪ 1/λ**.  
+The product of λ and a time interval *t* (in consistent units) gives the probability that an individual atom will decay during that interval, valid for time intervals **≪ 1/λ**.  
 
 We make the well-established assumption that λ is independent of the age of the atom and of all physical and chemical conditions such as temperature, pressure, concentration, etc.
 
