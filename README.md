@@ -196,6 +196,15 @@ where:
 - **I** – projectile intensity (particles/s)  
   - Calculated from the beam current (µA) using the charge per particle and the conversion factor 6.24 × 10¹⁸ charges/coulomb  
 
+Radioactive nuclei, either natural or artificially produced by nuclear reactions, are unstable and tend to seek more stable configurations through expulsion of energetic particles, including one or more of the following,* where corresponding changes in the atomic number (Z) and number of nucleons (A) are indicated:
+
+| Emission Type   | ΔZ  | ΔA  |
+|-----------------|-----|-----|
+| α-particle      | -2  | -4  |
+| β⁻-particle     | +1  | 0   |
+| β⁺-particle     | -1  | 0   |
+| γ-ray           | 0   | 0   |
+
 
 Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 decay/second). Pulse-mode detectors are instruments designed to register each individual quantum of radiation interacting with the detector. A spectrometer is a specialized type of pulse-mode detector that also measures the energy of each quantum, producing a radiation energy spectrum as its output. To determine the activity of a multi-radionuclide sample, a spectrometer can be used to measure the net counts within energy peaks associated with specific radionuclides, from which the corresponding activities can be calculated.
 
