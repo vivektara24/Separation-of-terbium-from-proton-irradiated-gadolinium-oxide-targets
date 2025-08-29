@@ -115,7 +115,22 @@ Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 deca
 </p>
 
 
-Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. It is neccesary to have a precise figure for the detector efficiency in order to relate the number of pulses counted to the number of neutrons or photons emitted by the source. The `Calibration` class is used to determine the absolute detector effiicienies, which are dependent not only on detector properties but also on details of the counting geomtery defined as,
+Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
+
+For a given γ-peak in the spectrum, the observed counts can be expressed as:
+
+counts = decays * ϵabs* Iγ
+
+Where decays is the total number of nuclear decays in the sammple for the radionuclide emitting the γ-line, Iγ is the emission probability that the decay of the radionuclide produces the specific γ-ray of interest, and ϵabs
+	​
+
+	​
+
+
+Where decays is the total number of nuclear decays happening in the sample for the isotope emitting that gammas line, I_gamma is the fraction of times that when the radionuclide decays it populates an excited state of the duagher nucleus that decays and gives off teh gamma-line being alayized, and the absolute detector efficiency is the absolute detector efficiency as the specific gamma energy of interest.
+
+
+The `Calibration` class is used to determine the absolute detector effiicienies, which are dependent not only on detector properties but also on details of the counting geomtery defined as,
 
 ![equation](https://latex.codecogs.com/svg.latex?\epsilon_{abs}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}})
 
