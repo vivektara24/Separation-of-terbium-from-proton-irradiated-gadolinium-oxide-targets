@@ -361,7 +361,7 @@ Radiopharmaceuticals are radioactive compounds used for diagnosis and therapy. M
 <p align="center">
   <img src="images/radiopharmaceuticals-diagram.jpg" alt="Example HPGe Gamma Spectrum" width="500"/>
   <br/>
-  <em>Dramatic tumor regression following ²²⁵Ac-PSMA therapy.</em>
+  <em>Molecular structure of a radiopharmaceutical.</em>
 </p>
 
 
