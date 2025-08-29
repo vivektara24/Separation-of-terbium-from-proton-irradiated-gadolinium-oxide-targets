@@ -346,6 +346,12 @@ Nuclear Medicine
 ---
 The most rapidly expanding area of radionuclide use is in **nuclear medicine**. Nuclear medicine deals withteh use of radiation and radioactivity to diagnose and treat disease.
 
+<p align="center">
+  <img src="images/blog-isotopes-hr.jpg" alt="Example HPGe Gamma Spectrum" width="500"/>
+  <br/>
+  <em>Diagram Explaining the Auger Effect.</em>
+</p>
+
 The two principal areas of endeavor, **diagnosis** and **therapy**, involve different methods and considerations for radioactivity use. Recent work in this area has focused on developing combinations of two isotopes in one delivery system: one isotope provides a therapy function and another isotope provides a diagnostic function, called **theranostics**.
 
 In diagnosis (imaging) emitted radiation from injected radionuclides is detected by special detectors (cameras) to give images of the body. In therapy, radionuclides are injected into the body and concentrated in the organ of choice and damage the tissue. Nuclear medicine combines nuclear and radiochemistry, pharmacy medicine, and radiation biology.
@@ -357,7 +363,7 @@ Additionally the Auger effect has been explored as a potential source for target
 <p align="center">
   <img src="images/auger_effect.jpg" alt="Example HPGe Gamma Spectrum" width="500"/>
   <br/>
-  <em>Example HPGe gamma spectrum with fitted peaks.</em>
+  <em>Diagram Explaining the Auger Effect.</em>
 </p>
 
 
