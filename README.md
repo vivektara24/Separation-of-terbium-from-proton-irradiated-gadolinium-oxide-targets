@@ -106,6 +106,8 @@ python example.py
 
 ## Theory
 
+Radiation Production
+---
 Consider a large number **N** of identical radioactive atoms. We define **λ** as the total radioactive decay constant, which has dimensions of reciprocal time (typically s⁻¹).  
 
 The product of λ and a time interval *t* (in consistent units) gives the probability that an individual atom will decay during that interval, valid for time intervals **≪ 1/λ**. We make the well-established assumption that λ is independent of the age of the atom and of all physical and chemical conditions such as temperature, pressure, concentration, etc.
@@ -207,6 +209,8 @@ Radioactive nuclei, either natural or artificially produced by nuclear reactions
 
 Some radionuclides decay by more than one mode.
 
+γ-Decay
+---
 
 Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 decay/second). Pulse-mode detectors are instruments designed to register each individual quantum of radiation interacting with the detector. A spectrometer is a specialized type of pulse-mode detector that also measures the energy of each quantum, producing a radiation energy spectrum as its output. To determine the activity of a multi-radionuclide sample, a spectrometer can be used to measure the net counts within energy peaks associated with specific radionuclides, from which the corresponding activities can be calculated.
 
@@ -279,8 +283,8 @@ In this work we assume,
 
 For low energy γ-rays, recoil energy is less than 1 eV and has negligible effect. High-energy γ-rays (5–10 MeV radiation emitted following neutron capture) gives recoils in the range of 100 eV, which may be sufficient to drive the recoiling atom from its position in a solid lattice ("radiation damage").
 
+Radiation Detection
 ---
-
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
 
 For a given γ-peak in the spectrum, the observed counts can be expressed as:
@@ -338,8 +342,8 @@ This formulation is important because it accounts for the decay of radioactive m
 
 does not incorporate the time-dependent decrease in activity.
 
+Nuclear Medicine
 ---
-
 The most rapidly expanding area of radionuclide use is in **nuclear medicine**. Nuclear medicine deals withteh use of radiation and radioactivity to diagnose and treat disease.
 
 The two principal areas of endeavor, **diagnosis** and **therapy**, involve different methods and considerations for radioactivity use. Recent work in this area has focused on developing combinations of two isotopes in one delivery system: one isotope provides a therapy function and another isotope provides a diagnostic function, called **theranostics**.
