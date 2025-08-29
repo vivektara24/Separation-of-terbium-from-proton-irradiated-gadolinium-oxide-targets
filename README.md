@@ -25,8 +25,8 @@ All code developed for this project has been consolidated into a single Python l
       <a href="example_outputs/calibration-results.xlsx">XLSX</a>
     </td>
     <td align="center">
-      <a href="example_outputs/per-line-peak-data.xlsx">Formatted Serial Peak Fit Output</a> · 
-      <a href="example_outputs/decay-analysis-results.xlsx">Decay Anayssis Reuslts</a>
+      <a href="example_outputs/per-line-peak-data.xlsx">Serial peak fit results (XLSX)</a> · 
+      <a href="example_outputs/decay-analysis-results.xlsx">Decay analysis results</a>
     </td>
   </tr>
 </table>
