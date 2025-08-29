@@ -115,10 +115,11 @@ Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 deca
 </p>
 
 
-Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. It is neccesary to have a precise figure for the detector efficiency in order to relate the number of pulses counted to the number of neutrons or photons incident on the detector. The `Calibration` class is used to determine absolute detector effiicienies, which are dependent not only on detector properties but also on details of the counting geomtery defined as
+Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. It is neccesary to have a precise figure for the detector efficiency in order to relate the number of pulses counted to the number of neutrons or photons emitted by the source. The `Calibration` class is used to determine the absolute detector effiicienies, which are dependent not only on detector properties but also on details of the counting geomtery defined as,
 
 ![equation](https://latex.codecogs.com/svg.latex?\epsilon_{abs}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}})
 
+The absolute detector efficiency is a function of the incident energy range for a given detector setup.
 
 Over the course of an HPGe meaurment the source decays away exponentially. Such that the counts that the detector observes if the meauremnt time is long compared with the half-life of the activity 
 
