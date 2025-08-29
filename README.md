@@ -183,7 +183,7 @@ which leads to a maximum kinetic energy:
 For **charged particle induced nuclear reactions** (as done in a cyclotron), the expected activity produced in an irradiation is given by the production equation:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?A(t)=N_0\cdot\sigma\cdot I\cdot\left(1-e^{-\lambda\cdot%20t_{\text{irrad}}}\right)" />
+  <img src="https://latex.codecogs.com/svg.latex?A(t)=N_0\cdot\sigma\cdot%20I\cdot\left(1-e^{-\lambda\cdot%20t_{\text{irrad}}}\right)" />
 </p>
 
 where:  
