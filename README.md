@@ -32,6 +32,7 @@ All code developed for this project has been consolidated into a single Python l
 </table>
 
 <p align="center">
+ <td align="center"><em>Fitted efficiency curve for HPGe detector using the <code>Calibration</code> class</em></td>
  <a href="example_outputs/theoretical-yield-results.xlsx">Theoretical yield results (XLSX)</a>
 </p>
 
