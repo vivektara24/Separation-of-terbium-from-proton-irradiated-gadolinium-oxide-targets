@@ -21,12 +21,12 @@ All code developed for this project has been consolidated into a single Python l
   </tr>
   <tr>
     <td align="center">
-      <a href="example_outputs/calibration-results.csv">CSV</a> · 
+      <a href="example_outputs/efficiency_peak_data">Calibration Peak Fit Data</a> · 
       <a href="example_outputs/calibration-results.xlsx">XLSX</a>
     </td>
     <td align="center">
-      <a href="example_outputs/154Tb_decay_results.csv">CSV</a> · 
-      <a href="example_outputs/154Tb_decay_results.xlsx">XLSX</a>
+      <a href="example_outputs/per-line-peak-data.xlsx">Formatted Serial Peak Fit Output</a> · 
+      <a href="example_outputs/decay-analysis-results.xlsx">Decay Anayssis Reuslts</a>
     </td>
   </tr>
 </table>
