@@ -44,7 +44,7 @@ A detailed description with links of the contents of the repository are listed i
 ## Table of Contents
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
-- [Description of Methods](#de)
+- [Methods](#methods)
 - [Acknoledgements](acknoldgments)
 ## Repository Contents
 
@@ -103,6 +103,10 @@ Try the tutorial in `example.py` to verify your installation.
 ```python
 python example.py
 ```
+
+## Methods
+
+
 ## Package Improvment Ideas
 
 1. peak summing in calibration class
