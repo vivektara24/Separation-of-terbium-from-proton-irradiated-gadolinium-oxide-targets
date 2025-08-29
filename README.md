@@ -287,6 +287,8 @@ Radiation Detection
 ---
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
 
+
+
 For a given γ-peak in the spectrum, the observed counts can be expressed as:
 
 <p align="center">
@@ -387,6 +389,15 @@ Additionally the Auger effect has been explored as a potential source for target
 ## Useful Links
 
 - [Packaging Python Projects (official tutorial)](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+## Real Talk
+
+In our method we cailibrate an hpge detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decay of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected; losses occur due to _. Additionally coincidence summing may occur, . Reduces the observed number of counts detected at certain peak energies, reducing the detected activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, to the data (Bq/count).
+I need to learn more about coincidence summing calibration and detector calibration methods in general:
+- Is there a energy/relative gamma energy dependence of this or is it purly a timing thing? or maybe a number of gammas incident on the detector thing?
+- I believe 152Eu has well defined HPGe coincidence summing charecteristics (Not sure tho)
+- Would this not be impacted by the relative orientations of certain gammas emitted in coincidence? i.e angular momentum of relative nuclear states in the transition.
+
 
 
 ## Acknowledgments
