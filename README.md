@@ -179,7 +179,7 @@ To get the total number of decays from an activity curve you have to integrate t
 ![eq](https://latex.codecogs.com/svg.latex?\int_{t_1}^{t_2}A(t)dt=\int_{t_1}^{t_2}A_0e^{-\lambda%20t}dt=\frac{-A_0}{\lambda}e^{-\lambda%20t}\Big|_{t_1}^{t_2}=\frac{A_0}{\lambda}(e^{-\lambda%20t_1}-e^{-\lambda%20t_2}))
 
 If we define t_1 = 0
-![eq](https://latex.codecogs.com/svg.latex?\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2}))
+![eq](https://latex.codecogs.com/svg.latex?\,frac{A_0}{\lambda}(1-e^{-\lambda%20t_2}))
 
 **Relation to counts**  
 ![eq](https://latex.codecogs.com/svg.latex?\frac{\text{counts}}{\epsilon%20I_\gamma}=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2}))
