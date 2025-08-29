@@ -1,5 +1,7 @@
 # Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 
+**This work is supported in part by the Horizon-broadening Isotope Production Pipeline Opportunities (HIPPO) program, under GrantDE-SC0022550 from the Department of Energy's Isotope R&D and Production Program.
+**
 
 ## Overview
 This repository accompanies the project detailed in **_Separation of terbium from proton-irradiated gadolinium oxide targets – development of an effective, scalable and automatable process_ (Applied Radiation and Isotopes, 2025)** — see [https://doi.org/10.1016/j.apradiso.2025.112138](https://doi.org/10.1016/j.apradiso.2025.112138).
@@ -394,8 +396,22 @@ Additionally the Auger effect has been explored as a potential source for target
 
 In our method we cailibrate an hpge detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decay of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected; losses occur due to _. Additionally coincidence summing may occur, . Reduces the observed number of counts detected at certain peak energies, reducing the detected activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, to the data (CPS/Bq = # of counts detected in time interval / measurment time / # known number of decays in time interval).
 
+We then detect the number of counts across the energy spectrum of at natGd2O3 sample that had been irradiated at 12.6 MeV in a low-energy cyclotron tailored for 18F production for 30mins producing many radioactive terbium isotopes.  
 
+`But I'm not a rapper`
+
+`You know what I mean?`
 
 ## Acknowledgments
 
-This work is supported in part by the Horizon-broadening Isotope Production Pipeline Opportunities (HIPPO) program, under GrantDE-SC0022550 from the Department of Energy's Isotope R&D and Production Program.
+I would first like to thank Justin Peikin who built this project from the ground up. The work in **_Separation of terbium from proton-irradiated gadolinium oxide targets – development of an effective, scalable and automatable process_ (Applied Radiation and Isotopes, 2025)** — see [https://doi.org/10.1016/j.apradiso.2025.112138](https://doi.org/10.1016/j.apradiso.2025.112138) can be largely attributed to his .
+
+
+...ly, I would like to thank Taylor Johnson who not only built the control box of the terbinator but also .
+
+
+....ly I would like to thank Dr. Ellison who allowed me to explore the addtional topics presented in this repository.
+
+
+**This work is supported in part by the Horizon-broadening Isotope Production Pipeline Opportunities (HIPPO) program, under GrantDE-SC0022550 from the Department of Energy's Isotope R&D and Production Program.
+**
