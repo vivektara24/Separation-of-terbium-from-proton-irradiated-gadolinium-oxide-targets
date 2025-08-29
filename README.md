@@ -44,7 +44,7 @@ A detailed description with links of the contents of the repository are listed i
 ## Table of Contents
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
-- [Methods](#methods)
+- [Theory](#theory)
 - [Acknoledgements](acknoldgments)
 ## Repository Contents
 
@@ -104,7 +104,7 @@ Try the tutorial in `example.py` to verify your installation.
 python example.py
 ```
 
-## Methods
+## Theory
 
 Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 decay/second). Pulse-mode detectors are instruments designed to register each individual quantum of radiation interacting with the detector. A spectrometer is a specialized type of pulse-mode detector that also measures the energy of each quantum, producing a radiation energy spectrum as its output. To determine the activity of a multi-radionuclide sample, a spectrometer can be used to measure the net counts within energy peaks associated with specific radionuclides, from which the corresponding activities can be calculated.
 
