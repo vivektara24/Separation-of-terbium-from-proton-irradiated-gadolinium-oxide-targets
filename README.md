@@ -170,11 +170,30 @@ The **nuclab** `Calibration` class is used to determine absolute detector effici
 
 ![eq](https://latex.codecogs.com/svg.latex?\epsilon_{\text{abs}}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}})
 
-
-
-Over the course of an HPGe meaurment the source decays away exponentially. Such that the counts that the detector observes if the meauremnt time is long compared with the half-life of the activity 
+Over the course of the measurment the total activity of the source decreass exponentially.
 
 ![Equation](https://latex.codecogs.com/svg.latex?A(t)=A_0e^{-\lambda%20t})
+
+To get the total number of decays from an activity curve you have to integrate the activity curve accross time (Bq * seconds = decays/second * second = decays)
+
+**Activity decay law**  
+![eq](https://latex.codecogs.com/svg.latex?A(t)=A_0e^{-\lambda%20t})
+
+**Number of decays over [t₁, t₂]**  
+![eq](https://latex.codecogs.com/svg.latex?\int_{t_1}^{t_2}A(t)\,dt=\int_{t_1}^{t_2}A_0e^{-\lambda%20t}\,dt=\frac{-A_0}{\lambda}e^{-\lambda%20t}\Big|_{t_1}^{t_2}=\frac{A_0}{\lambda}(e^{-\lambda%20t_1}-e^{-\lambda%20t_2}))
+
+**Special case (0 → t₂)**  
+![eq](https://latex.codecogs.com/svg.latex?\int_{0}^{t_2}A(t)\,dt=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2}))
+
+**Relation to counts**  
+![eq](https://latex.codecogs.com/svg.latex?\frac{\text{counts}}{\epsilon%20I_\gamma}=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2}))
+
+**Solving for A₀**  
+![eq](https://latex.codecogs.com/svg.latex?A_0=\frac{\text{counts}\cdot\lambda}{\epsilon%20I_\gamma(1-e^{-\lambda%20t_2})})
+
+**General counts relation**  
+![eq](https://latex.codecogs.com/svg.latex?\text{counts}=\text{decays}\cdot\epsilon%20I_\gamma)
+
 
 ## Package Improvment Ideas
 
