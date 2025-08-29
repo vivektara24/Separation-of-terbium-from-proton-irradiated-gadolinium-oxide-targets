@@ -295,7 +295,7 @@ For a given γ-peak in the spectrum, the observed counts can be expressed as:
 
 where:  
 - **decays** – the total number of nuclear decays in the sample for the radionuclide emitting the γ-line  
-- **I<sub>γ</sub>** – the emission probability (branching ratio) that the radionuclide decay produces the specific γ-ray of interest  
+- **I<sub>γ</sub>** – the emission probability that the radionuclide decay produces the specific γ-ray of interest  
 - **ϵ<sub>abs</sub>** – the absolute detector efficiency at the γ-ray energy of interest  
 
 The **nuclab** `Calibration` class is used to determine absolute detector efficiencies. These depend not only on intrinsic detector properties but also on the experimental counting geometry. Formally, the absolute efficiency is defined as:
