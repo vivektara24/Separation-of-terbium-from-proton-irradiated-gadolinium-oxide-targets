@@ -106,6 +106,7 @@ python example.py
 
 ## Methods
 
+![Equation](https://latex.codecogs.com/svg.latex?A(t)=A_0e^{-\lambda%20t})
 
 ## Package Improvment Ideas
 
