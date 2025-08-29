@@ -114,6 +114,7 @@ Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 deca
   <em>Example HPGe gamma spectrum with fitted peaks.</em>
 </p>
 
+Most nuclear reactions leave the final nucleus in an excited state. These excited states decay rapidly to the ground through through the emission of one or more γ-rays. The energy of the γ-rays is charecteristic of the energy difference between nuclear states.
 
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
 
