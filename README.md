@@ -355,7 +355,7 @@ Radiopharmaceuticals are radioactive compounds used for diagnosis and therapy. M
 Additionally the Auger effect has been explored as a potential source for targeted radiotherapy. The Auger effects is based on the emission of a low energy inner-shell electron (typically <25 keV) from an atom post electron caputre (EC), internal conversion (IC), or incident X-ray excitation. The phenomenon can induce an Auger cascade, where the intial emission of a primary electron is followed by sequential relaxation process that release multiple low-energy electrons in close proximity to the emission site (2-500nm). The short range of the emitted Auger cascade results in medium-high levels of linear energy transfer (4-26 keV/μm) exerted on the surrounding tissue. This property makes Auger emitters the ideal candidates for delivering high levels of targeted radiation to a specific target with dimensions comparable to, for example, the DNA.
 
 <p align="center">
-  <img src="images/auger_effect.jpg" alt="Example HPGe Gamma Spectrum" width="1000"/>
+  <img src="images/auger_effect.jpg" alt="Example HPGe Gamma Spectrum" width="500"/>
   <br/>
   <em>Example HPGe gamma spectrum with fitted peaks.</em>
 </p>
