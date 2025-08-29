@@ -144,6 +144,43 @@ More recently, the SI unit **becquerel (Bq)** was adopted, defined as:
 - **1 mCi** = 3.7 × 10⁷ Bq  
 - **1 µCi** = 3.7 × 10⁴ Bq  
 
+Stable nuclei may be transformed into radioactive species by bombardment with suitable particles, or photons at sufficiently high energy. The purpose of an accelerator of charged particles is to direct against a target a beam of a specific kind of particles of a chosen energy. Low energy accelerators are used to produce beams in the 10-100-MeV range, often for reaction or scattering studies to elucidate the structure of specific final states, perhaps even individual excited states. These accelerators should have accurate energy selection and reasonably high currents because the ultimate precision of many expirments is limited by counting statistics.
+
+A cyclotron is one type of particle accelerator. It is a circular device in which a beam of particles makes many (often hundreds) of revolutions, receiving a small voltage increment on each orbit until the particles reach energies in the MeV range. The earliest and simplest of these accelerators is the cyclotron, sometimes referred to as a magnetic resonance accelerator. The essential design idea of the cyclotron was concieved by Ernest Lawrence at the University of California Berkeley in 1929. The critical feature is that the time it takes for a particle to travel one semicircular path is independent of the radius of the path--as particles spiral to larger radii, they also gain energy and move at greater speed, and the gain in path length is exactly compensated by the increased speed. If the half-period of the AC voltage on the dees is set equal to the semicircular orbit time, then the field alternates in exact synchronization with the passage of particles through the gap, and the particle sees an accelerating voltage each time it crosses the gap.
+
+The Lorentz force in the circular orbit, **qvB**, provides the necessary centripetal acceleration to maintain the circular motion at an instantaneous radius *r*:  
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?F=qvB=\frac{mv^{2}}{r}" />
+</p>
+
+The time necessary for a semicircular orbit is:  
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?t=\frac{\pi r}{v}=\frac{\pi m}{qB}" />
+</p>
+
+The frequency of the AC voltage is:  
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\nu=\frac{1}{2t}=\frac{qB}{2\pi m}" />
+</p>
+
+This is often called the **cyclotron frequency** or **cyclotron resonance frequency** for a particle of charge *q* and mass *m* moving in a uniform field *B*. Here, ν and B are intimately linked—for a given field strength, the frequency can only take one value for resonance.  
+
+The velocity increases gradually as the particle spirals outward, reaching its maximum value at the largest radius *R*:  
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?v_{\text{max}}=\frac{qBR}{m}" />
+</p>
+
+which leads to a maximum kinetic energy:  
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?T=\tfrac{1}{2}mv_{\text{max}}^{2}=\frac{q^{2}B^{2}R^{2}}{2m}" />
+</p>
+
+
 Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 decay/second). Pulse-mode detectors are instruments designed to register each individual quantum of radiation interacting with the detector. A spectrometer is a specialized type of pulse-mode detector that also measures the energy of each quantum, producing a radiation energy spectrum as its output. To determine the activity of a multi-radionuclide sample, a spectrometer can be used to measure the net counts within energy peaks associated with specific radionuclides, from which the corresponding activities can be calculated.
 
 <p align="center">
