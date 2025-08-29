@@ -176,11 +176,7 @@ Over the course of the measurment the total activity of the source decreass expo
 
 To get the total number of decays from an activity curve you have to integrate the activity curve accross time (Bq * seconds = decays/second * second = decays)
 
-**Activity decay law**  
-![eq](https://latex.codecogs.com/svg.latex?A(t)=A_0e^{-\lambda%20t})
-
-**Number of decays over [t₁, t₂]**  
-![eq](https://latex.codecogs.com/svg.latex?\int_{t_1}^{t_2}A(t)\,dt=\int_{t_1}^{t_2}A_0e^{-\lambda%20t}\,dt=\frac{-A_0}{\lambda}e^{-\lambda%20t}\Big|_{t_1}^{t_2}=\frac{A_0}{\lambda}(e^{-\lambda%20t_1}-e^{-\lambda%20t_2}))
+![eq](https://latex.codecogs.com/svg.latex?\int_{t_1}^{t_2}A(t)dt=\int_{t_1}^{t_2}A_0e^{-\lambda%20t}\,dt=\frac{-A_0}{\lambda}e^{-\lambda%20t}\Big|_{t_1}^{t_2}=\frac{A_0}{\lambda}(e^{-\lambda%20t_1}-e^{-\lambda%20t_2}))
 
 **Special case (0 → t₂)**  
 ![eq](https://latex.codecogs.com/svg.latex?\int_{0}^{t_2}A(t)\,dt=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2}))
