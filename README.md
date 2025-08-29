@@ -180,6 +180,22 @@ which leads to a maximum kinetic energy:
   <img src="https://latex.codecogs.com/svg.latex?T=\tfrac{1}{2}mv_{\text{max}}^{2}=\frac{q^{2}B^{2}R^{2}}{2m}" />
 </p>
 
+For **charged particle induced nuclear reactions** (as done in a cyclotron), the expected activity produced in an irradiation is given by the production equation:
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?A(t)=N_0\cdot\sigma\cdot I\cdot\left(1-e^{-\lambda\cdot%20t_{\text{irrad}}}\right)" />
+</p>
+
+where:  
+- **A(t)** – activity produced (Bq)  
+- **λ** – decay constant (s⁻¹)  
+- **t<sub>irrad</sub>** – irradiation length (s)  
+- **σ** – reaction cross section (cm²)  
+- **N₀** – atomic areal density of target material (atoms/cm²)  
+  - Determined from *target mass, density, thickness, and molecular weight*  
+- **I** – projectile intensity (particles/s)  
+  - Calculated from the beam current (µA) using the charge per particle and the conversion factor 6.24 × 10¹⁸ charges/coulomb  
+
 
 Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 decay/second). Pulse-mode detectors are instruments designed to register each individual quantum of radiation interacting with the detector. A spectrometer is a specialized type of pulse-mode detector that also measures the energy of each quantum, producing a radiation energy spectrum as its output. To determine the activity of a multi-radionuclide sample, a spectrometer can be used to measure the net counts within energy peaks associated with specific radionuclides, from which the corresponding activities can be calculated.
 
