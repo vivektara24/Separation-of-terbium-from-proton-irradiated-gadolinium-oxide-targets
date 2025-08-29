@@ -109,6 +109,11 @@ python example.py
 9. Give default values based on work
 10. save eff_fit_params
 
+## Useful Links
+
+- [Packaging Python Projects (official tutorial)](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+
 ## Acknowledgments
 
 This work is supported in part by the Horizon-broadening Isotope Production Pipeline Opportunities (HIPPO) program, under GrantDE-SC0022550 from the Department of Energy's Isotope R&D and Production Program.
