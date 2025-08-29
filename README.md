@@ -144,7 +144,6 @@ More recently, the SI unit **becquerel (Bq)** was adopted, defined as:
 - **1 mCi** = 3.7 × 10⁷ Bq  
 - **1 µCi** = 3.7 × 10⁴ Bq  
 
-
 Activity is defined as the number of nuclear decays per unit time (1 Bq = 1 decay/second). Pulse-mode detectors are instruments designed to register each individual quantum of radiation interacting with the detector. A spectrometer is a specialized type of pulse-mode detector that also measures the energy of each quantum, producing a radiation energy spectrum as its output. To determine the activity of a multi-radionuclide sample, a spectrometer can be used to measure the net counts within energy peaks associated with specific radionuclides, from which the corresponding activities can be calculated.
 
 <p align="center">
