@@ -106,6 +106,15 @@ python example.py
 
 ## Methods
 
+Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these raidations can travel large distances between interactions, detectors are often less that 100% efficient. It is neccesary to have a precise figure for the detector efficiency in order to relate the number of pulses counted to the number of neutrons or photons incident on the detector. The `Calibration` class is used to determine absolute detector effiicienies, which are dependent not only on detector properties but also on details of the counting geomtery defined as
+
+\[
+\epsilon_{\text{abs}} = \frac{\text{number of pulses recorded}}{\text{number of radiation quanta emitted by source}}
+\]
+
+
+Over the course of an HPGe meaurment the source decays away exponentially. Such that the counts that the detector observes if the meauremnt time is long compared with the half-life of the activity 
+
 ![Equation](https://latex.codecogs.com/svg.latex?A(t)=A_0e^{-\lambda%20t})
 
 ## Package Improvment Ideas
