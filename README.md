@@ -476,7 +476,7 @@ We compare the expirmentally determined activities to expected yields determined
 
 ``You know what I mean?``
 
-## Secret Analysis
+## Failed Proton Activation Analysis
 
 The 5 and 10 minute interval measurments ~1hr post eob described above were intially taken with the intention of charecterizing the quality of the recyling process. Although it was a bad idea to try this with the 511 keV peak, it serves as an example of how one can perform quality control of a chemical process by irrdiating a . 
 
