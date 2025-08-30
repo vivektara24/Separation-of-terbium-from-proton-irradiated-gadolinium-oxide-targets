@@ -54,6 +54,8 @@ A detailed description with links of the contents of the repository are listed i
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
 - [Theory](#theory)
+  - [Radiation Production](#radiation-production)
+  - []
 - [References](#references)
 - [Acknoledgements](acknowledgments)
 ## Repository Contents
@@ -116,7 +118,7 @@ python example.py
 
 ## Theory
 
-Radiation Production
+## Radiation Production
 ---
 Consider a large number **N** of identical radioactive atoms. We define **λ** as the total radioactive decay constant, which has dimensions of reciprocal time (typically s⁻¹).  
 
