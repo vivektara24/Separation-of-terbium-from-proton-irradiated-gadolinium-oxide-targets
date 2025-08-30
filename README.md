@@ -201,7 +201,7 @@ If the masses of both the products and reactants are known, the Q-value can be c
   <img src="https://latex.codecogs.com/svg.latex?Q=\Delta_{\text{projectile}}+\Delta_{\text{target}}-\sum\Delta_{\text{products}}" />
 </p>
 
-If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only Tx and the angle Theta of x withrepsect to the direction of motion of P suffice to determine Q. The proof is rather long so I leave you the result, what is called the Q-value equation
+If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only \(T_x\) and the angle \(\theta\) of particle \(x\) with repsect to the direction of motion of \(P\) suffice to determine \(Q\). The proof is rather long so I leave you the final result, the _Q-value equation_
 
 Q = Tx(1 - m_x/m_R) - T_P(1 - m_P/m_R) - 2/m_R(m_PT_Pm_xT_x)^1/2cos(theta)
 
