@@ -522,16 +522,15 @@ by determing the start of measurment time activity through a mucerail implementa
 
 ## Acknowledgments
 
-I would first like to thank Justin Peikin who built this project from the ground up. The work in **_Separation of terbium from proton-irradiated gadolinium oxide targets – development of an effective, scalable and automatable process_ (Applied Radiation and Isotopes, 2025)** — see [https://doi.org/10.1016/j.apradiso.2025.112138](https://doi.org/10.1016/j.apradiso.2025.112138) can be largely attributed to his dedication to the project and foundational work.
+I would first like to thank **Justin Peikin** who built this project from the ground up. The work in **_Separation of terbium from proton-irradiated gadolinium oxide targets – development of an effective, scalable and automatable process_ (Applied Radiation and Isotopes, 2025)** — see [https://doi.org/10.1016/j.apradiso.2025.112138](https://doi.org/10.1016/j.apradiso.2025.112138) can be largely attributed to his dedication to the project and foundational work.
 
-I would like to thank Taylor Johnson who built the control box of the **Terbinator**.
+I am also grateful to **Taylor Johnson** who built the control box of the **Terbinator**.
 
-I would like to thank Jonathan Morrell the creator of the CURIE python package, who read through the desciption of the package written in the supplementary info
+In addition, I would like to thank Dr. Jonathan Morrell, creator of the CURIE python package, for his constructive feedback on the _CURIE Toolkit Gamma Spectroscopy Peak Fitting Methods_ supplementary material section.
 
-Irrations were peformed conducted by Dr. Todd Barnhart and Dr. John Engle, I would like to thank the cycltron gang at uw madison who .
+The Irrations were peformed carried out by the **Cyclotron Gang** at UW-Madison under the supervision of **Dr. Todd Barnhart** and **Dr. John Engle**.
 
-
-....ly I would like to thank Dr. Ellison who allowed me to explore the addtional topics presented in this repository.
+Finally, I am thankful Dr. Ellison who encouraged me to explore the addtional topics presented in this repository.
 
 
 **This work is supported in part by the Horizon-broadening Isotope Production Pipeline Opportunities (HIPPO) program, under GrantDE-SC0022550 from the Department of Energy's Isotope R&D and Production Program.
