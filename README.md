@@ -54,7 +54,8 @@ A detailed description with links of the contents of the repository are listed i
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
 - [Theory](#theory)
-- [Acknoledgements](acknoldgments)
+- [References](#references)
+- [Acknoledgements](acknowledgments)
 ## Repository Contents
 
 ### Source Files
