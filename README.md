@@ -3,7 +3,7 @@
 <p align="center">
   <img src="images/medphys.png" alt="HIPPO Logo" height="120"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="hippo.png/medphys.png" alt="UW Medical Physics Logo" height="120"/>
+  <img src="images/hippo.png" alt="UW Medical Physics Logo" height="120"/>
 </p>
 
 
