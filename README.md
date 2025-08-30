@@ -181,9 +181,11 @@ Consider the T(P, x)R reaction with only, two products. Neglecting electron bind
   <img src="https://latex.codecogs.com/svg.latex?m_Pc^{2}+m_Tc^{2}+T_P=m_Rc^{2}+m_xc^{2}+T_x" />
 </p>
 
-Note that since R and x may be complex nuclei, they could be formed in exctied states so thta the values of m may be differrnt than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is ,
+Note that since R and x may be complex nuclei, they could be formed in exctied states so that the values of m may be differrnt than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is ,
 
-Q = [m_P + m_T - m_x - m_R] = T_x + T_R - T_P
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?Q=(m_P+m_T-m_x-m_R)c^{2}=T_x+T_R-T_P" />
+</p>
 
 Note that if Q is positive the reaction is exoergic, while if Q is negative, the reaction is dndoergic. Thus the sign convention for Q is exactly the opposite of the falmilar detlaH useed in chemical reactions. Not that a necussary but not sufficient condition fo rthe occurrence fo a nuclear reactions is that
 
