@@ -415,11 +415,8 @@ This formulation is important because it accounts for the decay of radioactive m
 
 does not incorporate the time-dependent decrease in activity.
 
-Nuclear Analytical Methods
+Activation Analysis
 ---
-One compelling reason to use nuclear analytical methods is their high sensitivity. The techniques to be discussed are known for their sensitivity; their ability to do nondestructive analysis of a large number of samples, sometimes quickly; and their ability to analzye the surfaces of material. These techniques, called elemental anaysis technqiues do not, in general, give infomration about the chimcal form of the element or isotope, any attatched ligans, and so on. This lack of information on speciation is generall a drawback to these methods.
-
-**Activation Analysis**
 
 Activation analysis (AA) is an analytical technique that allows one to determine that amount of a given element X contained in some material Y. The basic steps in the activation technique are as follows:
 
