@@ -450,6 +450,10 @@ Additionally the Auger effect has been explored as a potential source for target
 ## Low Key Bugs in the Code
 7. There are currently no warning messages if required class attributes arent filled before calling the functions, Instead the output will simply be incomplete.
 
+## References
+
+
+
 ## Useful Links
 
 - [Packaging Python Projects (official tutorial)](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
