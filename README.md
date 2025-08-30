@@ -175,13 +175,11 @@ For the specific example discussed earlier:
 
 In a nuclear reaction moderated by the strong force in contrast to the weak force, there is conservation of the number of proton and neutrons (and thus the number of nucleons). There is also conservation of energy, momentum, angular momentum, and parity.
 
-Consider the 
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?T(P,\,x)R" />
-</p>
-reaction with only, two products. Neglecting electron binding energies, we have, for the energy balance in the reaction,
+Consider the T(P, x)R reaction with only, two products. Neglecting electron binding energies, we have, for the energy balance in the reaction,
 
-m_pc^2 (mass energy of the ``projectile``) + m_Tc^2 (mass energy of the ``target``) +  T_P (kinetic energy of ``projectile``) = m_Rc^2 (mass energy of the product) + m_xc^2 (mass energy of exit thing) + Tx (kinetic energy of exit thing)
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?m_Pc^{2}+m_Tc^{2}+T_P=m_Rc^{2}+m_xc^{2}+T_x" />
+</p>
 
 Note that since R and x may be complex nuclei, they could be formed in exctied states so thta the values of m may be differrnt than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is ,
 
