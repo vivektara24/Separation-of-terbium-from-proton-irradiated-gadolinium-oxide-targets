@@ -56,7 +56,7 @@ A detailed description with links of the contents of the repository are listed i
 - [Theory](#theory)
   - [Radiation Production](#radiation-production)
   - [γ-Decay](#γ-decay)
-  - [Radiation Production](#radiation-production)
+  - [Radiation Detection](#radiation-detection)
 - [References](#references)
 - [Acknoledgements](acknowledgments)
 ## Repository Contents
