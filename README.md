@@ -447,15 +447,8 @@ Additionally the Auger effect has been explored as a potential source for target
 </p>
 
 
-## Package Improvment Ideas
-
-1. peak summing in calibration class
-2. the two methods in Knoll for HPGe detectors
-3. optimzation techniques for yield class, using rx.Integrate maybe.
-5. provide more informative statistics for qulatiy of curve fit
-7. warning messages if attributes arent filled before calling the functions
-9. Give default values based on work
-10. save eff_fit_params
+## Low Key Bugs in the Code
+7. There are currently no warning messages if required class attributes arent filled before calling the functions, Instead the output will simply be incomplete.
 
 ## Useful Links
 
@@ -467,9 +460,9 @@ In our method we cailibrate an hpge detector by using calibration sources of a v
 
 We then detect the number of counts across the energy spectrum of a natGd2O3 sample that had been irradiated at 12.6 MeV for 30mins in a low-energy cyclotron tailored for 18F production, producing many radioactive terbium isotopes. Once again, knowing certain gammas are emitted in a charecterized probablistic manner by the Tb isotopes, we can determine the activity of each that had been produced in the irradition, by using the previously determined detector efficiencies at the know Tb gamma energies. We repeat this process at 2h intervals ~10hr post irradiation, correcting for sample decay during the measurment. We fit an exponential decay function to the measured activites across the serial measurments floating the end-of-bombardment (eob) activity and half-lifes of the Tb isotpes using the ``Serial`` class. Additionally we decay correct the start of measurment activites determined each measurment to eob and take the average.
 
-Additionally, 156Tb has metastable states that grow into the ground state. The measurments that had been taken in 5 and 10 minute intervals ~1hr post eob
+156Tb has 2 metastable states that grow into the ground state with ~24hr and ~5hr have lives. In addition to the 2hr measurments, repeated 5 and 10 minute interval measurments were recorded ~1hr post eob. Adding this data to the decay analysis of 156Tb allowed us to see the growth in of the metastable states to the ground state. We fit the bateman equation to the decay to determine eob activities and half-lives for each of the isomers. We attempted to repeat this process to charecterize the isomers of 154Tb, but the growth in was observed to be neglible.
 
-We compare the expirmentally determined activities to expected yields determined using the ``Yield`` class.
+We compare the expirmentally determined activities to expected yields determined using the ``Yield`` class. Expected yields are determined by decomposing the target material into thin slices of a specified energy width. The ion induced production equation is used to calculate the 
 
 
 ``But I'm not a rapper``
