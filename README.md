@@ -1,5 +1,12 @@
 # Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
 
+<p align="center">
+  <img src="images/medphys.png" alt="HIPPO Logo" height="120"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="hippo.png/medphys.png" alt="UW Medical Physics Logo" height="120"/>
+</p>
+
+
 **This work is supported in part by the Horizon-broadening Isotope Production Pipeline Opportunities (HIPPO) program, under GrantDE-SC0022550 from the Department of Energy's Isotope R&D and Production Program.
 **
 
