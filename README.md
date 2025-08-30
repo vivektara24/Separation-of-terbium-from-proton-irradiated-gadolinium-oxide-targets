@@ -58,7 +58,7 @@ A detailed description with links of the contents of the repository are listed i
 ## Repository Contents
 
 ### Source Files
-- **`src/`** – Contains the core Python implmentation of **libname**.
+- **`src/`** – Contains the core Python implementation of **nuclab**. Each file defines a module within the package.
   - **`production.py`** – Implements the `Yield` class. Calculates theoretical end-of-bombardment (EoB) activity yields for irradiated targets.
   - **`calibration.py`** – Implements the `Calibration` class. Streamlines workflows for HPGe detector efficiency calibration.
   - **`serial.py`** – Implements the `Serial` class. Provides a pipeline for automated analysis of serial γ-spectra measurements.
