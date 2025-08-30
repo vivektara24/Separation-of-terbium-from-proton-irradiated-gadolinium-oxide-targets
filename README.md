@@ -187,13 +187,19 @@ Note that since R and x may be complex nuclei, they could be formed in exctied s
   <img src="https://latex.codecogs.com/svg.latex?Q=(m_P+m_T-m_x-m_R)c^{2}=T_x+T_R-T_P" />
 </p>
 
-Note that if Q is positive the reaction is exoergic, while if Q is negative, the reaction is dndoergic. Thus the sign convention for Q is exactly the opposite of the falmilar detlaH useed in chemical reactions. Not that a necussary but not sufficient condition fo rthe occurrence fo a nuclear reactions is that
+Note that if Q is positive the reaction is exoergic, while if Q is negative, the reaction is endoergic. Note that a necessary but not sufficient condition fo the occurrence of a nuclear reactions is that
 
-Q + Tp > 0
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?Q+T_P>0" />
+</p>
 
-If the masses fo both the prudts and reactants are known, the Q-value can be calculated using the mass excess as
+i.e for an endoergic process the decrease in the mass energies from reactants to products must be compensated for by the kinetic energy of the projectile.
 
-Q = delta(projectile) + delta(target) - SigmaDelta(Products)
+If the masses of both the products and reactants are known, the Q-value can be calculated using the mass excess as
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?Q=\Delta_{\text{projectile}}+\Delta_{\text{target}}-\sum\Delta_{\text{products}}" />
+</p>
 
 If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only Tx and the angle Theta of x withrepsect to the direction of motion of P suffice to determine Q. The proof is rather long so I leave you the result, what is called the Q-value equation
 
