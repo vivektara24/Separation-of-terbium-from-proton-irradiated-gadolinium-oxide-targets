@@ -394,13 +394,23 @@ Additionally the Auger effect has been explored as a potential source for target
 
 ## Real Talk
 
-In our method we cailibrate an hpge detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decay of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected; losses occur due to _. Additionally coincidence summing may occur, . Reduces the observed number of counts detected at certain peak energies, reducing the detected activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, to the data (CPS/Bq = # of counts detected in time interval / measurment time / # known number of decays in time interval).
+In our method we cailibrate an hpge detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decays of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected; losses occur due to _. Additionally coincidence summing may occur, . Although coincendence summing was minimized by placing the sample 200cm from the face of the detector, coincidence summing may reduces the observed number of counts detected at certain peak energies, reducing the determined activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, is fit to the data (CPS/Bq = # of counts detected in time interval / measurment time / # known number of decays in time interval).
 
-We then detect the number of counts across the energy spectrum of at natGd2O3 sample that had been irradiated at 12.6 MeV in a low-energy cyclotron tailored for 18F production for 30mins producing many radioactive terbium isotopes.  
+We then detect the number of counts across the energy spectrum of a natGd2O3 sample that had been irradiated at 12.6 MeV for 30mins in a low-energy cyclotron tailored for 18F production, producing many radioactive terbium isotopes. Once again, knowing certain gammas are emitted in a charecterized probablistic manner by the Tb isotopes, we can determine the activity of each that had been produced in the irradition, by using the previously determined detector efficiencies at the know Tb gamma energies. We repeat this process at 2h intervals ~10hr post irradiation, correcting for sample decay during the measurment. We fit an exponential decay function to the measured activites across the serial measurments floating the end-of-bombardment (eob) activity and half-lifes of the Tb isotpes. Additionally we decay correct the start of measurment activites determined each measurment to eob and take the average.
 
-`But I'm not a rapper`
+Additionally, 156Tb has metastable states that grow into the ground state. The measurments that had been taken in 5 and 10 minute intervals ~1hr post eob
 
-`You know what I mean?`
+
+``But I'm not a rapper``
+
+``You know what I mean?``
+
+## Secret Analysis
+
+The 5 and 10 minute interval measurments ~1hr post eob described above were intially taken with the intention of charecterizing the quality of the recyling process. Although it was a bad idea to try this with the 511 keV peak, it serves as an example of how one can perform quality control of a chemical process by irrdiating a . 
+
+
+by determing the start of measurment time activity through a mucerail implementaiton of an analytical solution of an exponential decay initial value problem prooved in this repository.
 
 ## Acknowledgments
 
@@ -408,6 +418,8 @@ I would first like to thank Justin Peikin who built this project from the ground
 
 
 ...ly, I would like to thank Taylor Johnson who not only built the control box of the terbinator but also .
+
+Irrations were peformed conducted by Dr. Todd Barnhart and Dr. John Engle, I would like to thank the cycltron gang at uw madison who .
 
 
 ....ly I would like to thank Dr. Ellison who allowed me to explore the addtional topics presented in this repository.
