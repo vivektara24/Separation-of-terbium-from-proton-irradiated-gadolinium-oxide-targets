@@ -155,7 +155,31 @@ More recently, the SI unit **becquerel (Bq)** was adopted, defined as:
 - **1 mCi** = 3.7 × 10⁷ Bq  
 - **1 µCi** = 3.7 × 10⁴ Bq  
 
-Stable nuclei may be transformed into radioactive species by bombardment with suitable particles, or photons at sufficiently high energy. The purpose of an accelerator of charged particles is to direct against a target a beam of a specific kind of particles of a chosen energy. Low energy accelerators are used to produce beams in the 10-100-MeV range, often for reaction or scattering studies to elucidate the structure of specific final states, perhaps even individual excited states. These accelerators should have accurate energy selection and reasonably high currents because the ultimate precision of many expirments is limited by counting statistics.
+Stable nuclei may be transformed into radioactive species by bombardment with suitable particles, or photons at sufficiently high energy. Many radioactive isotopes are either absent in narture or diffucult to obtain, yet they can be produced.
+
+For an efficient and effective disucussion of nuclear reactions, we must understand the notation or jargon that is widely used to describe them. Let us begin by considering one of the first nuclear reactions to be studied:
+
+⁴He + ¹⁴N → ¹⁷O + ¹H + Q
+
+Here an alpha particle reactis with a nitorgen nucleus-producing oxygen, a proton, and some energy, Q. Most nuclear reactions are studied by inducing a collision between two nuclei where the heavier reacting nucleus is at rest (the ``target`` nucleus) while the other nucleus (the ``projectile`` nucleus) is in motion, and this is called "normal kinematics". Such nuclear reaction might be described generally as:
+
+Projectile (P) + Target (T) → Emitted Particle(s) (X) + Residual Nucleus (R) + Energy
+
+A shorthand way to dento such reactions is, for the general case:
+
+T(P, x)R
+
+For the specific example discussed earlier:
+
+14N(4He, p)17O
+
+In a nuclear reaction moderated by the strong force in contrast to the weak force, there is conservation of the number of proton and neutrons (and thus the number of nucleons).
+
+
+That is to say there are spontaneously decaying radisotopes that are not naturally occuring or difficult to obtain naturally, the spontenous decay of a radioisotope is one kind of nuclear reaction, defined by a change in the nuclear state? of a radioisotope. An additional type of nuclear reaction is acheived by accelerating a charged particle or by subjecting to regions of high thermal flux neutrons, and absorbiion a high energy gammas into a nucleus which leaves the nucleus in the compound state, the compound state emitts a gamma or neutorn or proton or alpha or spallation can occur of fission, which leaves behind an excited daugher isotope, this isotope can be radiactve istelf therefore by incucing a nuclear reaction you produce another radiosotipe that spontaeously udergoes anohter nuclear reaction.
+
+
+The purpose of an accelerator of charged particles is to direct against a target a beam of a specific kind of particles of a chosen energy. Low energy accelerators are used to produce beams in the 10-100-MeV range, often for reaction or scattering studies to elucidate the structure of specific final states, perhaps even individual excited states. These accelerators should have accurate energy selection and reasonably high currents because the ultimate precision of many expirments is limited by counting statistics.
 
 A [cyclotron](https://www.youtube.com/watch?v=cutKuFxeXmQ) is one type of particle accelerator. It is a circular device in which a beam of particles makes many (often hundreds) of revolutions, receiving a small voltage increment on each orbit until the particles reach energies in the MeV range. The earliest and simplest of these accelerators is the cyclotron, sometimes referred to as a magnetic resonance accelerator. The essential design idea of the cyclotron was concieved by Ernest Lawrence at the University of California Berkeley in 1929. The critical feature is that the time it takes for a particle to travel one semicircular path is independent of the radius of the path--as particles spiral to larger radii, they also gain energy and move at greater speed, and the gain in path length is exactly compensated by the increased speed. If the half-period of the AC voltage on the dees is set equal to the semicircular orbit time, then the field alternates in exact synchronization with the passage of particles through the gap, and the particle sees an accelerating voltage each time it crosses the gap.
 
