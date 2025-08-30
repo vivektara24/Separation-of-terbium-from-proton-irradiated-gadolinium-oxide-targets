@@ -55,7 +55,7 @@ A detailed description with links of the contents of the repository are listed i
 - [Setup Instructions](#setup-instructions)
 - [Theory](#theory)
   - [Radiation Production](#radiation-production)
-  - []
+  - [γ-Decay](#γ-decay)
 - [References](#references)
 - [Acknoledgements](acknowledgments)
 ## Repository Contents
