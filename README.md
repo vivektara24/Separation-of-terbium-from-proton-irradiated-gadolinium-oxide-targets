@@ -510,7 +510,7 @@ Question: why does it matter if the Gd is in Gd2O3 or a nitrate form?
 
 The 5- and 10-minute interval measurments taken ~1hr post eob described above were intially taken with the intention of assessing the elemental composition of the natGd2O3 post recycling by performing an activation analysis.
 
-After going through through the radiochemical seperation process, ~95% of the Gd is recovered in the first 4 rinse fractions (~40mL 0.2M HNO3) if the first LN2 column. The fractions are dried down, leaving behind Gd(NO3)3 * XH2O salf. To recover Gd2O3 from the salt we implement the denitration paper described in the accanpying work, informed by the chemical process impelmeneted in Non-isothermal kinetics of the thermal decomposition of gadolinium nitrate.
+After going through through the radiochemical seperation process, ~95% of the Gd is recovered in the first 4 rinse fractions (~40mL 0.2M HNO3) if the first LN2 column. The fractions are dried down, leaving behind Gd(NO3)3 * XH2O salf. To recover Gd2O3 from the salt we implement the denitration paper described in the accanpying work, informed by the chemical process impelmeneted in Non-isothermal kinetics of the thermal decomposition of gadolinium nitrate. We attempted to quantify the number of 14N atoms in a target made from recycled materials, 
 
 
 
