@@ -58,6 +58,7 @@ A detailed description with links of the contents of the repository are listed i
   - [γ-Decay](#γ-decay)
   - [Radiation Detection](#radiation-detection)
   - [Activation-Analysis](#activation-analysis)
+  - [Nuclear Medicine](#nuclear-medicine)
 - [References](#references)
 - [Acknoledgements](acknowledgments)
 ## Repository Contents
