@@ -171,9 +171,41 @@ T(P, x)R
 
 For the specific example discussed earlier:
 
-14N(4He, p)17O
+¹⁴N(⁴He, p)¹⁷O
 
-In a nuclear reaction moderated by the strong force in contrast to the weak force, there is conservation of the number of proton and neutrons (and thus the number of nucleons).
+In a nuclear reaction moderated by the strong force in contrast to the weak force, there is conservation of the number of proton and neutrons (and thus the number of nucleons). There is also conservation of energy, momentum, angular momentum, and parity.
+
+Consider the 
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?T(P,\,x)R" />
+</p>
+reaction with only, two products. Neglecting electron binding energies, we have, for the energy balance in the reaction,
+
+m_pc^2 (mass energy of the ``projectile``) + m_Tc^2 (mass energy of the ``target``) +  T_P (kinetic energy of ``projectile``) = m_Rc^2 (mass energy of the product) + m_xc^2 (mass energy of exit thing) + Tx (kinetic energy of exit thing)
+
+Note that since R and x may be complex nuclei, they could be formed in exctied states so thta the values of m may be differrnt than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is ,
+
+Q = [m_P + m_T - m_x - m_R] = T_x + T_R - T_P
+
+Note that if Q is positive the reaction is exoergic, while if Q is negative, the reaction is dndoergic. Thus the sign convention for Q is exactly the opposite of the falmilar detlaH useed in chemical reactions. Not that a necussary but not sufficient condition fo rthe occurrence fo a nuclear reactions is that
+
+Q + Tp > 0
+
+If the masses fo both the prudts and reactants are known, the Q-value can be calculated using the mass excess as
+
+Q = delta(projectile) + delta(target) - SigmaDelta(Products)
+
+If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only Tx and the angle Theta of x withrepsect to the direction of motion of P suffice to determine Q. The proof is rather long so I leave you the result, what is called the Q-value equation
+
+Q = Tx(1 - m_x/m_R) - T_P(1 - m_P/m_R) - 2/m_R(m_PT_Pm_xT_x)^1/2cos(theta)
+
+What does the Q-value equation say? Is says that if we measure the kinetic energy  of the emitted paricle x and angle at which is emittied in a two-body reaction and we know the identiies of the reacts and product of the reactions, that we can dtermined the Q value of the reaction. In short, we can measure the energy relesase for any two-body reaction by mesureing the properties of one of the proudcitons.
+
+For additional insight, let us now consider the same reaction as described in the center of mass (CM). In the CM system the total momentum of the particles is zero, before and after the collision. The kinetic energy carried in by the projectile, T_Lab, is not fully avaialbe to be dissipated in the reaction, an amount, T_CM, must be carried away by the motion of the CM. Thus, the available energy to be used (dissipated) in the collision is only T_lab - T_CM = T_0 = [m_T/(M_T+mP)]T_Lab. The energy avalailabe for the nuclear reactions is Q + T_0. To make an endothermic reaction go, the sum Q + T_0 must be >= 0. Rearranging a few terms in the equation, the condition for having the reaction occur is that
+
+T_p >= -Q(m_p + m_t)/m_T
+
+This minimum kinetic energy that the projectile must have to make the reaction go forward is called the threshold energy for the reaction.
 
 
 That is to say there are spontaneously decaying radisotopes that are not naturally occuring or difficult to obtain naturally, the spontenous decay of a radioisotope is one kind of nuclear reaction, defined by a change in the nuclear state? of a radioisotope. An additional type of nuclear reaction is acheived by accelerating a charged particle or by subjecting to regions of high thermal flux neutrons, and absorbiion a high energy gammas into a nucleus which leaves the nucleus in the compound state, the compound state emitts a gamma or neutorn or proton or alpha or spallation can occur of fission, which leaves behind an excited daugher isotope, this isotope can be radiactve istelf therefore by incucing a nuclear reaction you produce another radiosotipe that spontaeously udergoes anohter nuclear reaction.
