@@ -506,9 +506,13 @@ We compare the expirmentally determined activities to expected yields calculated
 
 ## Failed Proton Activation Analysis
 
-The 5- and 10-minute interval measurments taken ~1hr post eob described above were intially taken with the intention of charecterizing the quality of the recycling process. The full recycling process is detailed in the accompanying paper.
+Question: why does it matter if the Gd is in Gd2O3 or a nitrate form?
 
-We attempted to charecterize the relative number of 16O atoms to 14N atoms in the recylced Gd2O3.
+The 5- and 10-minute interval measurments taken ~1hr post eob described above were intially taken with the intention of assessing the elemental composition of the natGd2O3 post recycling by performing an activation analysis.
+
+After going through through the radiochemical seperation process, ~95% of the Gd is recovered in the first 4 rinse fractions (~40mL 0.2M HNO3) if the first LN2 column. The fractions are dried down, leaving behind Gd(NO3)3 * XH2O salf. To recover Gd2O3 from the salt we implement the denitration paper described in the accanpying work, informed by the chemical process impelmeneted in Non-isothermal kinetics of the thermal decomposition of gadolinium nitrate.
+
+
 
 
 Although it was a bad idea to try this with the 511 keV peak, it serves as an example of how one can perform quality control of a chemical process by irrdiating a . 
