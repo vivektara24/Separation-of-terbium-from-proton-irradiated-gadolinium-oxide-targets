@@ -462,8 +462,7 @@ We then detect the number of counts across the energy spectrum of a natGd2O3 sam
 
 156Tb has 2 metastable states that grow into the ground state with ~24hr and ~5hr have lives. In addition to the 2hr measurments, repeated 5 and 10 minute interval measurments were recorded ~1hr post eob. Adding this data to the decay analysis of 156Tb allowed us to see the growth in of the metastable states to the ground state. We fit the bateman equation to the decay to determine eob activities and half-lives for each of the isomers. We attempted to repeat this process to charecterize the isomers of 154Tb, but the growth in was observed to be neglible.
 
-We compare the expirmentally determined activities to expected yields determined using the ``Yield`` class. Expected yields are determined by decomposing the target material into thin slices of a specified energy width. The ion induced production equation is used to calculate the 
-
+We compare the expirmentally determined activities to expected yields calculated using the production equation. To account for charged particle attenuation in the target material, we decomposed the target material into thin slices of 1 keV using stopping power values from SRIM. This allows us to have a beter estimatation of the proton beam energy at different thicknesses within the target material, enabling per slice energy dependent cross sections to be used. The total activity is simply the sum of the activites produced in each slice.
 
 ``But I'm not a rapper``
 
@@ -471,7 +470,10 @@ We compare the expirmentally determined activities to expected yields determined
 
 ## Failed Proton Activation Analysis
 
-The 5 and 10 minute interval measurments ~1hr post eob described above were intially taken with the intention of charecterizing the quality of the recyling process. Although it was a bad idea to try this with the 511 keV peak, it serves as an example of how one can perform quality control of a chemical process by irrdiating a . 
+The 5 and 10 minute interval measurments taken ~1hr post eob described above were intially taken with the intention of charecterizing the quality of the recycling process. 
+
+
+Although it was a bad idea to try this with the 511 keV peak, it serves as an example of how one can perform quality control of a chemical process by irrdiating a . 
 
 
 by determing the start of measurment time activity through a mucerail implementaiton of an analytical solution of an exponential decay initial value problem prooved in this repository.
