@@ -470,7 +470,9 @@ We compare the expirmentally determined activities to expected yields calculated
 
 ## Failed Proton Activation Analysis
 
-The 5 and 10 minute interval measurments taken ~1hr post eob described above were intially taken with the intention of charecterizing the quality of the recycling process. 
+The 5- and 10-minute interval measurments taken ~1hr post eob described above were intially taken with the intention of charecterizing the quality of the recycling process. The full recycling process is detailed in the accompanying paper.
+
+We attempted to charecterize the relative number of 16O atoms to 14N atoms in the recylced Gd2O3.
 
 
 Although it was a bad idea to try this with the 511 keV peak, it serves as an example of how one can perform quality control of a chemical process by irrdiating a . 
@@ -480,12 +482,11 @@ by determing the start of measurment time activity through a mucerail implementa
 
 ## Acknowledgments
 
-I would first like to thank Justin Peikin who built this project from the ground up. The work in **_Separation of terbium from proton-irradiated gadolinium oxide targets – development of an effective, scalable and automatable process_ (Applied Radiation and Isotopes, 2025)** — see [https://doi.org/10.1016/j.apradiso.2025.112138](https://doi.org/10.1016/j.apradiso.2025.112138) can be largely attributed to his .
+I would first like to thank Justin Peikin who built this project from the ground up. The work in **_Separation of terbium from proton-irradiated gadolinium oxide targets – development of an effective, scalable and automatable process_ (Applied Radiation and Isotopes, 2025)** — see [https://doi.org/10.1016/j.apradiso.2025.112138](https://doi.org/10.1016/j.apradiso.2025.112138) can be largely attributed to his dedication to the project and foundational work.
 
+I would like to thank Taylor Johnson who built the control box of the **Terbinator**.
 
-...ly, I would like to thank Taylor Johnson who not only built the control box of the terbinator but also .
-
-Additionally I would like to thank Jonathan Morrell the creator of the CURIE python package...
+I would like to thank Jonathan Morrell the creator of the CURIE python package, who read through the desciption of the package written in the supplementary info
 
 Irrations were peformed conducted by Dr. Todd Barnhart and Dr. John Engle, I would like to thank the cycltron gang at uw madison who .
 
