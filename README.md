@@ -460,7 +460,7 @@ Additionally the Auger effect has been explored as a potential source for target
 
 ## Real Talk
 
-In our method we cailibrate an hpge detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decays of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected; losses occur due to _. Additionally coincidence summing may occur, . Although coincendence summing was minimized by placing the sample 200cm from the face of the detector, coincidence summing may reduces the observed number of counts detected at certain peak energies, reducing the determined activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, is fit to the data (CPS/Bq = # of counts detected in time interval / measurment time / # known number of decays in time interval).
+In our method we cailibrate an hpge detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decays of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected. Additionally coincidence summing may occur. Although coincendence summing was minimized by placing the sample 200cm from the face of the detector, coincidence summing may reduce the observed number of counts detected at certain peak energies, reducing the determined activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, is fit to the data (CPS/Bq = # of counts detected in time interval / measurment time / # known number of decays in time interval).
 
 We then detect the number of counts across the energy spectrum of a natGd2O3 sample that had been irradiated at 12.6 MeV for 30mins in a low-energy cyclotron tailored for 18F production, producing many radioactive terbium isotopes. Once again, knowing certain gammas are emitted in a charecterized probablistic manner by the Tb isotopes, we can determine the activity of each that had been produced in the irradition, by using the previously determined detector efficiencies at the know Tb gamma energies. We repeat this process at 2h intervals ~10hr post irradiation, correcting for sample decay during the measurment. We fit an exponential decay function to the measured activites across the serial measurments floating the end-of-bombardment (eob) activity and half-lifes of the Tb isotpes using the ``Serial`` class. Additionally we decay correct the start of measurment activites determined each measurment to eob and take the average.
 
@@ -473,6 +473,32 @@ We compare the expirmentally determined activities to expected yields calculated
 ``You know what I mean?``
 
 ## Failed Proton Activation Analysis
+
+#### Nuclear Analytical Methods
+
+One compelling reason to use nuclear analytical methods is their high sensitivity. The techniques to be discussed are known for their sensitivity; their ability to do nondestructive analysis of a large number of samples, sometimes quickly; and their ability to analzye the surfaces of material. These techniques, called elemental anaysis technqiues do not, in general, give infomration about the chimcal form of the element or isotope, any attatched ligans, and so on. This lack of information on speciation is generall a drawback to these methods.
+
+**Activation Analysis**
+
+Activation analysis (AA) is an analytical technique that allows one to determine that amount of a given element X contained in some material Y. The basic steps in the activation technique are as follows:
+
+- Irradiate Y with a source of ionizing radiation so that some generally very small amount of X will change into X*, a radioactive isotope of X.
+- Using chemical or instrumental technqiues, "isolate" X and X* from all other elements is Y (not necessarily quantitatively) and measure the activity of X*.
+- Calculate the amount of X present.
+
+But how does one calculate the amount of X present, knowing the activity of X* produced in the irradiation? Since the radiactivity was produced in a nuclear reaction, it can be shown that the activity A_X* as a function of time is 
+
+A_X* = N_x * sigma * phi *(1 - exp(-lamdaX*t_i))exp(-lamdaX*t_d)
+
+Where N_X is the number of X nuclei present initialy, t_i is the length of the irradiation, and t_d is the time of decay after the end of an irrdiation. From this equation one could calcualte Nx from Ax. This equation for Ax is only valid for "thin targets", that is, samples that absorv <5% of the flux of activitng particles.)
+
+This method of analyisis is called absolute activation analysis and is rarley done. The reasons for this are the need for detailed knowldge of the flux and energy of the bombarding particles in the sample and the comppound of the nuclear unceratinties such asthe cross sections, decay branching ratios, and so on in the final results. A simpler technique is to irradiate and count a known amount of pure X under the same conditions used for the mixute of X in Y. Then,
+
+Mass of X in Y = (Known mass X)(Acitivty of X* in Y / Activity of X* in pure X)
+
+Which is known as the comparator technqiue and is the most widely used method of AA. The method only depends on irrdiating and counting standards known amounts of pure material using the same conditions as the samples being analyzed.
+
+Numerous tests have shown that with careful experimental manipuation, AA is an accurate (~1% accuracy) and precise (~5% precision) method of measuring elemental concentrations.
 
 The 5- and 10-minute interval measurments taken ~1hr post eob described above were intially taken with the intention of charecterizing the quality of the recycling process. The full recycling process is detailed in the accompanying paper.
 
