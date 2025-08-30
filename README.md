@@ -472,11 +472,19 @@ Additionally the Auger effect has been explored as a potential source for target
 
 
 ## Low Key Bugs in the Code
-7. There are currently no warning messages if required class attributes arent filled before calling the functions, Instead the output will simply be incomplete.
+1. There are currently no warning messages if required class attributes arent filled before calling the functions, Instead the output will simply be incomplete.
 
 ## References
 
+- Glenn F. Knoll. Radiation Detection and Measurement. 4th edition, Wiley, 2010 (ISBN
+978-0-470-13148-0)
 
+- Frank Herb Attix. Introduction to Radiological Physics and Dosimetry, John Wiley & Sons,
+Inc. 1986 or reprinted in 2004 Wiley VCH
+
+- Loveland, W. D., Morrissey, D. J., & Seaborg, G. T. (2017). Modern nuclear chemistry. https://doi.org/10.1002/9781119348450
+
+- Krane, K. S., & Lynch, W. G. (1989). Introductory Nuclear Physics. Physics Today, 42(1), 78. https://doi.org/10.1063/1.2810884
 
 ## Useful Links
 
