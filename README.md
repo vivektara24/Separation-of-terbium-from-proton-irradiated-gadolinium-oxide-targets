@@ -543,6 +543,8 @@ by determing the start of measurment time activity through a mucerail implementa
 Some fraction of the incoming particle energy is imparted to the kinetic energy of
 the compound nucleus to achieve conservation of momentum.
 
+How is 161Tb an Auger emitter if it decays by B- 100% of the time to a stable isotope?
+
 No carrier added?
 
 Is coulomb barrier included in the threshold energy? or is the threshold energy stricly in terms of inducing a nuclear change post getting past the coulomb barrier?
