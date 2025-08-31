@@ -543,7 +543,7 @@ by determing the start of measurment time activity through a mucerail implementa
 Some fraction of the incoming particle energy is imparted to the kinetic energy of
 the compound nucleus to achieve conservation of momentum.
 
-How is 161Tb an Auger emitter if it decays by B- 100% of the time to a stable isotope?
+How is 161Tb an Auger emitter if it decays by B- 100% of the time to a stable isotope? approximately eleven Auger electrons (where did that come from?)
 
 No carrier added?
 
@@ -553,6 +553,8 @@ The incident particle has many collisions inside the nucleus, depositing its ene
 nucleons and becoming indistinguishable from them. This results in a highly excited
 “compound nucleus” that can then “de-excite” in a process totally decoupled from the
 incident event.
+
+Deuterium-Tritium fission reactions
 
 ## Acknowledgments
 
