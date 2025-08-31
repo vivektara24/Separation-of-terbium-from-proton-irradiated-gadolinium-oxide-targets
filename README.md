@@ -527,6 +527,8 @@ by determing the start of measurment time activity through a mucerail implementa
 
 ## Final Steps Before Posting
 - reread, format everything correcly, adjust what needs to be adjusted
+- Make sure results xlsx's are properly linked
+- 
 
 ## Acknowledgments
 
