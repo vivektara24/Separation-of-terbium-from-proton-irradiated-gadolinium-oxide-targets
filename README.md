@@ -528,6 +528,7 @@ by determing the start of measurment time activity through a mucerail implementa
 ## Final Steps Before Posting
 - reread, format everything correcly, adjust what needs to be adjusted
 - Make sure results xlsx's are properly linked
+- Add ``terbinator/`` repository w/ abstract, poster. Add images of the terbinator to the front page
 - 
 
 ## Acknowledgments
