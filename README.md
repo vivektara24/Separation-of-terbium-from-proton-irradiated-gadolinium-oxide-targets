@@ -532,7 +532,7 @@ by determing the start of measurment time activity through a mucerail implementa
 - radiochemistry topics i can discuss: Aparent molar activity, chromatography, extraction chromatograpy, LN2 resin, DGA resin, Lathanide seperation chemistry?, limits of detection, MPAES, specific and molar activity, distribution ratio
 - Phospohr imaging thing
 - mass excess, mass energy, binding energy per nucleon, decay energy (Q value?), seperation energy, definition of an AMU, Beta decay
-- Interaction of radiaion with matter (probably just em radiation, i.e photelectirc vs compoton vs pair produciton)
+- Interaction of radiaion with matter (probably just em radiation, i.e photelectirc vs compoton vs pair produciton) (atix), Bethe equaiton, bragg curve, (knoll)
 - Fission, spallation
 - SRIM/stopping power
 - semiconductor physics and general detector properties
@@ -541,6 +541,10 @@ by determing the start of measurment time activity through a mucerail implementa
 - ionizing radation chapter attix, charged particle equilibirum, 
 - Tb as a theranostic isotope, why are Tb isotopes important?
 - Lack of enriched 160Gd, implications for 161Tb production
+- counting statstics
+- we use a giger meuller counter, a CsI(Tl) scintiallation detector, general modes of operation of these detectors
+- Multichannel pulse analysis, pulse processing and shaping
+- overview of Germainum detectors
 Some fraction of the incoming particle energy is imparted to the kinetic energy of
 the compound nucleus to achieve conservation of momentum.
 
