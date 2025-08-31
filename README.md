@@ -538,7 +538,8 @@ by determing the start of measurment time activity through a mucerail implementa
 - semiconductor physics and general detector properties
 - exposure vs dose vs kerma
 - ionizing radation chapter attix, charged particle equilibirum, 
-
+- Tb as a theranostic isotope, why are Tb isotopes important?
+- 
 Some fraction of the incoming particle energy is imparted to the kinetic energy of
 the compound nucleus to achieve conservation of momentum.
 
