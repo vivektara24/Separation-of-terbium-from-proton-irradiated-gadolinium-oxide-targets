@@ -536,6 +536,8 @@ by determing the start of measurment time activity through a mucerail implementa
 - Fission, spallation
 - SRIM/stopping power
 - semiconductor physics and general detector properties
+- exposure vs dose vs kerma
+- ionizing radation chapter attix, charged particle equilibirum, 
 
 Some fraction of the incoming particle energy is imparted to the kinetic energy of
 the compound nucleus to achieve conservation of momentum.
