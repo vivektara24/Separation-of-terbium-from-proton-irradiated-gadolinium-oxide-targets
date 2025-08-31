@@ -525,6 +525,9 @@ Although it was a bad idea to try this with the 511 keV peak, it serves as an ex
 
 by determing the start of measurment time activity through a mucerail implementaiton of an analytical solution of an exponential decay initial value problem prooved in this repository.
 
+## Final Steps Before Posting
+- reread, format everything correcly, adjust what needs to be adjusted
+
 ## Acknowledgments
 
 I would first like to thank **Justin Peikin** who built this project from the ground up. The work in **_Separation of terbium from proton-irradiated gadolinium oxide targets – development of an effective, scalable and automatable process_ (Applied Radiation and Isotopes, 2025)** — see [https://doi.org/10.1016/j.apradiso.2025.112138](https://doi.org/10.1016/j.apradiso.2025.112138) can be largely attributed to his dedication to the project and foundational work.
