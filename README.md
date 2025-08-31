@@ -536,6 +536,7 @@ by determing the start of measurment time activity through a mucerail implementa
 - Fission, spallation
 - SRIM/stopping power
 - semiconductor physics and general detector properties
+- causes of detector inefficinecies
 - exposure vs dose vs kerma
 - ionizing radation chapter attix, charged particle equilibirum, 
 - Tb as a theranostic isotope, why are Tb isotopes important?
