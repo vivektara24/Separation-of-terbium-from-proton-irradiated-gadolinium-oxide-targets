@@ -529,7 +529,25 @@ by determing the start of measurment time activity through a mucerail implementa
 - reread, format everything correcly, adjust what needs to be adjusted
 - Make sure results xlsx's are properly linked
 - Add ``terbinator/`` repository w/ abstract, poster. Add images of the terbinator to the front page
-- 
+- radiochemistry topics i can discuss: Aparent molar activity, chromatography, extraction chromatograpy, LN2 resin, DGA resin, Lathanide seperation chemistry?, limits of detection, MPAES, specific and molar activity, distribution ratio
+- Phospohr imaging thing
+- mass excess, mass energy, binding energy per nucleon, decay energy (Q value?), seperation energy, definition of an AMU, Beta decay
+- Interaction of radiaion with matter (probably just em radiation, i.e photelectirc vs compoton vs pair produciton)
+- Fission, spallation
+- SRIM/stopping power
+- semiconductor physics and general detector properties
+
+Some fraction of the incoming particle energy is imparted to the kinetic energy of
+the compound nucleus to achieve conservation of momentum.
+
+No carrier added?
+
+Is coulomb barrier included in the threshold energy? or is the threshold energy stricly in terms of inducing a nuclear change post getting past the coulomb barrier?
+
+The incident particle has many collisions inside the nucleus, depositing its energy to many
+nucleons and becoming indistinguishable from them. This results in a highly excited
+“compound nucleus” that can then “de-excite” in a process totally decoupled from the
+incident event.
 
 ## Acknowledgments
 
