@@ -539,7 +539,7 @@ by determing the start of measurment time activity through a mucerail implementa
 - exposure vs dose vs kerma
 - ionizing radation chapter attix, charged particle equilibirum, 
 - Tb as a theranostic isotope, why are Tb isotopes important?
-- 
+- Lack of enriched 160Gd, implications for 161Tb production
 Some fraction of the incoming particle energy is imparted to the kinetic energy of
 the compound nucleus to achieve conservation of momentum.
 
