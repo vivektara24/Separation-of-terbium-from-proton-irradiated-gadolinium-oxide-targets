@@ -555,26 +555,20 @@ Although it was a bad idea to try this with the 511 keV peak, it serves as an ex
 
 by determing the start of measurment time activity through a mucerail implementaiton of an analytical solution of an exponential decay initial value problem prooved in this repository.
 
-## Final Steps Before Posting
-- reread, format everything correcly, adjust what needs to be adjusted
+## Things I wanted to add but cba
 - Make sure results xlsx's are properly linked
 - Add ``terbinator/`` repository w/ abstract, poster. Add images of the terbinator to the front page
-- radiochemistry topics i can discuss: Aparent molar activity, chromatography, extraction chromatograpy, LN2 resin, DGA resin, Lathanide seperation chemistry?, limits of detection, MPAES, specific and molar activity, distribution ratio
-- Phospohr imaging thing
-- mass excess, mass energy, binding energy per nucleon, decay energy (Q value?), seperation energy, definition of an AMU, Beta decay
-- Interaction of radiaion with matter (probably just em radiation, i.e photelectirc vs compoton vs pair produciton) (atix), Bethe equaiton, bragg curve, (knoll)
-- Fission, spallation
-- SRIM/stopping power
-- semiconductor physics and general detector properties
-- causes of detector inefficinecies
-- exposure vs dose vs kerma
+- Interaction of Radiaion w/ Matter
+  - Quantities for Describing The Interaction of Ionizing Radiation w/ Matter.
+  - Exponential Attenuation
+  - Gamma- and X-Ray Interactions in Matter
+  - Charged Particle Interactions in Matter
+- General Detector Properties
 - ionizing radation chapter attix, charged particle equilibirum, 
-- Tb as a theranostic isotope, why are Tb isotopes important?
 - Lack of enriched 160Gd, implications for 161Tb production
 - counting statstics
-- we use a giger meuller counter, a CsI(Tl) scintiallation detector, general modes of operation of these detectors
-- Multichannel pulse analysis, pulse processing and shaping
-- overview of Germainum detectors
+
+  
 Some fraction of the incoming particle energy is imparted to the kinetic energy of
 the compound nucleus to achieve conservation of momentum.
 
