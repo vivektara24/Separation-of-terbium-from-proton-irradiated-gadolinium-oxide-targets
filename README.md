@@ -636,11 +636,25 @@ We compare the expirmentally determined activities to expected yields calculated
 
 ## Failed Proton Activation Analysis
 
-Question: why does it matter if the Gd is in Gd2O3 or a nitrate form?
+The 5- and 10-minute interval measurments taken ~1hr post eob described above were intially taken with the intention of assessing the elemental composition of natGd2O3 recyled through the process described in the accompaying paper.
 
-The 5- and 10-minute interval measurments taken ~1hr post eob described above were intially taken with the intention of assessing the elemental composition of the natGd2O3 post recycling by performing an activation analysis.
+After going through through the radiochemical seperation process, ~95% of the Gd is recovered in the first 4 rinse fractions (~40mL 0.2M HNO3) of the first LN2 column. The fractions are dried down, leaving behind Gd(NO3)3 * XH2O salf. In the recovery process, across the temperature gradient of the process, the composition of Gd(NO3)3 takes place through the following scheme.
 
-After going through through the radiochemical seperation process, ~95% of the Gd is recovered in the first 4 rinse fractions (~40mL 0.2M HNO3) if the first LN2 column. The fractions are dried down, leaving behind Gd(NO3)3 * XH2O salf. To recover Gd2O3 from the salt we implement the denitration paper described in the accanpying work, informed by the chemical process impelmeneted in Non-isothermal kinetics of the thermal decomposition of gadolinium nitrate. We attempted to quantify the number of 14N atoms in a target made from recycled materials, by measuring the amount of 11C that was created in the 14N(p, alpha)11C reaction. The issue with this is that the 16O present in Gd2O3 undergoes the 16O(p, alpha)13N reaction too. Both 11C and 13N only have 511 keV gamma emissions from B+ decay followed by positron emmision. To further complicate things they have relatively similar half-lives 20.34mins and 9.967 min respecivley. Additionally they are not the only B+ emitting radionuclides that were created, 152Tb, 153Tb, 154Tb, 156Tb, and 158Tb is also a positron emitting radionuclied, although the half-life are of these isotopes are large in compartison with 11C and 13C.
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?350-450^{\circ}C:\;Gd(NO_{3})_{3}\;\rightarrow\;GdO(NO_{3})\;+\;aNO_{x}\;+\;bN_{2}\;+\;cO_{2}" />
+</p>
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?450-550^{\circ}C:\;GdO(NO_{3})\;\rightarrow\;\tfrac{1}{4}Gd_{4}O_{5}(NO_{3})_{2}\;+\;dNO_{x}\;+\;eN_{2}\;+\;fO_{2}" />
+</p>
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?550-700^{\circ}C:\;Gd_{4}O_{3}(NO_{3})_{2}\;\rightarrow\;2Gd_{2}O_{3}\;+\;gN_{2}\;+\;hO_{2}" />
+</p>
+
+
+
+informed by the chemical process impelmeneted in Non-isothermal kinetics of the thermal decomposition of gadolinium nitrate. We attempted to quantify the number of 14N atoms in a target made from recycled materials, by measuring the amount of 11C that was created in the 14N(p, alpha)11C reaction. The issue with this is that the 16O present in Gd2O3 undergoes the 16O(p, alpha)13N reaction too. Both 11C and 13N only have 511 keV gamma emissions from B+ decay followed by positron emmision. To further complicate things they have relatively similar half-lives 20.34mins and 9.967 min respecivley. Additionally they are not the only B+ emitting radionuclides that were created, 152Tb, 153Tb, 154Tb, 156Tb, and 158Tb is also a positron emitting radionuclied, although the half-life are of these isotopes are large in compartison with 11C and 13C.
 
 However we tried to fit a sum of two exponential decays to the decay of the 511keV peak over the course of the repeated 5- and 10-minute measurments, floating only the intilal activities and fixing the half-lives to what we know them to be for 11C, 13N. The 14N/16O ratio was determined to be 0.30682.
 
