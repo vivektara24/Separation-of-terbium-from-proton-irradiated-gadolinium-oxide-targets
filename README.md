@@ -219,9 +219,17 @@ If there are only two products in a so-called-two body reaction, we can show usi
 
 What does the Q-value equation say? Is says that if we measure the kinetic energy of the emitted particle x and angle at which it is emitted in a two-body reaction and we know the identiies of the reactants and products of the reactions, that we can determine the Q value of the reaction. In short, we can measure the energy relesase for any two-body reaction by mesureing the properties of one of the products.
 
-For additional insight, let us now consider the same reaction as described in the center of mass (CM) reference frame. In the CM system the total momentum of the particles is zero, before and after the collision. The kinetic energy carried in by the projectile, <img src="https://latex.codecogs.com/svg.latex?T_{\text{Lab}}" />, is not fully avaialbe to be dissipated in the reaction, an amount, T_CM, must be carried away by the motion of the CM. Thus, the available energy to be used (dissipated) in the collision is only T_lab - T_CM = T_0 = [m_T/(M_T+mP)]T_Lab. The energy avalailabe for the nuclear reactions is Q + T_0. To make an endothermic reaction go, the sum Q + T_0 must be >= 0. Rearranging a few terms in the equation, the condition for having the reaction occur is that
+For additional insight, let us now consider the same reaction as described in the center of mass (CM) reference frame. In the CM system the total momentum of the particles is zero, before and after the collision. The kinetic energy carried in by the projectile, <img src="https://latex.codecogs.com/svg.latex?T_{\text{Lab}}" />, is not fully available to be dissipated in the reaction, an amount, <img src="https://latex.codecogs.com/svg.latex?T_{\text{CM}}" />, must be carried away by the motion of the CM. Thus, the available energy to be used (dissipated) in the collision is only <p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?T_{\text{Lab}}-T_{\text{CM}}=T_0=\frac{m_T}{M_T+m_P}T_{\text{Lab}}" />
+</p>. The energy avalailabe for the nuclear reactions is <p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?Q+T_0" />
+</p>. To make an endothermic reaction go, the sum <img src="https://latex.codecogs.com/svg.latex?Q+T_0" /> must satisfy <p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?Q+T_0\geq0" />
+</p>. Rearranging a few terms in the equation, the condition for having the reaction occur is that
 
-T_p >= -Q(m_p + m_t)/m_T
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?T_P\geq -Q\frac{m_P+m_T}{m_T}" />
+</p>
 
 This minimum kinetic energy that the projectile must have to make the reaction go forward is called the threshold energy for the reaction.
 
