@@ -165,13 +165,14 @@ Conversions between the traditional curie (Ci) and the SI base unit (Bq) are sho
 </p>
 
 
-Stable nuclei may be transformed into radioactive species by bombardment with suitable particles, or photons at sufficiently high energy. Many radioactive isotopes are either absent in narture or diffucult to obtain, yet they can be produced.
+**Stable nuclei may be transformed into radioactive species by bombardment with suitable particles, or photons at sufficiently high energy. Many radioactive isotopes with desirable properties are either absent in narture or diffucult to obtain, yet they can be produced. That is to say there are spontaneously decaying radisotopes, that readily undergo nuclear reactions without an input of energy (nuclear decay reaction). In addition, stable or radioactive isotopes can undergo induced nuclear reactions where the nucleus reacts with subatomic particles to form another nucleus that is more massive than the starting material.**
 
-For an efficient and effective disucussion of nuclear reactions, we must understand the notation or jargon that is widely used to describe them. Let us begin by considering one of the first nuclear reactions to be studied:
+
+For an efficient and effective disucussion of nuclear reactions, we must understand the notation or jargon that is widely used to describe them. Let us begin by considering one of the first nuclear reactions to be studied in 1919 by Ernest Rutherford:
 
 ⁴He + ¹⁴N → ¹⁷O + ¹H + Q
 
-Here an alpha particle reacts with a nitrogen nucleus-producing oxygen, a proton, and some energy, Q. Most nuclear reactions are studied by inducing a collision between two nuclei where the heavier reacting nucleus is at rest (the ``target`` nucleus) while the other nucleus (the ``projectile`` nucleus) is in motion, and this is called "normal kinematics". Such nuclear reactions might be described generally as:
+Here an alpha particle emitted by radium reacts with a nitrogen nucleus-producing oxygen, a proton, and some energy, Q. Most nuclear reactions are studied by inducing a collision between two nuclei where the heavier reacting nucleus is at rest (the ``target`` nucleus) while the other nucleus (the ``projectile`` nucleus) is in motion, and this is called "normal kinematics". Such nuclear reactions might be described generally as:
 
 Projectile (P) + Target (T) → Emitted Particle(s) (X) + Residual Nucleus (R) + Energy
 
@@ -191,13 +192,13 @@ Consider the T(P, x)R reaction with only two products. Neglecting electron bindi
   <img src="https://latex.codecogs.com/svg.latex?m_Pc^{2}+m_Tc^{2}+T_P=m_Rc^{2}+m_xc^{2}+T_x" />
 </p>
 
-Note that since R and x may be complex nuclei, they could be formed in exctied states so that the values of m may be different than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is,
+Note that since R and x may be complex nuclei, they could be formed in excited states so that the values of m may be different than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is,
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?Q=(m_P+m_T-m_x-m_R)c^{2}=T_x+T_R-T_P" />
 </p>
 
-Note that if Q is positive the reaction is exoergic, while if Q is negative, the reaction is endoergic. Note that a necessary but not sufficient condition fo the occurrence of a nuclear reactions is that
+Note that if Q is positive the reaction is exoergic, while if Q is negative, the reaction is endoergic. Note that a necessary but not sufficient condition for the occurrence of a nuclear reaction is that
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?Q+T_P>0" />
@@ -217,7 +218,7 @@ If there are only two products in a so-called-two body reaction, we can show usi
   <img src="https://latex.codecogs.com/svg.latex?Q=T_x\left(1-\frac{m_x}{m_R}\right)-T_P\left(1-\frac{m_P}{m_R}\right)-\frac{2}{m_R}\sqrt{m_P\,T_P\,m_x\,T_x}\cos(\theta)" />
 </p>
 
-What does the Q-value equation say? Is says that if we measure the kinetic energy of the emitted particle x and angle at which it is emitted in a two-body reaction and we know the identiies of the reactants and products of the reactions, that we can determine the Q value of the reaction. In short, we can measure the energy relesase for any two-body reaction by mesureing the properties of one of the products.
+What does the Q-value equation say? Is says that if we measure the kinetic energy of the emitted particle x and angle at which it is emitted in a two-body reaction and we know the identities of the reactants and products of the reactions, that we can determine the Q value of the reaction. In short, we can measure the energy release for any two-body reaction by measuring the properties of one of the products.
 
 For additional insight, let us now consider the same reaction as described in the center of mass (CM) reference frame. In the CM system the total momentum of the particles is zero, before and after the collision. The kinetic energy carried in by the projectile, <img src="https://latex.codecogs.com/svg.latex?T_{\text{Lab}}" />, is not fully available to be dissipated in the reaction, an amount, <img src="https://latex.codecogs.com/svg.latex?T_{\text{CM}}" />, must be carried away by the motion of the CM. 
 
@@ -227,15 +228,13 @@ Thus, the available energy to be used (dissipated) in the collision is only
   <img src="https://latex.codecogs.com/svg.latex?T_{\text{Lab}}-T_{\text{CM}}=T_0=\frac{m_T}{M_T+m_P}T_{\text{Lab}}" />
 </p>. 
 
-The energy avalailabe for the nuclear reactions is 
+The energy available for the nuclear reaction is 
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?Q+T_0" />
 </p>. 
 
-To make an endothermic reaction go, the sum <img src="https://latex.codecogs.com/svg.latex?Q+T_0" /> 
-
-must satisfy 
+To make an endothermic reaction go, the sum <img src="https://latex.codecogs.com/svg.latex?Q+T_0" /> must satisfy 
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?Q+T_0\geq0" />
@@ -247,12 +246,7 @@ Rearranging a few terms in the equation, the condition for having the reaction o
   <img src="https://latex.codecogs.com/svg.latex?T_%7BP%7D%5Cgeq%20-Q%5Cfrac%7Bm_%7BP%7D%2Bm_%7BT%7D%7D%7Bm_%7BT%7D%7D" />
 </p>
 
-
-
 This minimum kinetic energy that the projectile must have to make the reaction go forward is called the threshold energy for the reaction.
-
-
-That is to say there are spontaneously decaying radisotopes that are not naturally occuring or difficult to obtain naturally, the spontenous decay of a radioisotope is one kind of nuclear reaction, defined by a change in the nuclear state? of a radioisotope. An additional type of nuclear reaction is acheived by accelerating a charged particle or by subjecting to regions of high thermal flux neutrons, and absorbiion a high energy gammas into a nucleus which leaves the nucleus in the compound state, the compound state emitts a gamma or neutorn or proton or alpha or spallation can occur of fission, which leaves behind an excited daugher isotope, this isotope can be radiactve istelf therefore by incucing a nuclear reaction you produce another radiosotipe that spontaeously udergoes anohter nuclear reaction.
 
 
 The purpose of an accelerator of charged particles is to direct against a target a beam of a specific kind of particles of a chosen energy. Low energy accelerators are used to produce beams in the 10-100-MeV range, often for reaction or scattering studies to elucidate the structure of specific final states, perhaps even individual excited states. These accelerators should have accurate energy selection and reasonably high currents because the ultimate precision of many expirments is limited by counting statistics.
@@ -307,7 +301,9 @@ where:
 - **I** – projectile intensity (particles/s)  
   - Calculated from the beam current (µA) using the charge per particle and the conversion factor 6.24 × 10¹⁸ charges/coulomb  
 
-Radioactive nuclei, either natural or artificially produced by nuclear reactions, are unstable and tend to seek more stable configurations through expulsion of energetic particles, including one or more of the following,* where corresponding changes in the atomic number (Z) and number of nucleons (A) are indicated:
+This equation holds for _thin targets_, where the energy degredation of the ion beam throughout the thickness of the target material is << 1.0%.
+
+Radioactive nuclei, either natural or artificially produced by nuclear transmutation reactions, are unstable and tend to seek more stable configurations through expulsion of energetic particles, including one or more of the following,* where corresponding changes in the atomic number (Z) and number of nucleons (A) are indicated:
 
 | Emission Type   | ΔZ  | ΔA  |
 |-----------------|-----|-----|
