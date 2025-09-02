@@ -656,11 +656,8 @@ It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete den
 
 <table>
   <tr>
-    <th colspan="2" style="text-align:center">Example outputs of the <code>nuclab</code> Python package</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="images/Picture9.png" alt="Calibration Plot" width="400"/></td>
-    <td align="center"><img src="images/failedrec0.svg" alt="Decay Plot" width="400"/></td>
+    <td align="center"><img src="images/Picture9.png" alt="Calibration Plot" width="250"/></td>
+    <td align="center"><img src="images/failedrec0.svg" alt="Decay Plot" width="250"/></td>
   </tr>
 </table>
 
@@ -673,6 +670,7 @@ It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete den
   </em>
 </p>
 
+Additional comments from failed recycling processes:
 
 6/19/2024 Recycling description: "furnace pushed from 180C to 400C to 600C. Done on two separate days (p33 and 37) due to yellowish color of powder."
 
@@ -681,19 +679,15 @@ It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete den
 
 However numerous tests have shown that with careful experimental manipuation, AA is an accurate (~1% accuracy) and precise (~5% precision) method of measuring elemental concentrations. We attempted to quantify the number of 14N atoms remaining in the recycled natGd2O3, by measuring the 11C activity that is created in the 14N(p, alpha)11C reaction
 
- We attempted to quantify the number of 14N (99.579% nat. abundance) atoms in a target made from recycled materials, by measuring the amount of 11C that was created in the 14N(p, alpha)11C reaction. Complications in this procedure immediatley rise from the short-half life of 11C () and the fact that its only gamma emission is a 511 keV peak which contains lots of background. To further complicate the process The oxygen present in both gadolinium oxide and the various nitrate compounds undergoes the 16O(p, alpha)13N reaction to create another short-lived () only 511 keV peak emitting radiosoptes. And once again to further complicate this process, 152Tb, 153Tb, 154Tb, 156Tb, and 158Tb are all B+ emitting radionuclides that were created in the irradiation.
+ We attempted to quantify the number of 14N (99.579% nat. abundance) atoms in a target made from recycled materials, by measuring the amount of 11C that was created in the 14N(p, alpha)11C reaction. Complications in this procedure immediatley rise from the short-half life of 11C (~20 mins) and the fact that its only gamma emission is a 511 keV peak which contains lots of background. To further complicate the process The oxygen present in both gadolinium oxide and the various nitrate compounds undergoes the 16O(p, alpha)13N reaction to create another short-lived (~10 min), only 511 keV peak emitting radiosoptes. And once again to further complicate this process, 152Tb, 153Tb, 154Tb, 156Tb, and 158Tb are all B+ emitting radionuclides that were created in the irradiation.
 
-The irrdidiations were conducted with the intent of creating tracer-scale amounts of Tb to use in the isolation expeiriments. Immediatley post eob the activity from the target was measured to be somewhere ~10 mCi. This level of activity lead to deadtimes greater than 10% at the maximum possible distance from the face of the hpge detector until ~45mins (~2x half-lives, ~4.5 half-lives) leading to poor statisticts for decay correction and curve fitting to determine relative eob ratios. In a "crude" attempt to quantify the results of the 5- and 10-min serial measuremnts we perform a curve fitting to the determined activity accross the 511 keV peak accross the measuremnts, we dont take into account any of the producued Tb isotopes. 
- 
- The issue with this is that the 16O present in Gd2O3 undergoes the 16O(p, alpha)13N reaction too. Both 11C and 13N only have 511 keV gamma emissions from B+ decay followed by positron emmision. To further complicate things they have relatively similar half-lives 20.34mins and 9.967 min respecivley. Additionally they are not the only B+ emitting radionuclides that were created, 152Tb, 153Tb, 154Tb, 156Tb, and 158Tb is also a positron emitting radionuclied, although the half-life are of these isotopes are large in compartison with 11C and 13C.
+The irrdidiations were conducted with the intent of creating tracer-scale amounts of Tb to use in the isolation expeiriments. Immediatley post eob the activity from the target was measured to be somewhere ~10 mCi. This level of activity lead to deadtimes greater than 10% at the maximum possible distance from the face of the hpge detector until ~45mins (~2x half-lives, ~4.5 half-lives of the isotopes respectivley) leading to a lack of statistics for the curve fitting to near eob to fit inital activities. In a "crude" attempt to quantify the results of the 5- and 10-min serial measurements we fit a sum of exponentials to 511 keV peak activity (using an average of the 11C and 11N 551 keV emission intensity) accross the measurements. We dont take into account any of the producued Tb isotopes. 
 
-However we tried to fit a sum of two exponential decays to the decay of the 511keV peak over the course of the repeated 5- and 10-minute measurments, floating only the intilal activities and fixing the half-lives to what we know them to be for 11C, 13N. The 14N/16O ratio was determined to be 0.30682.
+The atomic areal densities of 14N and 16O in the sample was determined to be 5.4x10^19 atoms/cm2 and 1.8e20 atoms/cm2 respectivley. We have a total pocket radius of 5cm giving 4.2x10^19 14N atoms and 1.4x10^20 16O atoms respectivley. 
 
+Total number O = O from Gd2O3 + O from nitrates
 
-Although it was a bad idea to try this with the 511 keV peak, it serves as an example of how one can perform quality control of a chemical process by irrdiating a . 
-
-
-by determing the start of measurment time activity through a mucerail implementaiton of an analytical solution of an exponential decay initial value problem prooved in this repository.
+Total number 0 - total number O * 
 
 ## Things I wanted to add but cba
 - Make sure results xlsx's are properly linked
