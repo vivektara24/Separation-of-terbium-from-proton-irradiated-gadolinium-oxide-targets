@@ -494,6 +494,14 @@ In addition to limitations posed by kinematics or thermodynamics, there are cert
 
 In the study of nuclear reactions, nuclear structure, and the heaviest elements, one frequently needs to chemically seperate the nuclide(s) of interest from other radioactive species that are present. This is done by performing radiochemical separations that involve the conventional seperation techniques of analytical chemistry apdated to the special needs of radiochemistry.
 
+Chromatography is essentially a physical method of separation in which the components to be seperated are distributed between two phases, one of which is stationary (stationary phase) while the other (the mobile phase) moves in a definite direction. Chromatographic separations have three distinct features:
+
+- They are physical methods of separation.
+- Two discrict phases are involved, one of which is stationary while the other is mobile
+- Separation results from differences in the distribution constants of the individual sample components between the two phases.
+
+The rate of migration or direction of migration of the two phases are different.
+
 Extraction chromatography is an analytical separation technique that is closely related to solvent extraction. Extraction chromatography is a form of solvent extraction where one of the liquid phases is made stationary by adsorption on a solid support. The other liquid phase is mobile. Either the aqueous or the organic phase can be made stationary. Extraction chromatography has the selectivity of solvent extraction and the multistae charecter of a chromatgraphic process. It is generally used for labratory-scale experiments, although some attempts have been made to use it in larger scale operations.
 
 When the stationary phase is organic, the technique is refered to as reverse-phase high performance liquid chromatography.
