@@ -171,11 +171,11 @@ For an efficient and effective disucussion of nuclear reactions, we must underst
 
 ⁴He + ¹⁴N → ¹⁷O + ¹H + Q
 
-Here an alpha particle reactis with a nitorgen nucleus-producing oxygen, a proton, and some energy, Q. Most nuclear reactions are studied by inducing a collision between two nuclei where the heavier reacting nucleus is at rest (the ``target`` nucleus) while the other nucleus (the ``projectile`` nucleus) is in motion, and this is called "normal kinematics". Such nuclear reaction might be described generally as:
+Here an alpha particle reacts with a nitrogen nucleus-producing oxygen, a proton, and some energy, Q. Most nuclear reactions are studied by inducing a collision between two nuclei where the heavier reacting nucleus is at rest (the ``target`` nucleus) while the other nucleus (the ``projectile`` nucleus) is in motion, and this is called "normal kinematics". Such nuclear reactions might be described generally as:
 
 Projectile (P) + Target (T) → Emitted Particle(s) (X) + Residual Nucleus (R) + Energy
 
-A shorthand way to dento such reactions is, for the general case:
+A shorthand way to denote such reactions is, for the general case:
 
 T(P, x)R
 
@@ -185,13 +185,13 @@ For the specific example discussed earlier:
 
 In a nuclear reaction moderated by the strong force in contrast to the weak force, there is conservation of the number of proton and neutrons (and thus the number of nucleons). There is also conservation of energy, momentum, angular momentum, and parity.
 
-Consider the T(P, x)R reaction with only, two products. Neglecting electron binding energies, we have, for the energy balance in the reaction,
+Consider the T(P, x)R reaction with only two products. Neglecting electron binding energies, we have, for the energy balance in the reaction,
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?m_Pc^{2}+m_Tc^{2}+T_P=m_Rc^{2}+m_xc^{2}+T_x" />
 </p>
 
-Note that since R and x may be complex nuclei, they could be formed in exctied states so that the values of m may be differrnt than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is ,
+Note that since R and x may be complex nuclei, they could be formed in exctied states so that the values of m may be different than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is,
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?Q=(m_P+m_T-m_x-m_R)c^{2}=T_x+T_R-T_P" />
@@ -205,13 +205,13 @@ Note that if Q is positive the reaction is exoergic, while if Q is negative, the
 
 i.e for an endoergic process the decrease in the mass energies from reactants to products must be compensated for by the kinetic energy of the projectile.
 
-If the masses of both the products and reactants are known, the Q-value can be calculated using the mass excess as
+If the masses of both the products and reactants are known, the Q-value can be calculated using mass excesses as
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?Q=\Delta_{\text{projectile}}+\Delta_{\text{target}}-\sum\Delta_{\text{products}}" />
 </p>
 
-If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only \(T_x\) and the angle \(\theta\) of particle \(x\) with repsect to the direction of motion of \(P\) suffice to determine \(Q\). The proof is rather long so I leave you the final result, the _Q-value equation_
+If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only <img src="https://latex.codecogs.com/svg.latex?T_x" /> and the angle \(\theta\) of particle \(x\) with repsect to the direction of motion of \(P\) suffice to determine \(Q\). The proof is rather long so I leave you the final result, the _Q-value equation_
 
 Q = Tx(1 - m_x/m_R) - T_P(1 - m_P/m_R) - 2/m_R(m_PT_Pm_xT_x)^1/2cos(theta)
 
