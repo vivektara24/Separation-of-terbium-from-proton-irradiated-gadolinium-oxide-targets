@@ -483,10 +483,43 @@ The range of activity levels in radiochemical procedures ranges from pCi to MCi.
   <img src="https://latex.codecogs.com/svg.latex?\mathrm{Mass\;of\;sample}=2.3\times10^{-12}\,\mathrm{g}" />
 </p>
 
-This simple calculation demostrates a number of important features in radiochemistry:
+This quanity of material, if prepared in an aqueous solution of volume 1 L, would have a concentration of 10^-14 mol/L. This simple calculation demostrates a number of important features in radiochemistry:
 - The manipulation samples involving infinitesimal quantities of material
 - The power of nuclear analytical techniques (since 1uCi is a significant, easily detectable quantity of radioactivity)
-- 
+- ?
+
+The small number of atoms involved in some radiochemical procedures can alter the exapected behavior. Although time-dependent processes obeying first-order kinetics are not changed by changes in concentration, the same is not true of second order kinetics. The extreme dilution in some solutions can mean that equilibrium is not reached due to kinetic limitations.
+
+In addition to limitations posed by kinematics or thermodynamics, there are certain problems associated with very low solution concentrations. An important problem is the adsorption of tracer levels of radioactivity on the surfaces of laboratory glassware. Glass has an ion-exchange capacity of 10^-10 mol/cm2 along with similar number of chemisorption sites. A 100-mL beaker can absorb ~10^-8 mol, which is significant if conetration of the tracer is <= 10^-6 M. One suppresses the absorption by having high [H+] (thus blocking adsorption sites), by treating glass surfaces with nonadsorbing silicone coatings, or by the use of holdback carriers.
+
+In the study of nuclear reactions, nuclear structure, and the heaviest elements, one frequently needs to chemically seperate the nuclide(s) of interest from other radioactive species that are present. This is done by performing radiochemical separations that involve the conventional seperation techniques of analytical chemistry apdated to the special needs of radiochemistry.
+
+Extraction chromatography is an analytical separation technique that is closely related to solvent extraction. Extraction chromatography is a form of solvent extraction where one of the liquid phases is made stationary by adsorption on a solid support. The other liquid phase is mobile. Either the aqueous or the organic phase can be made stationary. Extraction chromatography has the selectivity of solvent extraction and the multistae charecter of a chromatgraphic process. It is generally used for labratory-scale experiments, although some attempts have been made to use it in larger scale operations.
+
+When the stationary phase is organic, the technique is refered to as reverse-phase high performance liquid chromatography.
+
+The stationary phase is used in a column, high-pressure pumps are usually used to force the liquid phase through these columns.
+
+One of the areas in which the skills of radiochemists are used is the area of low-level chemsitry and low-level counting. For example, in enviromental studies quite often one is left with a small quantity <10ppm of radioactivity that must be assayed. Such essays are refered to as low-level techniques. Among the requirments for low-level chemistry are a small constant blank, high chemical yields for all procedures, high radiochemical purity for all reagents employed, and the ability to place the sample in suitable chemical form for counting.
+
+The blank in low-level chemistry is defined as the contribution of the added reagents and any other sample constituents to the activity being measured. The blank is determined by performing the chemical procedures without without the radioactive sample being analyzed. One of the most effective ways of dealing with a blank correction is to reduce it to it's lowest level. Among the factors contributing to the blank correction that can be reduced with care is radiochemical contamination of analytical reagents used in chemical procedures. See DeVoe (1961) and Sugihara (1961) for detailed information. Airborne contamination is another possible contribution to the blank correction--One is chiefly concerned with the daughters of 222Rn, which have half-lives in the 30- to 40-min range. Steps can be taken to avoid this problem including eschewing the use of suction filtration in chemical procedures, prefiltering of room air, and use of radon traps. 
+
+"Further lowering of the blank correction occurs when nonisotropic carriers in chemical procedures are used to replace inert carriers of the element of interest when it is difficult to obtain the inert carrier in a contamination-free condition" -> Don't understand what this means : (
+
+Once the low-level radioactive sample has been collected and any chemical procedure preformed prior to counting, it is ready for counting.
+
+Suppose you have perfromed a low-level expirement andyou wish to state your results in a significantly meanigful manner. You wish you answer questions such as "Is there a result/signal/event? What is the chance it will be detected with my apparatus? How big is it?" Currie (1968) has provided answers to these questions by defining three different limits of detection:
+
+- The critical level L_C, the signal level above which an observed intrument response may be reliably recognized as "detected".
+- The detection limit L_D, the true net signal that may be expected a priori (in theory) to lead to detection.
+- The determination limit L_Q, the signal level above which a quantitative measuremnt can be performed with a stated relative uncertainty.
+
+Operationally, the steps for calculating these limits are as follows
+
+|                      | L<sub>C</sub>       | L<sub>D</sub>       | L<sub>Q</sub>       |
+|----------------------|--------------------:|--------------------:|--------------------:|
+| Paired observations  | 2.33 σ<sub>B</sub>  | 4.65 σ<sub>B</sub>  | 14.1 σ<sub>B</sub>  |
+| “Well-known” blank   | 1.64 σ<sub>B</sub>  | 3.29 σ<sub>B</sub>  | 10 σ<sub>B</sub>    |
 
 
 Activation Analysis
