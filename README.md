@@ -157,14 +157,11 @@ More recently, the SI unit **becquerel (Bq)** was adopted, defined as:
 </p>
 
 <p align="center">
-
-| Unit   | Value (Bq)         |
-|--------|---------------------|
-| **1 Ci**  | 3.7 × 10¹⁰ |
-| **1 mCi** | 3.7 × 10⁷  |
-| **1 µCi** | 3.7 × 10⁴  |
-
+  <b>1 Ci</b> = 3.7 × 10¹⁰ Bq<br/>
+  <b>1 mCi</b> = 3.7 × 10⁷ Bq<br/>
+  <b>1 µCi</b> = 3.7 × 10⁴ Bq
 </p>
+
 
 
 
