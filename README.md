@@ -521,6 +521,8 @@ Operationally, the steps for calculating these limits are as follows
 | Paired observations  | 2.33 σ<sub>B</sub>  | 4.65 σ<sub>B</sub>  | 14.1 σ<sub>B</sub>  |
 | “Well-known” blank   | 1.64 σ<sub>B</sub>  | 3.29 σ<sub>B</sub>  | 10 σ<sub>B</sub>    |
 
+For example, if the background under a photopeak of interest is a gamma-ray spectrum was 100cpm, then sigma_B = sqrt(100) = 10cpm. According to the recipies given above, one would need to detect a photopeak area of 23 cpm to say that a nuclide was present and would need to detect at least 141 cpm to measure the amount of nuclide present. One would need a count rate of 47 cpm to ensure, before making the measurment, that the nuclide in question could be detected.
+
 
 Activation Analysis
 ---
