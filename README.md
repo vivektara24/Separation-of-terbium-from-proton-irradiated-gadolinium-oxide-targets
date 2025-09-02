@@ -654,6 +654,29 @@ After going through through the radiochemical seperation process, ~95% of the Gd
 
 It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete denitration process, however when starting the ramping from 180C we observed some gadolinum nitrate still present in the final product.
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/FailedRec1.jpg" alt="Failed Recycling 1" width="400"/><br/>
+      <em>Dramatic tumor regression following ²²⁵Ac-PSMA therapy.</em>
+    </td>
+    <td align="center">
+      <img src="images/FailedRec1.jpg" alt="Failed Recycling 2" width="400"/><br/>
+      <em>Dramatic tumor regression following ²²⁵Ac-PSMA therapy.</em>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <em>
+    Initial failed recycling that did not dissolve – likely was not Gd<sub>x</sub>(NO<sub>3</sub>)<sub>x</sub> (p35).  
+    Failed dissolution w/ heat gun, later dissolved more so in conc. HNO₃ (p36).  
+    Denitrated with some flaky white precipitate; had insoluble grey, then white flakes after GL32 drying.  
+    Flakes and powder stuck to quartz tube very high up. – Furnace set from 180 °C to 600 °C but at a fast ramp rate of 16 °C/min.
+  </em>
+</p>
+
+
 6/19/2024 Recycling description: "furnace pushed from 180C to 400C to 600C. Done on two separate days (p33 and 37) due to yellowish color of powder."
 
 10/10/2024 Recyling description: "SLOW RAMP (2C/min from 180-600C, then 2 hours at 600C)"
