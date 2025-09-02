@@ -470,6 +470,19 @@ The range of activity levels in radiochemical procedures ranges from pCi to MCi.
   <img src="https://latex.codecogs.com/svg.latex?N=\frac{D}{\lambda}=\frac{(1\,\mu\text{Ci})(3.7\times10^{4}\,\text{dps}/\mu\text{Ci})(3\,\text{d})(24\,\text{h}/\text{d})(3600\,\text{s}/\text{h})}{\ln 2}" />
 </p>
 
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\text{where }\lambda=\frac{\ln2}{t_{1/2}}" />
+</p>
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?N\approx1.4\times10^{10}\,\text{atoms}" />
+</p>
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\text{Mass of sample}=2.3\times10^{-12}\,\text{g}" />
+</p>
+
+
 
 
 
