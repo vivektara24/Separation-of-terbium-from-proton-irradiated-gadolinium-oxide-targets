@@ -467,11 +467,11 @@ Because of the small amounts of materials involved, the presence of radioachitiv
 The range of activity levels in radiochemical procedures ranges from pCi to MCi. For the sake of discussion let us assume an activity level D, typical of radiotracer experiments 1uCi, and a nucleus with mass number A~100. If we assume a half-life for this radionuclide of 3 d, the number of nuclei present can be calculated from the equation,
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?N=\frac{D}{\lambda}=\frac{(1\,\mu\text{Ci})(3.7\times10^{4}\,\text{dps}/\mu\text{Ci})(3\,\text{d})(24\,\text{h}/\text{d})(3600\,\text{s}/\text{h})}{\ln 2}" />
+  <img src="https://latex.codecogs.com/svg.latex?N=\frac{D}{\lambda}=\frac{(1\,\mu\mathrm{Ci})(3.7\times10^{4}\,\mathrm{dps}/\mu\mathrm{Ci})(3\,\mathrm{d})(24\,\mathrm{h}/\mathrm{d})(3600\,\mathrm{s}/\mathrm{h})}{\ln 2}" />
 </p>
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\text{where }\lambda=\frac{\ln2}{t_{1/2}}" />
+  <img src="https://latex.codecogs.com/svg.latex?\lambda=\frac{\ln 2}{t_{1/2}}" />
 </p>
 
 <p align="center">
@@ -479,9 +479,8 @@ The range of activity levels in radiochemical procedures ranges from pCi to MCi.
 </p>
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\text{Mass of sample}=2.3\times10^{-12}\,\text{g}" />
+  <img src="https://latex.codecogs.com/svg.latex?\mathrm{Mass\;of\;sample}=2.3\times10^{-12}\,\mathrm{g}" />
 </p>
-
 
 
 
