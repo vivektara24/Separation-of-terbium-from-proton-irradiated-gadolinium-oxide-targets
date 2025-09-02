@@ -660,7 +660,7 @@ It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete den
       <img src="images/failedrec0.svg" alt="Failed Recycling 1" width="250"/><br/>
     </td>
     <td align="center">
-      <img src="images/failedrec0.svg" alt="Failed Recycling 2" width="250"/><br/>
+      <img src="images/failedrec1.svg" alt="Failed Recycling 2" width="250"/><br/>
     </td>
   </tr>
 </table>
