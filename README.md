@@ -211,9 +211,11 @@ If the masses of both the products and reactants are known, the Q-value can be c
   <img src="https://latex.codecogs.com/svg.latex?Q=\Delta_{\text{projectile}}+\Delta_{\text{target}}-\sum\Delta_{\text{products}}" />
 </p>
 
-If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only <img src="https://latex.codecogs.com/svg.latex?T_x" /> and the angle \(\theta\) of particle \(x\) with repsect to the direction of motion of \(P\) suffice to determine \(Q\). The proof is rather long so I leave you the final result, the _Q-value equation_
+If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only <img src="https://latex.codecogs.com/svg.latex?T_x" /> and the angle <img src="https://latex.codecogs.com/svg.latex?\theta" /> of particle x with repsect to the direction of motion of P suffice to determine Q. The proof is rather long so I leave you the final result, the _Q-value equation_:
 
-Q = Tx(1 - m_x/m_R) - T_P(1 - m_P/m_R) - 2/m_R(m_PT_Pm_xT_x)^1/2cos(theta)
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?Q=T_x\left(1-\frac{m_x}{m_R}\right)-T_P\left(1-\frac{m_P}{m_R}\right)-\frac{2}{m_R}\sqrt{m_P T_P m_x T_x}\cos\theta" />
+</p>
 
 What does the Q-value equation say? Is says that if we measure the kinetic energy  of the emitted paricle x and angle at which is emittied in a two-body reaction and we know the identiies of the reacts and product of the reactions, that we can dtermined the Q value of the reaction. In short, we can measure the energy relesase for any two-body reaction by mesureing the properties of one of the proudcitons.
 
