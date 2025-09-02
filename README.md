@@ -403,11 +403,12 @@ where:
 - **I<sub>γ</sub>** – the emission probability that the radionuclide decay produces the specific γ-ray of interest  
 - **ϵ<sub>abs</sub>** – the absolute detector efficiency at the γ-ray energy of interest  
 
-The **nuclab** `Calibration` class is used to determine absolute detector efficiencies. These depend not only on intrinsic detector properties but also on the experimental counting geometry. Formally, the absolute efficiency is defined as:
+The **nuclab** `Calibration` class is used to determine absolute detector efficiencies. These depend not only on intrinsic detector properties but also on the experimental counting geometry. For our purposes, we define the absolute efficiency is defined as:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\epsilon_{\text{abs}}=\frac{\text{number%20of%20pulses%20recorded}}{\text{number%20of%20radiation%20quanta%20emitted%20by%20source}}" />
+  <img src="https://latex.codecogs.com/svg.latex?\epsilon_{\text{abs}}=\frac{\text{number%20of%20counts%20detected%20by%20the%20detector}}{\text{number%20of%20decays%20of%20the%20source}}" />
 </p>
+
 
 Over the course of a measurement, the activity of a radioactive source decreases exponentially:
 
