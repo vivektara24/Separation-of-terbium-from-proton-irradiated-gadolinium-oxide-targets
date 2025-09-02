@@ -457,8 +457,7 @@ Activation analysis (AA) is an analytical technique that allows one to determine
 - Using chemical or instrumental technqiues, "isolate" X and X* from all other elements in Y (not necessarily quantitatively) and measure the activity of X*.
 - Calculate the amount of X present.
 
-But how does one calculate the amount of X present, knowing the activity of X* produced in the irradiation? Since the radioactivity was produced in a nuclear reaction, it can be shown that the activity \( A_X^{*} \)
- as a function of time is 
+But how does one calculate the amount of X present, knowing the activity of X* produced in the irradiation? Since the radioactivity was produced in a nuclear reaction, it can be shown that the activity A<sub>X</sub><sup>*</sup> as a function of time is 
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?A_X^{*}=N_X\,\sigma\,\phi\,(1-e^{-\lambda_Xt_i})\,e^{-\lambda_Xt_d}" />
