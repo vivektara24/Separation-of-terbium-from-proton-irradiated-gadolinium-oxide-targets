@@ -658,11 +658,9 @@ It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete den
   <tr>
     <td align="center">
       <img src="images/FailedRec1.jpg" alt="Failed Recycling 1" width="250"/><br/>
-      <em>Dramatic tumor regression following ²²⁵Ac-PSMA therapy.</em>
     </td>
     <td align="center">
       <img src="images/FailedRec2.png" alt="Failed Recycling 2" width="250"/><br/>
-      <em>Dramatic tumor regression following ²²⁵Ac-PSMA therapy.</em>
     </td>
   </tr>
 </table>
