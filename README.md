@@ -634,11 +634,11 @@ We compare the expirmentally determined activities to expected yields calculated
 
 ``You know what I mean?``
 
-## Failed Proton Activation Analysis
+## Gd2O3 Recycling and The Failed Proton Activation Analysis
 
 The 5- and 10-minute interval measurments taken ~1hr post eob described above were intially taken with the intention of assessing the elemental composition of natGd2O3 recyled through the process described in the accompaying paper.
 
-After going through through the radiochemical seperation process, ~95% of the Gd is recovered in the first 4 rinse fractions (~40mL 0.2M HNO3) of the first LN2 column. The fractions are dried down, leaving behind Gd(NO3)3 * XH2O salf. In the recovery process, across the temperature gradient of the process, the composition of Gd(NO3)3 takes place through the following scheme.
+After going through through the radiochemical seperation process, ~95% of the Gd is recovered in the first 4 rinse fractions (~40mL 0.2M HNO3) of the first LN2 column. The fractions are dried down, leaving behind Gd(NO3)3 * XH2O salf. In the recovery process, across the temperature gradient (time) of the process, the composition of Gd(NO3)3 takes place through the following scheme.
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?350-450^{\circ}C:\;Gd(NO_{3})_{3}\;\rightarrow\;GdO(NO_{3})\;+\;aNO_{x}\;+\;bN_{2}\;+\;cO_{2}" />
@@ -652,7 +652,13 @@ After going through through the radiochemical seperation process, ~95% of the Gd
   <img src="https://latex.codecogs.com/svg.latex?550-700^{\circ}C:\;Gd_{4}O_{3}(NO_{3})_{2}\;\rightarrow\;2Gd_{2}O_{3}\;+\;gN_{2}\;+\;hO_{2}" />
 </p>
 
+It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete denitration process, however when starting the ramping from 180C we observed some gadolinum nitrate still present in the final product.
 
+6/19/2024 Recycling description: furnace pushed from 180C to 400C to 600C. Done on two separate days (p33 and 37) due to yellowish color of powder.
+<img width="590" height="49" alt="image" src="https://github.com/user-attachments/assets/c3112381-2c1f-4f36-8e88-3c66394a0b2c" />
+
+
+Numerous tests have shown that with careful experimental manipuation, AA is an accurate (~1% accuracy) and precise (~5% precision) method of measuring elemental concentrations.
 
 informed by the chemical process impelmeneted in Non-isothermal kinetics of the thermal decomposition of gadolinium nitrate. We attempted to quantify the number of 14N atoms in a target made from recycled materials, by measuring the amount of 11C that was created in the 14N(p, alpha)11C reaction. The issue with this is that the 16O present in Gd2O3 undergoes the 16O(p, alpha)13N reaction too. Both 11C and 13N only have 511 keV gamma emissions from B+ decay followed by positron emmision. To further complicate things they have relatively similar half-lives 20.34mins and 9.967 min respecivley. Additionally they are not the only B+ emitting radionuclides that were created, 152Tb, 153Tb, 154Tb, 156Tb, and 158Tb is also a positron emitting radionuclied, although the half-life are of these isotopes are large in compartison with 11C and 13C.
 
