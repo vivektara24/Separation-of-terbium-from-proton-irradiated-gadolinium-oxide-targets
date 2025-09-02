@@ -656,12 +656,15 @@ It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete den
 
 <table>
   <tr>
-    <td align="center">
-      <img src="images/failedrec0.svg" alt="Failed Recycling 1" width="250"/><br/>
-    </td>
-    <td align="center">
-      <img src="images/failedrec1.svg" alt="Failed Recycling 2" width="250"/><br/>
-    </td>
+    <th colspan="2" style="text-align:center">Example outputs of the <code>nuclab</code> Python package</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/failedRec.svg" alt="Calibration Plot" width="400"/></td>
+    <td align="center"><img src="images/failedrec0.svg" alt="Decay Plot" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Fitted efficiency curve for HPGe detector using the <code>Calibration</code> class</em></td>
+    <td align="center"><em>Exponential decay of ¹⁵⁴ᵐ¹Tb derived from serial HPGe spectra using the <code>Serial</code> class</em></td>
   </tr>
 </table>
 
