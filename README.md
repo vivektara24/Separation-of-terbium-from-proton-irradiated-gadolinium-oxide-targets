@@ -452,6 +452,27 @@ does not incorporate the time-dependent decrease in activity.
 Radiochemistry Concepts
 ---
 
+Radiochemistry is defined as "the chemical study of radioactive elements, both natural and artificial, and their use in the study of chemical processes".
+
+Operationally, radiochemistry is defined by the activities of radiochemists, that is,
+
+- Nuclear analytical methods
+- Applications of radionuclides in areas outside chemistry, such as medicine
+- Physics and chemsitry of radioelements
+- Physics and chemistry of high-activity-level matter
+- Radiotracer studies
+
+Because of the small amounts of materials involved, the presence of radioachitivy, and the frequent need to deal with short-lived nuclei, these techniques are not the same as ordinary chemical techniques.
+
+The range of activity levels in radiochemical procedures ranges from pCi to MCi. For the sake of discussion let us assume an activity level D, typical of radiotracer experiments 1uCi, and a nucleus with mass number A~100. If we assume a half-life for this radionuclide of 3 d, the number of nuclei present can be calculated from the equation,
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?N=\frac{D}{\lambda}=\frac{(1\,\mu\text{Ci})(3.7\times10^{4}\,\text{dps}/\mu\text{Ci})(3\,\text{d})(24\,\text{h}/\text{d})(3600\,\text{s}/\text{h})}{\ln 2}" />
+</p>
+
+
+
+
 Activation Analysis
 ---
 
