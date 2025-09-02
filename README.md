@@ -431,19 +431,19 @@ For the special case where the measurement starts at *t₁ = 0*:
 Relating the number of decays to the recorded counts gives:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\frac{\text{counts}}{\epsilon%20I_\gamma}=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2})" />
+  <img src="https://latex.codecogs.com/svg.latex?\frac{\text{counts}}{\epsilon_{\text{abs}}%20I_\gamma}=\frac{A_0}{\lambda}(1-e^{-\lambda%20t_2})" />
 </p>
 
 Solving for the initial activity *A₀* (i.e., the activity at the start of the measurement):
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?A_0=\frac{\text{counts}\cdot\lambda}{\epsilon%20I_\gamma\,(1-e^{-\lambda%20t_2})}" />
+  <img src="https://latex.codecogs.com/svg.latex?A_0=\frac{\text{counts}\cdot\lambda}{\epsilon_{\text{abs}}%20I_\gamma\,(1-e^{-\lambda%20t_2})}" />
 </p>
 
 This formulation is important because it accounts for the decay of radioactive material during the measurement interval. In contrast, the general counts relation:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\text{counts}=\text{decays}\cdot\epsilon%20I_\gamma" />
+  <img src="https://latex.codecogs.com/svg.latex?\text{counts}=\text{decays}\cdot\epsilon_{\text{abs}}%20I_\gamma" />
 </p>
 
 does not incorporate the time-dependent decrease in activity.
