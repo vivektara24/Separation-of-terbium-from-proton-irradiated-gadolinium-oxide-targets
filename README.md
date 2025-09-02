@@ -659,7 +659,7 @@ It was confirmed by XRD that a ramping rate of 2C/min allowed for a complete den
     <th colspan="2" style="text-align:center">Example outputs of the <code>nuclab</code> Python package</th>
   </tr>
   <tr>
-    <td align="center"><img src="images/failedrec1.tiff" alt="Calibration Plot" width="400"/></td>
+    <td align="center"><img src="images/Picture9.png" alt="Calibration Plot" width="400"/></td>
     <td align="center"><img src="images/failedrec0.svg" alt="Decay Plot" width="400"/></td>
   </tr>
   <tr>
