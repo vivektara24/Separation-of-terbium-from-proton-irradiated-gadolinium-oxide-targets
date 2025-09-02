@@ -156,9 +156,14 @@ More recently, the SI unit **becquerel (Bq)** was adopted, defined as:
   <img src="https://latex.codecogs.com/svg.latex?1\,\text{Bq}=1\,\text{s}^{-1}" />
 </p>
 
+<p align="center">
+
 - **1 Ci** = 3.7 × 10¹⁰ Bq  
 - **1 mCi** = 3.7 × 10⁷ Bq  
 - **1 µCi** = 3.7 × 10⁴ Bq  
+
+</p>
+
 
 Stable nuclei may be transformed into radioactive species by bombardment with suitable particles, or photons at sufficiently high energy. Many radioactive isotopes are either absent in narture or diffucult to obtain, yet they can be produced.
 
