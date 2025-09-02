@@ -451,7 +451,6 @@ does not incorporate the time-dependent decrease in activity.
 
 Radiochemistry Concepts
 ---
-
 Radiochemistry is defined as "the chemical study of radioactive elements, both natural and artificial, and their use in the study of chemical processes".
 
 Operationally, radiochemistry is defined by the activities of radiochemists, that is,
@@ -462,7 +461,7 @@ Operationally, radiochemistry is defined by the activities of radiochemists, tha
 - Physics and chemistry of high-activity-level matter
 - Radiotracer studies
 
-Because of the small amounts of materials involved, the presence of radioachitivy, and the frequent need to deal with short-lived nuclei, these techniques are not the same as ordinary chemical techniques.
+Because of the small amounts of materials involved, the presence of radioactivity, and the frequent need to deal with short-lived nuclei, these techniques are not the same as ordinary chemical techniques.
 
 The range of activity levels in radiochemical procedures ranges from pCi to MCi. For the sake of discussion let us assume an activity level D, typical of radiotracer experiments 1uCi, and a nucleus with mass number A~100. If we assume a half-life for this radionuclide of 3 d, the number of nuclei present can be calculated from the equation,
 
@@ -486,27 +485,23 @@ The range of activity levels in radiochemical procedures ranges from pCi to MCi.
 This quanity of material, if prepared in an aqueous solution of volume 1 L, would have a concentration of 10^-14 mol/L. This simple calculation demostrates a number of important features in radiochemistry:
 - The manipulation samples involving infinitesimal quantities of material
 - The power of nuclear analytical techniques (since 1uCi is a significant, easily detectable quantity of radioactivity)
-- ?
+- The ability to do chemistry one atom at a time (an extention of the calculation, since the decay of a single atom might occur by alpha-particle emission with 100% detection efficiency)
 
-The small number of atoms involved in some radiochemical procedures can alter the exapected behavior. Although time-dependent processes obeying first-order kinetics are not changed by changes in concentration, the same is not true of second order kinetics. The extreme dilution in some solutions can mean that equilibrium is not reached due to kinetic limitations.
+The small number of atoms involved in some radiochemical procedures can alter the expected behavior. Although time-dependent processes obeying first-order kinetics are not changed by changes in concentration, the same is not true of second order kinetics. The extreme dilution in some solutions can mean that equilibrium is not reached due to kinetic limitations.
 
-In addition to limitations posed by kinematics or thermodynamics, there are certain problems associated with very low solution concentrations. An important problem is the adsorption of tracer levels of radioactivity on the surfaces of laboratory glassware. Glass has an ion-exchange capacity of 10^-10 mol/cm2 along with similar number of chemisorption sites. A 100-mL beaker can absorb ~10^-8 mol, which is significant if conetration of the tracer is <= 10^-6 M. One suppresses the absorption by having high [H+] (thus blocking adsorption sites), by treating glass surfaces with nonadsorbing silicone coatings, or by the use of holdback carriers.
+In addition to limitations posed by kinematics or thermodynamics, there are certain problems associated with very low solution concentrations. An important problem is the adsorption of tracer levels of radioactivity on the surfaces of laboratory glassware. Glass has an ion-exchange capacity of 10^-10 mol/cm2 along with similar number of chemisorption sites. A 100-mL beaker can absorb ~10^-8 mol, which is significant if conetration of the tracer is <= 10^-6 M.
 
 In the study of nuclear reactions, nuclear structure, and the heaviest elements, one frequently needs to chemically seperate the nuclide(s) of interest from other radioactive species that are present. This is done by performing radiochemical separations that involve the conventional seperation techniques of analytical chemistry apdated to the special needs of radiochemistry.
 
-Chromatography is essentially a physical method of separation in which the components to be seperated are distributed between two phases, one of which is stationary (stationary phase) while the other (the mobile phase) moves in a definite direction. Chromatographic separations have three distinct features:
+Chromatography is a physical method of separation in which the components to be seperated are distributed between two phases, one of which is stationary (stationary phase), usually a powder filled tube (column), while the other (the mobile phase) moves in a definite direction.
 
-- They are physical methods of separation.
-- Two discrict phases are involved, one of which is stationary while the other is mobile
-- Separation results from differences in the distribution constants of the individual sample components between the two phases.
+A multi-component sample disolved in mobile phase is flowed through the column (called loading), followed by more mobile phase. Depending on the relative affinity of each component for the stationary phase versus the mobile phase, the components will come off the column (called eluting) after different volumes of mobile phase, allowing for their separation.
 
-The rate of migration or direction of migration of the two phases are different.
+There are many different types of chromatographic stationary phases (often called resins) and mobile phases for many different scientific purposes. The physiochemical mechanism of sample-stationary phase interaction varies for different kinds of chromatography.
 
-Extraction chromatography is an analytical separation technique that is closely related to solvent extraction. Extraction chromatography is a form of solvent extraction where one of the liquid phases is made stationary by adsorption on a solid support. The other liquid phase is mobile. Either the aqueous or the organic phase can be made stationary. Extraction chromatography has the selectivity of solvent extraction and the multistae charecter of a chromatgraphic process. It is generally used for labratory-scale experiments, although some attempts have been made to use it in larger scale operations.
+Extraction chromatography is a form of solvent extraction where one of the liquid phases is made stationary by adsorption on a solid support. The other liquid phase is mobile. Either the aqueous or the organic phase can be made stationary. Extraction chromatography has the selectivity of solvent extraction and the multistae charecter of a chromatgraphic process. It is generally used for labratory-scale experiments, although some attempts have been made to use it in larger scale operations.
 
-When the stationary phase is organic, the technique is refered to as reverse-phase high performance liquid chromatography.
-
-The stationary phase is used in a column, high-pressure pumps are usually used to force the liquid phase through these columns.
+The LN Series resins (LN, LN2, LN3) contain acidic akylphosphorus extractants on an intert polymeric support and have been used in the purification of the nuclear medicine isooptes 86Y, 89Zr, 161Tb, and 177Lu and various analytical applications. The rare earth elements, which include the lanthanide series, scandium, and yttrium, are a group of elements that exhibit similar chemical behaviors. These elements readily lose three electrons to form stable 3+ oxidation states. In the lanthanide series, the progressive filling of the 4f orbitals with increasing atomic number reduces the influence of increasing nuclear charge on the outermost electrons. This shielding effect results in similar chemical properties across the series, where only small differences in ionic radius are observed due to the lanthanide contraction.
 
 One of the areas in which the skills of radiochemists are used is the area of low-level chemsitry and low-level counting. For example, in enviromental studies quite often one is left with a small quantity <10ppm of radioactivity that must be assayed. Such essays are refered to as low-level techniques. Among the requirments for low-level chemistry are a small constant blank, high chemical yields for all procedures, high radiochemical purity for all reagents employed, and the ability to place the sample in suitable chemical form for counting.
 
@@ -531,6 +526,17 @@ Operationally, the steps for calculating these limits are as follows
 
 For example, if the background under a photopeak of interest is a gamma-ray spectrum was 100cpm, then sigma_B = sqrt(100) = 10cpm. According to the recipies given above, one would need to detect a photopeak area of 23 cpm to say that a nuclide was present and would need to detect at least 141 cpm to measure the amount of nuclide present. One would need a count rate of 47 cpm to ensure, before making the measurment, that the nuclide in question could be detected.
 
+When a radiotracer and its non-radioactive compound are present in the formulation, we define:
+
+_Molar activity_ (A_m) and _specific activity_ (A_s) as the measured activity per mole and per gram of compound, respectivley.
+
+If in the formulation non-radioactive impurities are also present, and they might interact with the same biological target as the radioactive compound we define:
+
+_Apparent molar activity_ (apparent A_m) and apparent specific activity (apparent A_s) as the measured activity per mole and per grams, respectivley of all **chelatable** compounds (impurites and non-radioactive compound)
+
+A_m and apparent A_m are expressed in Bq/mol (GBq/umol)
+
+A_s and apparent A_s are expressed in Bq/g (GBq/ug)
 
 Activation Analysis
 ---
