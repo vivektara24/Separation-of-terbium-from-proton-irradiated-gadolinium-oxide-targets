@@ -463,8 +463,7 @@ But how does one calculate the amount of X present, knowing the activity of X* p
   <img src="https://latex.codecogs.com/svg.latex?A_X^{*}=N_X\,\sigma\,\phi\,(1-e^{-\lambda_Xt_i})\,e^{-\lambda_Xt_d}" />
 </p>
 
-
-Where N_X is the number of X nuclei present initialy, t_i is the length of the irradiation, and t_d is the time of decay after the end of an irrdiation. From this equation one could calcualte Nx from Ax. This equation for Ax is only valid for "thin targets", that is, samples that absorv <5% of the flux of activitng particles.)
+Where N<sub>X</sub> is the number of X nuclei present initially, t<sub>i</sub> is the length of the irradiation, and t<sub>d</sub> is the time of decay after the end of an irradiation. From this equation one can calculate N<sub>X</sub> from A<sub>X</sub><sup>*</sup>. This equation for A<sub>X</sub><sup>*</sup> is only valid for “thin targets,” that is, samples that absorb less than 5% of the flux of activating particles.
 
 This method of analyisis is called absolute activation analysis and is rarley done. The reasons for this are the need for detailed knowldge of the flux and energy of the bombarding particles in the sample and the comppound of the nuclear unceratinties such asthe cross sections, decay branching ratios, and so on in the final results. A simpler technique is to irradiate and count a known amount of pure X under the same conditions used for the mixute of X in Y. Then,
 
