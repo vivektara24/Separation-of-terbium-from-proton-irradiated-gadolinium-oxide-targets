@@ -57,6 +57,7 @@ A detailed description with links of the contents of the repository are listed i
   - [Radiation Production](#radiation-production)
   - [γ-Decay](#γ-decay)
   - [Radiation Detection](#radiation-detection)
+  - [Radiochemistry Concepts](#radiochemistry-concepts)
   - [Activation-Analysis](#activation-analysis)
   - [Nuclear Medicine](#nuclear-medicine)
 - [References](#references)
@@ -447,6 +448,9 @@ This formulation is important because it accounts for the decay of radioactive m
 </p>
 
 does not incorporate the time-dependent decrease in activity.
+
+Radiochemistry Concepts
+---
 
 Activation Analysis
 ---
