@@ -366,7 +366,7 @@ Which has the solution,
   <img src="https://latex.codecogs.com/svg.latex?E_\gamma=Mc^2\left[-1\pm\sqrt{1+\frac{2\Delta%20E}{Mc^2}}\right]" />
 </p>
 
-The energy differences of the nucleus are typically of the order of MeV, which the rest energies are of order A×10³ eV, where A is the mass number.
+The energy differences of the nucleus are typically of the order of MeV, while the rest energies are of order A×10³ eV, where A is the mass number.
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?\Delta%20E\ll%20Mc^2" />
@@ -391,8 +391,6 @@ For low energy γ-rays, recoil energy is less than 1 eV and has negligible effec
 Radiation Detection
 ---
 Uncharged radiations such as gamma rays or neutrons must first undergo interaction in the detector before detection is possible. Because these radiations can travel large distances between interactions, detectors are often less that 100% efficient. A precise determination of the detector efficiency is therefore required to relate the number of pulses recorded to the number of neutrons or gamma rays emitted by the source. 
-
-
 
 For a given γ-peak in the spectrum, the observed counts can be expressed as:
 
