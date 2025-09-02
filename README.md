@@ -467,7 +467,7 @@ Because of the small amounts of materials involved, the presence of radioachitiv
 The range of activity levels in radiochemical procedures ranges from pCi to MCi. For the sake of discussion let us assume an activity level D, typical of radiotracer experiments 1uCi, and a nucleus with mass number A~100. If we assume a half-life for this radionuclide of 3 d, the number of nuclei present can be calculated from the equation,
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?N=\frac{D}{\lambda}=\frac{(1\,\mu\mathrm{Ci})(3.7\times10^{4}\,\mathrm{dps}\,\mu\mathrm{Ci}^{-1})(3\,\mathrm{d})(24\,\mathrm{h}\,\mathrm{d}^{-1})(3600\,\mathrm{s}\,\mathrm{h}^{-1})}{\ln 2}" />
+  <img src="https://latex.codecogs.com/svg.latex?N=\frac{D}{\lambda}=\frac{(1\,\mu\mathrm{Ci})(3.7\times10^{4}\,\mathrm{dps}\,\mu\mathrm{Ci}^{-1})(3\,\mathrm{d})(24\,\mathrm{h}\,\mathrm{d}^{-1})(3600\,\mathrm{s}\,\mathrm{h}^{-1})}{\ln(2)}" />
 </p>
 
 <p align="center">
@@ -483,7 +483,10 @@ The range of activity levels in radiochemical procedures ranges from pCi to MCi.
   <img src="https://latex.codecogs.com/svg.latex?\mathrm{Mass\;of\;sample}=2.3\times10^{-12}\,\mathrm{g}" />
 </p>
 
-
+This simple calculation demostrates a number of important features in radiochemistry:
+- The manipulation samples involving infinitesimal quantities of material
+- The power of nuclear analytical techniques (since 1uCi is a significant, easily detectable quantity of radioactivity)
+- 
 
 
 Activation Analysis
