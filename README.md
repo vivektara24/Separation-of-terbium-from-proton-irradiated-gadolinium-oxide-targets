@@ -233,9 +233,7 @@ The energy avalailabe for the nuclear reactions is
   <img src="https://latex.codecogs.com/svg.latex?Q+T_0" />
 </p>. 
 
-To make an endothermic reaction go, the sum 
-
-<img src="https://latex.codecogs.com/svg.latex?Q+T_0" /> 
+To make an endothermic reaction go, the sum <img src="https://latex.codecogs.com/svg.latex?Q+T_0" /> 
 
 must satisfy 
 
@@ -246,8 +244,9 @@ must satisfy
 Rearranging a few terms in the equation, the condition for having the reaction occur is that
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?T_{P}\geq -Q\frac{m_{P}+m_{T}}{m_{T}}" />
+  <img src="https://latex.codecogs.com/svg.latex?T_%7BP%7D%5Cgeq%20-Q%5Cfrac%7Bm_%7BP%7D%2Bm_%7BT%7D%7D%7Bm_%7BT%7D%7D" />
 </p>
+
 
 
 This minimum kinetic energy that the projectile must have to make the reaction go forward is called the threshold energy for the reaction.
