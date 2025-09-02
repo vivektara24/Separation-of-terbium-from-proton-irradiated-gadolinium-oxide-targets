@@ -451,15 +451,18 @@ does not incorporate the time-dependent decrease in activity.
 Activation Analysis
 ---
 
-Activation analysis (AA) is an analytical technique that allows one to determine that amount of a given element X contained in some material Y. The basic steps in the activation technique are as follows:
+Activation analysis (AA) is an analytical technique that allows one to determine the amount of a given element X contained in some material Y. The basic steps in the activation technique are as follows:
 
 - Irradiate Y with a source of ionizing radiation so that some generally very small amount of X will change into X*, a radioactive isotope of X.
-- Using chemical or instrumental technqiues, "isolate" X and X* from all other elements is Y (not necessarily quantitatively) and measure the activity of X*.
+- Using chemical or instrumental technqiues, "isolate" X and X* from all other elements in Y (not necessarily quantitatively) and measure the activity of X*.
 - Calculate the amount of X present.
 
-But how does one calculate the amount of X present, knowing the activity of X* produced in the irradiation? Since the radiactivity was produced in a nuclear reaction, it can be shown that the activity A_X* as a function of time is 
+But how does one calculate the amount of X present, knowing the activity of X* produced in the irradiation? Since the radioactivity was produced in a nuclear reaction, it can be shown that the activity A_X* as a function of time is 
 
-A_X* = N_x * sigma * phi *(1 - exp(-lamdaX*t_i))exp(-lamdaX*t_d)
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?A_X^{*}=N_X\,\sigma\,\phi\,(1-e^{-\lambda_Xt_i})\,e^{-\lambda_Xt_d}" />
+</p>
+
 
 Where N_X is the number of X nuclei present initialy, t_i is the length of the irradiation, and t_d is the time of decay after the end of an irrdiation. From this equation one could calcualte Nx from Ax. This equation for Ax is only valid for "thin targets", that is, samples that absorv <5% of the flux of activitng particles.)
 
