@@ -690,7 +690,6 @@ Total number O = O from Gd2O3 + O from nitrates
 Total number 0 - total number O * 
 
 ## Things I wanted to add but cba
-- Add ``terbinator/`` repository w/ abstract, poster. Add images of the terbinator to the front page
 - Interaction of Radiaion w/ Matter
   - Quantities for Describing The Interaction of Ionizing Radiation w/ Matter.
   - Exponential Attenuation
