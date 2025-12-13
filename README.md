@@ -81,45 +81,6 @@ A detailed description with links of the contents of the repository are listed i
   - A description of the required file naming convention and examples of acceptable file names  
   - Includes example JOB files with compatible file naming conventions for automated spectrum recording.
 
-## Setup Instructions
-
-You have three options for using the libname package:
-
-- **Option 1: Pip Install (recommended)**  
-  *(Coming soon, once available on PyPI)*
-  ```bash
-  pip install <package-name>
-  ```
-- **Option 2: Clone the Repository**  
-
-```bash
-git clone https://github.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets.git
-cd Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets
-```
-
-If you only need specfic files (e.g, `serial.py`, `utils.py`), you can fetch them directly with `wget` / `curl`:
-```bash
-wget https://raw.githubusercontent.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/main/src/serial.py
-wget https://raw.githubusercontent.com/vivektara24/Separation-of-terbium-from-proton-irradiated-gadolinium-oxide-targets/main/src/utils.py
-```
-
-- **Option 3: Download as ZIP (no git required)**  
-1. Navigate to this repository's main page on GitHub
-2. Click the green **Code** button → **Download ZIP**.
-3. Unzip it on your computer.
-
-#### Step 2. Install Dependencies
-Install the required Python libraries using the provided `requirements.txt`:
-```bash
-pip install -r requirements.txt
-```
-
-#### Step 3. Run the Example
-Try the tutorial in `example.py` to verify your installation.
-```python
-python example.py
-```
-
 ## Theory
 
 ### Radiation Production
