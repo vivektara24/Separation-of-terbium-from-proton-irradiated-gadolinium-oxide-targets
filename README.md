@@ -45,6 +45,9 @@ All code developed for this project has been consolidated into a single Python l
  <a href="example_outputs/theoretical-yield-results.xlsx">Theoretical yield results (XLSX)</a>
 </p>
 
+## Design Limitations
+1. There are currently no warning messages if required class attributes arent filled before calling the functions, Instead the output will simply be incomplete.
+
 
 
 
@@ -81,7 +84,7 @@ A detailed description with links of the contents of the repository are listed i
   - A description of the required file naming convention and examples of acceptable file names  
   - Includes example JOB files with compatible file naming conventions for automated spectrum recording.
 
-## Theory
+## Introduction
 
 ### Radiation Production
 Consider a large number **N** of identical radioactive atoms. We define **λ** as the total radioactive decay constant, which has dimensions of reciprocal time (typically s⁻¹).  
@@ -102,150 +105,9 @@ So long as the original group is not replenished by additional nuclei, the rate 
   <img src="https://latex.codecogs.com/svg.latex?-\frac{dN}{dt}=\lambda%20N" />
 </p>
 
-
-The old unit of activity was the **curie (Ci)**, originally defined as the number of disintegrations per second occurring in a mass of 1 g of ²²⁶₈₈Ra.  
-Later the definition was divorced from the radium standard and fixed to:
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?1\,\text{Ci}=3.7\times10^{10}\,\text{s}^{-1}" />
-</p>
-
-(1 g of ²²⁶Ra has an activity of 0.988 Ci).  
-
-More recently, the SI unit **becquerel (Bq)** was adopted, defined as:
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?1\,\text{Bq}=1\,\text{s}^{-1}" />
-</p>
-
-Conversions between the traditional curie (Ci) and the SI base unit (Bq) are shown below:
-
-<p align="center">
-  <b>1 Ci</b> = 3.7 × 10¹⁰ Bq<br/>
-  <b>1 mCi</b> = 3.7 × 10⁷ Bq<br/>
-  <b>1 µCi</b> = 3.7 × 10⁴ Bq
-</p>
-
-
 **Stable nuclei may be transformed into radioactive species by bombardment with suitable particles, or photons at sufficiently high energy. Many radioactive isotopes with desirable properties are either absent in narture or diffucult to obtain, yet they can be produced. That is to say, there are spontaneously decaying radisotopes, that readily undergo nuclear reactions without an input of energy (nuclear decay reaction). In addition, stable or radioactive isotopes can undergo induced nuclear reactions (nuclear transmutation reaction) where the nucleus reacts with subatomic particles or photons to form a compound nucleus that is more massive than the starting material (Where the "induced" kinetic energy and rest mass energy of the particles is where this extra mass comes from). The compund nucleus formed by the addition of this mass is unstable and decays rapidly to the another isotope emitting some kind of radiation. The produced isotope may in addition spontaneosly decay.**
 
-
-For an efficient and effective disucussion of nuclear reactions, we must understand the notation or jargon that is widely used to describe them. Let us begin by considering one of the first nuclear reactions to be studied in 1919 by Ernest Rutherford:
-
-⁴He + ¹⁴N → ¹⁷O + ¹H + Q
-
-Here an alpha particle emitted by radium reacts with a nitrogen nucleus-producing oxygen, a proton, and some energy, Q. Most nuclear reactions are studied by inducing a collision between two nuclei where the heavier reacting nucleus is at rest (the ``target`` nucleus) while the other nucleus (the ``projectile`` nucleus) is in motion, and this is called "normal kinematics". Such nuclear reactions might be described generally as:
-
-Projectile (P) + Target (T) → Emitted Particle(s) (X) + Residual Nucleus (R) + Energy
-
-A shorthand way to denote such reactions is, for the general case:
-
-T(P, x)R
-
-For the specific example discussed earlier:
-
-¹⁴N(⁴He, p)¹⁷O
-
-In a nuclear reaction moderated by the strong force in contrast to the weak force, there is conservation of the number of proton and neutrons (and thus the number of nucleons). There is also conservation of energy, momentum, angular momentum, and parity.
-
-Consider the T(P, x)R reaction with only two products. Neglecting electron binding energies, we have, for the energy balance in the reaction,
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?m_Pc^{2}+m_Tc^{2}+T_P=m_Rc^{2}+m_xc^{2}+T_x" />
-</p>
-
-Note that since R and x may be complex nuclei, they could be formed in excited states so that the values of m may be different than the ground state masses. The Q value of the reaction is defined as the difference in mass energies of the products and reactants, that is,
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?Q=(m_P+m_T-m_x-m_R)c^{2}=T_x+T_R-T_P" />
-</p>
-
-Note that if Q is positive the reaction is exoergic, while if Q is negative, the reaction is endoergic. Note that a necessary but not sufficient condition for the occurrence of a nuclear reaction is that
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?Q+T_P>0" />
-</p>
-
-i.e for an endoergic process the decrease in the mass energies from reactants to products must be compensated for by the kinetic energy of the projectile.
-
-If the masses of both the products and reactants are known, the Q-value can be calculated using mass excesses as
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?Q=\Delta_{\text{projectile}}+\Delta_{\text{target}}-\sum\Delta_{\text{products}}" />
-</p>
-
-If there are only two products in a so-called-two body reaction, we can show using conservation of momentum, that only <img src="https://latex.codecogs.com/svg.latex?T_x" /> and the angle <img src="https://latex.codecogs.com/svg.latex?\theta" /> of particle x with repsect to the direction of motion of P suffice to determine Q. The proof is rather long so I leave you the final result, the _Q-value equation_:
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?Q=T_x\left(1-\frac{m_x}{m_R}\right)-T_P\left(1-\frac{m_P}{m_R}\right)-\frac{2}{m_R}\sqrt{m_P\,T_P\,m_x\,T_x}\cos(\theta)" />
-</p>
-
-What does the Q-value equation say? Is says that if we measure the kinetic energy of the emitted particle x and angle at which it is emitted in a two-body reaction and we know the identities of the reactants and products of the reactions, that we can determine the Q value of the reaction. In short, we can measure the energy release for any two-body reaction by measuring the properties of one of the products.
-
-For additional insight, let us now consider the same reaction as described in the center of mass (CM) reference frame. In the CM system the total momentum of the particles is zero, before and after the collision. The kinetic energy carried in by the projectile, <img src="https://latex.codecogs.com/svg.latex?T_{\text{Lab}}" />, is not fully available to be dissipated in the reaction, an amount, <img src="https://latex.codecogs.com/svg.latex?T_{\text{CM}}" />, must be carried away by the motion of the CM. 
-
-Thus, the available energy to be used (dissipated) in the collision is only 
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?T_{\text{Lab}}-T_{\text{CM}}=T_0=\frac{m_T}{M_T+m_P}T_{\text{Lab}}" />
-</p>. 
-
-The energy available for the nuclear reaction is 
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?Q+T_0" />
-</p>. 
-
-To make an endothermic reaction go, the sum <img src="https://latex.codecogs.com/svg.latex?Q+T_0" /> must satisfy 
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?Q+T_0\geq0" />
-</p>. 
-
-Rearranging a few terms in the equation, the condition for having the reaction occur is that
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?T_%7BP%7D%5Cgeq%20-Q%5Cfrac%7Bm_%7BP%7D%2Bm_%7BT%7D%7D%7Bm_%7BT%7D%7D" />
-</p>
-
-This minimum kinetic energy that the projectile must have to make the reaction go forward is called the threshold energy for the reaction.
-
-
 The purpose of an accelerator of charged particles is to direct against a target a beam of a specific kind of particles of a chosen energy. Low energy accelerators are used to produce beams in the 10-100-MeV range, often for reaction or scattering studies to elucidate the structure of specific final states, perhaps even individual excited states. These accelerators should have accurate energy selection and reasonably high currents because the ultimate precision of many expirments is limited by counting statistics.
-
-A [cyclotron](https://www.youtube.com/watch?v=cutKuFxeXmQ) is one type of particle accelerator. It is a circular device in which a beam of particles makes many (often hundreds) of revolutions, receiving a small voltage increment on each orbit until the particles reach energies in the MeV range. The earliest and simplest of these accelerators is the cyclotron, sometimes referred to as a magnetic resonance accelerator. The essential design idea of the cyclotron was concieved by Ernest Lawrence at the University of California Berkeley in 1929. The critical feature is that the time it takes for a particle to travel one semicircular path is independent of the radius of the path--as particles spiral to larger radii, they also gain energy and move at greater speed, and the gain in path length is exactly compensated by the increased speed. If the half-period of the AC voltage on the dees is set equal to the semicircular orbit time, then the field alternates in exact synchronization with the passage of particles through the gap, and the particle sees an accelerating voltage each time it crosses the gap.
-
-The Lorentz force in the circular orbit, **qvB**, provides the necessary centripetal acceleration to maintain the circular motion at an instantaneous radius *r*:  
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?F=qvB=\frac{mv^{2}}{r}" />
-</p>
-
-The time necessary for a semicircular orbit is:  
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?t=%5Cfrac%7B%5Cpi%20r%7D%7Bv%7D=%5Cfrac%7B%5Cpi%20m%7D%7BqB%7D" />
-</p>
-
-The frequency of the AC voltage is:  
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?%5Cnu=%5Cfrac%7B1%7D%7B2t%7D=%5Cfrac%7BqB%7D%7B2%5Cpi%20m%7D" />
-</p>
-
-This is often called the **cyclotron frequency** or **cyclotron resonance frequency** for a particle of charge *q* and mass *m* moving in a uniform field *B*. Here, ν and B are intimately linked—for a given field strength, the frequency can only take one value for resonance.  
-
-The velocity increases gradually as the particle spirals outward, reaching its maximum value at the largest radius *R*:  
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?v_{\text{max}}=\frac{qBR}{m}" />
-</p>
-
-which leads to a maximum kinetic energy:  
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?T=\tfrac{1}{2}mv_{\text{max}}^{2}=\frac{q^{2}B^{2}R^{2}}{2m}" />
-</p>
 
 For **charged particle induced nuclear reactions** (as done in a cyclotron), the expected activity produced in an irradiation is given by the production equation:
 
@@ -264,17 +126,6 @@ where:
   - Calculated from the beam current (µA) using the charge per particle and the conversion factor 6.24 × 10¹⁸ charges/coulomb  
 
 This equation holds for _thin targets_, where the energy degredation of the ion beam throughout the thickness of the target material is << 1.0%.
-
-Radioactive nuclei, either natural or artificially produced by nuclear transmutation reactions, are unstable and tend to seek more stable configurations through expulsion of energetic particles, including one or more of the following,* where corresponding changes in the atomic number (Z) and number of nucleons (A) are indicated:
-
-| Emission Type   | ΔZ  | ΔA  |
-|-----------------|-----|-----|
-| α-particle      | -2  | -4  |
-| β⁻-particle     | +1  | 0   |
-| β⁺-particle     | -1  | 0   |
-| γ-ray           | 0   | 0   |
-
-Some radionuclides decay by more than one mode.
 
 γ-Decay
 ---
@@ -410,94 +261,6 @@ This formulation is important because it accounts for the decay of radioactive m
 
 does not incorporate the time-dependent decrease in activity.
 
-Radiochemistry Concepts
----
-Radiochemistry is defined as "the chemical study of radioactive elements, both natural and artificial, and their use in the study of chemical processes".
-
-Operationally, radiochemistry is defined by the activities of radiochemists, that is,
-
-- Nuclear analytical methods
-- Applications of radionuclides in areas outside chemistry, such as medicine
-- Physics and chemsitry of radioelements
-- Physics and chemistry of high-activity-level matter
-- Radiotracer studies
-
-Because of the small amounts of materials involved, the presence of radioactivity, and the frequent need to deal with short-lived nuclei, these techniques are not the same as ordinary chemical techniques.
-
-The range of activity levels in radiochemical procedures ranges from pCi to MCi. For the sake of discussion let us assume an activity level D, typical of radiotracer experiments 1uCi, and a nucleus with mass number A~100. If we assume a half-life for this radionuclide of 3 d, the number of nuclei present can be calculated from the equation,
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?N=\frac{D}{\lambda}=\frac{(1\,\mu\mathrm{Ci})(3.7\times10^{4}\,\mathrm{dps}\,\mu\mathrm{Ci}^{-1})(3\,\mathrm{d})(24\,\mathrm{h}\,\mathrm{d}^{-1})(3600\,\mathrm{s}\,\mathrm{h}^{-1})}{\ln(2)}" />
-</p>
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\lambda=\frac{\ln(2)}{t_{1/2}}" />
-</p>
-
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?N\approx1.4\times10^{10}\,\text{atoms}" />
-</p>
-
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\mathrm{Mass\;of\;sample}=2.3\times10^{-12}\,\mathrm{g}" />
-</p>
-
-This quanity of material, if prepared in an aqueous solution of volume 1 L, would have a concentration of 10^-14 mol/L. This simple calculation demostrates a number of important features in radiochemistry:
-- The manipulation samples involving infinitesimal quantities of material
-- The power of nuclear analytical techniques (since 1uCi is a significant, easily detectable quantity of radioactivity)
-- The ability to do chemistry one atom at a time (an extention of the calculation, since the decay of a single atom might occur by alpha-particle emission with 100% detection efficiency)
-
-The small number of atoms involved in some radiochemical procedures can alter the expected behavior. Although time-dependent processes obeying first-order kinetics are not changed by changes in concentration, the same is not true of second order kinetics. The extreme dilution in some solutions can mean that equilibrium is not reached due to kinetic limitations.
-
-In addition to limitations posed by kinematics or thermodynamics, there are certain problems associated with very low solution concentrations. An important problem is the adsorption of tracer levels of radioactivity on the surfaces of laboratory glassware. Glass has an ion-exchange capacity of 10^-10 mol/cm2 along with similar number of chemisorption sites. A 100-mL beaker can absorb ~10^-8 mol, which is significant if conetration of the tracer is <= 10^-6 M.
-
-In the study of nuclear reactions, nuclear structure, and the heaviest elements, one frequently needs to chemically seperate the nuclide(s) of interest from other radioactive species that are present. This is done by performing radiochemical separations that involve the conventional seperation techniques of analytical chemistry apdated to the special needs of radiochemistry.
-
-Chromatography is a physical method of separation in which the components to be seperated are distributed between two phases, one of which is stationary (stationary phase), usually a powder filled tube (column), while the other (the mobile phase) moves in a definite direction.
-
-A multi-component sample disolved in mobile phase is flowed through the column (called loading), followed by more mobile phase. Depending on the relative affinity of each component for the stationary phase versus the mobile phase, the components will come off the column (called eluting) after different volumes of mobile phase, allowing for their separation.
-
-There are many different types of chromatographic stationary phases (often called resins) and mobile phases for many different scientific purposes. The physiochemical mechanism of sample-stationary phase interaction varies for different kinds of chromatography.
-
-Extraction chromatography is a form of solvent extraction where one of the liquid phases is made stationary by adsorption on a solid support. The other liquid phase is mobile. Either the aqueous or the organic phase can be made stationary. Extraction chromatography has the selectivity of solvent extraction and the multistae charecter of a chromatgraphic process. It is generally used for labratory-scale experiments, although some attempts have been made to use it in larger scale operations.
-
-The LN Series resins (LN, LN2, LN3) contain acidic akylphosphorus extractants on an intert polymeric support and have been used in the purification of the nuclear medicine isooptes 86Y, 89Zr, 161Tb, and 177Lu and various analytical applications. The rare earth elements, which include the lanthanide series, scandium, and yttrium, are a group of elements that exhibit similar chemical behaviors. These elements readily lose three electrons to form stable 3+ oxidation states. In the lanthanide series, the progressive filling of the 4f orbitals with increasing atomic number reduces the influence of increasing nuclear charge on the outermost electrons. This shielding effect results in similar chemical properties across the series, where only small differences in ionic radius are observed due to the lanthanide contraction.
-
-One of the areas in which the skills of radiochemists are used is the area of low-level chemsitry and low-level counting. For example, in enviromental studies quite often one is left with a small quantity <10ppm of radioactivity that must be assayed. Such essays are refered to as low-level techniques. Among the requirments for low-level chemistry are a small constant blank, high chemical yields for all procedures, high radiochemical purity for all reagents employed, and the ability to place the sample in suitable chemical form for counting.
-
-The blank in low-level chemistry is defined as the contribution of the added reagents and any other sample constituents to the activity being measured. The blank is determined by performing the chemical procedures without without the radioactive sample being analyzed. One of the most effective ways of dealing with a blank correction is to reduce it to it's lowest level. Among the factors contributing to the blank correction that can be reduced with care is radiochemical contamination of analytical reagents used in chemical procedures. See DeVoe (1961) and Sugihara (1961) for detailed information. Airborne contamination is another possible contribution to the blank correction--One is chiefly concerned with the daughters of 222Rn, which have half-lives in the 30- to 40-min range. Steps can be taken to avoid this problem including eschewing the use of suction filtration in chemical procedures, prefiltering of room air, and use of radon traps. 
-
-"Further lowering of the blank correction occurs when nonisotropic carriers in chemical procedures are used to replace inert carriers of the element of interest when it is difficult to obtain the inert carrier in a contamination-free condition" -> Don't understand what this means : (
-
-Once the low-level radioactive sample has been collected and any chemical procedure preformed prior to counting, it is ready for counting.
-
-Suppose you have perfromed a low-level expirement andyou wish to state your results in a significantly meanigful manner. You wish you answer questions such as "Is there a result/signal/event? What is the chance it will be detected with my apparatus? How big is it?" Currie (1968) has provided answers to these questions by defining three different limits of detection:
-
-- The critical level L_C, the signal level above which an observed intrument response may be reliably recognized as "detected".
-- The detection limit L_D, the true net signal that may be expected a priori (in theory) to lead to detection.
-- The determination limit L_Q, the signal level above which a quantitative measuremnt can be performed with a stated relative uncertainty.
-
-Operationally, the steps for calculating these limits are as follows
-
-|                      | L<sub>C</sub>       | L<sub>D</sub>       | L<sub>Q</sub>       |
-|----------------------|--------------------:|--------------------:|--------------------:|
-| Paired observations  | 2.33 σ<sub>B</sub>  | 4.65 σ<sub>B</sub>  | 14.1 σ<sub>B</sub>  |
-| “Well-known” blank   | 1.64 σ<sub>B</sub>  | 3.29 σ<sub>B</sub>  | 10 σ<sub>B</sub>    |
-
-For example, if the background under a photopeak of interest is a gamma-ray spectrum was 100cpm, then sigma_B = sqrt(100) = 10cpm. According to the recipies given above, one would need to detect a photopeak area of 23 cpm to say that a nuclide was present and would need to detect at least 141 cpm to measure the amount of nuclide present. One would need a count rate of 47 cpm to ensure, before making the measurment, that the nuclide in question could be detected.
-
-When a radiotracer and its non-radioactive compound are present in the formulation, we define:
-
-_Molar activity_ (A_m) and _specific activity_ (A_s) as the measured activity per mole and per gram of compound, respectivley.
-
-If in the formulation non-radioactive impurities are also present, and they might interact with the same biological target as the radioactive compound we define:
-
-_Apparent molar activity_ (apparent A_m) and apparent specific activity (apparent A_s) as the measured activity per mole and per grams, respectivley of all **chelatable** compounds (impurites and non-radioactive compound)
-
-A_m and apparent A_m are expressed in Bq/mol (GBq/umol)
-
-A_s and apparent A_s are expressed in Bq/g (GBq/ug)
 
 Activation Analysis
 ---
@@ -525,40 +288,15 @@ Which is known as the comparator technqiue and is the most widely used method of
 Numerous tests have shown that with careful experimental manipuation, AA is an accurate (~1% accuracy) and precise (~5% precision) method of measuring elemental concentrations.
 
 
-Nuclear Medicine
----
-The most rapidly expanding area of radionuclide use is in **nuclear medicine**. Nuclear medicine deals withteh use of radiation and radioactivity to diagnose and treat disease.
+#### Methods
 
-<p align="center">
-  <img src="images/blog-isotopes-hr.jpg" alt="Example HPGe Gamma Spectrum" width="500"/>
-  <br/>
-  <em>Dramatic tumor regression following ²²⁵Ac-PSMA therapy.</em>
-</p>
+We cailibrate an HPGe detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decays of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected. Additionally coincidence summing may occur. Although coincendence summing was minimized by placing the sample 200cm from the face of the detector, coincidence summing may reduce the observed number of counts detected at certain peak energies, reducing the determined activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, is fit to the data (CPS/Bq = # of counts detected in time interval / measurment time / # known number of decays in time interval).
 
-The two principal areas of endeavor, **diagnosis** and **therapy**, involve different methods and considerations for radioactivity use. Recent work in this area has focused on developing combinations of two isotopes in one delivery system: one isotope provides a therapy function and another isotope provides a diagnostic function, called **theranostics**.
+We then detect the number of counts across the energy spectrum of a natGd2O3 sample that had been irradiated at 12.6 MeV for 30mins in a low-energy cyclotron tailored for 18F production, producing many radioactive terbium isotopes. Once again, knowing certain gammas are emitted in a charecterized probablistic manner by the Tb isotopes, we can determine the activity of each that had been produced in the irradition, by using the previously determined detector efficiencies at the know Tb gamma energies. We repeat this process at 2h intervals ~10hr post irradiation, correcting for sample decay during the measurment. We fit an exponential decay function to the measured activites across the serial measurments floating the end-of-bombardment (eob) activity and half-lifes of the Tb isotpes using the ``Serial`` class. Additionally we decay correct the start of measurment activites determined each measurment to eob and take the average.
 
-In diagnosis (imaging) emitted radiation from injected radionuclides is detected by special detectors (cameras) to give images of the body. In therapy, radionuclides are injected into the body and concentrated in the organ of choice and damage the tissue. Nuclear medicine combines nuclear and radiochemistry, pharmacy medicine, and radiation biology.
+156Tb has 2 metastable states that grow into the ground state with ~24hr and ~5hr have lives. In addition to the 2hr measurments, repeated 5 and 10 minute interval measurments were recorded ~1hr post eob. Adding this data to the decay analysis of 156Tb allowed us to see the growth in of the metastable states to the ground state. We fit the bateman equation to the decay to determine eob activities and half-lives for each of the isomers. We attempted to repeat this process to charecterize the isomers of 154Tb, but the growth in was observed to be neglible.
 
-Radiopharmaceuticals are radioactive compounds used for diagnosis and therapy. Most (95%) radiopharmaceuticals are presently used for diagnosis. A radiopharmaceutical generally has two parts, the radionuclide and the pharmaceutical. The pharmaceutical component allows the compound to preferentially locate in organs or to particpate in some function of the organ. The radiation from the nuclide must be easily detected and lead to a controlled dose to the patient. The effective half-life of the radionuclide in the target organ or the body should be short to minimize unnecessary radiation exposure. Radiopharmecuticals should involve γ-emitting radionuclides, while those intended for therapy will involve α or β⁻ emitters. Therapy with α emitters is used for small tumors due to the short range of the α-particles in matter, while the β⁻ emitters are used with larger tumors.
-
-<p align="center">
-  <img src="images/radiopharmaceuticals-diagram.jpg" alt="Example HPGe Gamma Spectrum" width="500"/>
-  <br/>
-  <em>Molecular structure of a radiopharmaceutical.</em>
-</p>
-
-
-Additionally the Auger effect has been explored as a potential source for targeted radiotherapy. The Auger effects is based on the emission of a low energy inner-shell electron (typically <25 keV) from an atom post electron caputre (EC), internal conversion (IC), or incident X-ray excitation. The phenomenon can induce an Auger cascade, where the intial emission of a primary electron is followed by sequential relaxation process that release multiple low-energy electrons in close proximity to the emission site (2-500nm). The short range of the emitted Auger cascade results in medium-high levels of linear energy transfer (4-26 keV/μm) exerted on the surrounding tissue. This property makes Auger emitters the ideal candidates for delivering high levels of targeted radiation to a specific target with dimensions comparable to, for example, the DNA.
-
-<p align="center">
-  <img src="images/auger_effect.jpg" alt="Example HPGe Gamma Spectrum" width="500"/>
-  <br/>
-  <em>Diagram Explaining the Auger Effect.</em>
-</p>
-
-
-## Low Key Bugs in the Code
-1. There are currently no warning messages if required class attributes arent filled before calling the functions, Instead the output will simply be incomplete.
+We compare the expirmentally determined activities to expected yields calculated using the production equation. To account for charged particle attenuation in the target material, we decomposed the target material into thin slices of 1 keV using stopping power values from SRIM. This allows us to have a beter estimatation of the proton beam energy at different thicknesses within the target material, enabling per slice energy dependent cross sections to be used. The total activity is simply the sum of the activites produced in each slice.
 
 ## References
 
@@ -580,16 +318,6 @@ Journal of Chromatography A, vol. 1732, 2024, article no. 465211. https://doi.or
 ## Useful Links
 
 - [Packaging Python Projects (official tutorial)](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
-
-## Real Talk
-
-In our method we cailibrate an hpge detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decays of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected. Additionally coincidence summing may occur. Although coincendence summing was minimized by placing the sample 200cm from the face of the detector, coincidence summing may reduce the observed number of counts detected at certain peak energies, reducing the determined activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, is fit to the data (CPS/Bq = # of counts detected in time interval / measurment time / # known number of decays in time interval).
-
-We then detect the number of counts across the energy spectrum of a natGd2O3 sample that had been irradiated at 12.6 MeV for 30mins in a low-energy cyclotron tailored for 18F production, producing many radioactive terbium isotopes. Once again, knowing certain gammas are emitted in a charecterized probablistic manner by the Tb isotopes, we can determine the activity of each that had been produced in the irradition, by using the previously determined detector efficiencies at the know Tb gamma energies. We repeat this process at 2h intervals ~10hr post irradiation, correcting for sample decay during the measurment. We fit an exponential decay function to the measured activites across the serial measurments floating the end-of-bombardment (eob) activity and half-lifes of the Tb isotpes using the ``Serial`` class. Additionally we decay correct the start of measurment activites determined each measurment to eob and take the average.
-
-156Tb has 2 metastable states that grow into the ground state with ~24hr and ~5hr have lives. In addition to the 2hr measurments, repeated 5 and 10 minute interval measurments were recorded ~1hr post eob. Adding this data to the decay analysis of 156Tb allowed us to see the growth in of the metastable states to the ground state. We fit the bateman equation to the decay to determine eob activities and half-lives for each of the isomers. We attempted to repeat this process to charecterize the isomers of 154Tb, but the growth in was observed to be neglible.
-
-We compare the expirmentally determined activities to expected yields calculated using the production equation. To account for charged particle attenuation in the target material, we decomposed the target material into thin slices of 1 keV using stopping power values from SRIM. This allows us to have a beter estimatation of the proton beam energy at different thicknesses within the target material, enabling per slice energy dependent cross sections to be used. The total activity is simply the sum of the activites produced in each slice.
 
 ``But I'm not a rapper``
 
