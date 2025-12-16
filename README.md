@@ -49,10 +49,6 @@ All code developed for this project has been consolidated into a single Python l
 1. There are currently no warning messages if required class attributes arent filled before calling the functions, Instead the output will simply be incomplete.
 
 
-
-
-A detailed description with links of the contents of the repository are listed in the Table of Contents below.
-
 ## Table of Contents
 - [Repository Contents](#repository-contents)
 - [Setup Instructions](#setup-instructions)
