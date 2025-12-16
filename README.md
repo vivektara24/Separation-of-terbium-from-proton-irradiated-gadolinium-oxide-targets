@@ -48,19 +48,6 @@ All code developed for this project has been consolidated into a single Python l
 ## Design Limitations
 1. There are currently no warning messages if required class attributes aren't filled before calling the functions, Instead the output will simply be incomplete.
 
-
-## Table of Contents
-- [Repository Contents](#repository-contents)
-- [Setup Instructions](#setup-instructions)
-- [Theory](#theory)
-  - [Radiation Production](#radiation-production)
-  - [γ-Decay](#γ-decay)
-  - [Radiation Detection](#radiation-detection)
-  - [Radiochemistry Concepts](#radiochemistry-concepts)
-  - [Activation-Analysis](#activation-analysis)
-  - [Nuclear Medicine](#nuclear-medicine)
-- [References](#references)
-- [Acknoledgements](acknowledgments)
 ## Repository Contents
 
 ### Source Files
