@@ -286,13 +286,33 @@ Numerous tests have shown that with careful experimental manipuation, AA is an a
 
 #### Methods
 
-We cailibrate an HPGe detector by using calibration sources of a very well defined activity. Because we know the activity we may clearly establish the number of decays of each source for a given measurment time. We know that for each decay there are certain gammas that are emitted in a charecterized probablistic manner (# emissions of certain energy / # decays of certain isotopes), therefore we can clearly establish the number of gammas of certain energies that should be emitted by the calibration sources (especially for long measuremnt times). A fraction of the gammas truly emitted by the calibration sources are detected. Additionally coincidence summing may occur. Although coincendence summing was minimized by placing the sample 200cm from the face of the detector, coincidence summing may reduce the observed number of counts detected at certain peak energies, reducing the determined activities if those gammas are being analyzed. Each of these effects is incorporated into a single detector efficiency metric by simply measuring a known number of gammas across the energy spectrum for 24hr, looking at the number of counts detected at each energy, and taking the ratio of those number. This value is energy dependent so a function, whose form is a mystery to me, is fit to the data (CPS/Bq = # of counts detected in time interval / measurment time / # known number of decays in time interval).
+The HPGe efficiency (Eff) calibration curve was obtained using 241Am, 133Ba, 137Cs, and 152Eu calibration sources, (Amersham UK); The radionuclides, their half-lives, calibration gamma-ray energies, intensities, and associated uncertainties are summarized in Supplementary Table 1. Measured efficiencies and their uncertainties were calculated with errors propagated through the quadrature sum of uncertainty contributions from the transition intensity and counting statistics. A polynomial of the natural logarithm of the efficiency was fit to these data using a non-linear least squares algorithm (Python, scipy.optimze.curve_fit, Eq. (S1)),
 
-We then detect the number of counts across the energy spectrum of a natGd2O3 sample that had been irradiated at 12.6 MeV for 30mins in a low-energy cyclotron tailored for 18F production, producing many radioactive terbium isotopes. Once again, knowing certain gammas are emitted in a charecterized probablistic manner by the Tb isotopes, we can determine the activity of each that had been produced in the irradition, by using the previously determined detector efficiencies at the know Tb gamma energies. We repeat this process at 2h intervals ~10hr post irradiation, correcting for sample decay during the measurment. We fit an exponential decay function to the measured activites across the serial measurments floating the end-of-bombardment (eob) activity and half-lifes of the Tb isotpes using the ``Serial`` class. Additionally we decay correct the start of measurment activites determined each measurment to eob and take the average.
+Eff_best(E) = exp(b1*E^1 + b2*E^2 + b3*E^3 + b4*E^-2 + b5*E^-3 + b6*E^-4)
 
-156Tb has 2 metastable states that grow into the ground state with ~24hr and ~5hr have lives. In addition to the 2hr measurments, repeated 5 and 10 minute interval measurments were recorded ~1hr post eob. Adding this data to the decay analysis of 156Tb allowed us to see the growth in of the metastable states to the ground state. We fit the bateman equation to the decay to determine eob activities and half-lives for each of the isomers. We attempted to repeat this process to charecterize the isomers of 154Tb, but the growth in was observed to be neglible.
 
-We compare the expirmentally determined activities to expected yields calculated using the production equation. To account for charged particle attenuation in the target material, we decomposed the target material into thin slices of 1 keV using stopping power values from SRIM. This allows us to have a beter estimatation of the proton beam energy at different thicknesses within the target material, enabling per slice energy dependent cross sections to be used. The total activity is simply the sum of the activites produced in each slice.
+where 𝑏1, ..., b6 are the efficiency fit parameters. The efficiency was assessed at 200 cm from the face of the HPGe spectrometer. Corrections were made using the inverse square law for measurements taken at different distances from the HPGe spectrometer. Uncertainty in HPGe detector efficiency was estimated as the average plus one standard deviation of the experimentally measured efficiency relative residual absolute values, resulting in an 8.6% relative efficiency uncertainty.
+
+**Supplementary Table S1. Gamma-ray energies used for HPGe calibration**
+
+| Radionuclide | Half-Life (y) | Eγ (keV) | Iγ (%) | Uncertainty Iγ (%) |
+|-------------|---------------|----------|--------|--------------------|
+| 241Am | 432.6 | 59.5412 | 35.9 | 0.40 |
+| 152Eu | 13.517 | 121.7817 | 28.53 | 0.16 |
+|  |  | 244.6975 | 7.55 | 0.04 |
+|  |  | 344.2785 | 26.59 | 0.20 |
+|  |  | 778.904 | 12.93 | 0.08 |
+|  |  | 964.079 | 14.51 | 0.07 |
+|  |  | 1112.074 | 13.67 | 0.08 |
+|  |  | 1408.006 | 20.87 | 0.09 |
+| 133Ba | 10.536 | 80.9971 | 32.9 | 0.30 |
+|  |  | 276.7364 | 7.16 | 0.05 |
+|  |  | 302.853 | 18.34 | 0.13 |
+|  |  | 356.017 | 62.05 | 0.00 |
+|  |  | 383.851 | 8.94 | 0.06 |
+| 137Cs | 30.007 | 661.657 | 85.10 | 0.20 |
+
+
 
 ## References
 
