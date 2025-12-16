@@ -46,7 +46,7 @@ All code developed for this project has been consolidated into a single Python l
 </p>
 
 ## Design Limitations
-1. There are currently no warning messages if required class attributes arent filled before calling the functions, Instead the output will simply be incomplete.
+1. There are currently no warning messages if required class attributes aren't filled before calling the functions, Instead the output will simply be incomplete.
 
 
 ## Table of Contents
